@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 The LineageOS Project
+ * Copyright (C) 2018,2020 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,114 +16,74 @@
 
 package org.lineageos.settings.dirac;
 
-import android.app.ActionBar;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.CompoundButton;
 import android.widget.Switch;
-import android.widget.TextView;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceFragment;
+import androidx.preference.SwitchPreference;
+
+import com.android.settingslib.widget.MainSwitchPreference;
+import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
 import org.lineageos.settings.R;
 
 public class DiracSettingsFragment extends PreferenceFragment implements
-        OnPreferenceChangeListener, CompoundButton.OnCheckedChangeListener {
+        OnPreferenceChangeListener, OnMainSwitchChangeListener {
 
+    private static final String PREF_ENABLE = "dirac_enable";
     private static final String PREF_HEADSET = "dirac_headset_pref";
+    private static final String PREF_HIFI = "dirac_hifi_pref";
     private static final String PREF_PRESET = "dirac_preset_pref";
 
-    private TextView mTextView;
-    private View mSwitchBar;
+    private MainSwitchPreference mSwitchBar;
 
     private ListPreference mHeadsetType;
     private ListPreference mPreset;
+    private SwitchPreference mHifi;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.dirac_settings);
-        final ActionBar actionBar = getActivity().getActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
 
+        DiracUtils.initialize(getActivity());
         boolean enhancerEnabled = DiracUtils.isDiracEnabled();
+
+        mSwitchBar = (MainSwitchPreference) findPreference(PREF_ENABLE);
+        mSwitchBar.addOnSwitchChangeListener(this);
+        mSwitchBar.setChecked(enhancerEnabled);
 
         mHeadsetType = (ListPreference) findPreference(PREF_HEADSET);
         mHeadsetType.setOnPreferenceChangeListener(this);
-        mHeadsetType.setEnabled(enhancerEnabled);
-        // TODO: adapt to real values
-        String[] headsetEntries = new String[]{
-                getString(R.string.dirac_headset_0),
-                getString(R.string.dirac_headset_1),
-                getString(R.string.dirac_headset_2),
-                getString(R.string.dirac_headset_3)
-        };
-        String[] headsetValues = new String[]{
-                "0", "1", "2", "3"
-        };
-        mHeadsetType.setEntries(headsetEntries);
-        mHeadsetType.setEntryValues(headsetValues);
 
         mPreset = (ListPreference) findPreference(PREF_PRESET);
         mPreset.setOnPreferenceChangeListener(this);
-        mPreset.setEnabled(enhancerEnabled);
-        // TODO: adapt to real values
-        String[] presetEntries = new String[]{
-                getString(R.string.dirac_preset_0),
-                getString(R.string.dirac_preset_1),
-                getString(R.string.dirac_preset_2),
-                getString(R.string.dirac_preset_3)
-        };
-        String[] presetValues = new String[]{
-                "0", "1", "2", "3"
-        };
-        mPreset.setEntries(presetEntries);
-        mPreset.setEntryValues(presetValues);
-    }
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        final View view = LayoutInflater.from(getContext()).inflate(R.layout.dirac,
-                container, false);
-        ((ViewGroup) view).addView(super.onCreateView(inflater, container, savedInstanceState));
-        return view;
-    }
+        mHifi = (SwitchPreference) findPreference(PREF_HIFI);
+        mHifi.setOnPreferenceChangeListener(this);
 
-    @Override
-    public void onViewCreated(View view, Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-
-        boolean enhancerEnabled = DiracUtils.isDiracEnabled();
-
-        mTextView = view.findViewById(R.id.switch_text);
-        mTextView.setText(getString(enhancerEnabled ?
-                R.string.switch_bar_on : R.string.switch_bar_off));
-
-        mSwitchBar = view.findViewById(R.id.switch_bar);
-        Switch switchWidget = mSwitchBar.findViewById(android.R.id.switch_widget);
-        switchWidget.setChecked(enhancerEnabled);
-        switchWidget.setOnCheckedChangeListener(this);
-        mSwitchBar.setActivated(enhancerEnabled);
-        mSwitchBar.setOnClickListener(v -> {
-            switchWidget.setChecked(!switchWidget.isChecked());
-            mSwitchBar.setActivated(switchWidget.isChecked());
-        });
+        boolean hifiEnable = DiracUtils.getHifiMode();
+        mHeadsetType.setEnabled(!hifiEnable && enhancerEnabled);
+        mPreset.setEnabled(!hifiEnable && enhancerEnabled);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         switch (preference.getKey()) {
             case PREF_HEADSET:
-                // TODO: on Headset changed
+                DiracUtils.setHeadsetType(Integer.parseInt(newValue.toString()));
+                return true;
+            case PREF_HIFI:
+                DiracUtils.setHifiMode((Boolean) newValue ? 1 : 0);
+                if (DiracUtils.isDiracEnabled()) {
+                    mHeadsetType.setEnabled(!(Boolean) newValue);
+                    mPreset.setEnabled(!(Boolean) newValue);
+                }
                 return true;
             case PREF_PRESET:
-                // TODO: on Preset changed
+                DiracUtils.setLevel((String) newValue);
                 return true;
             default:
                 return false;
@@ -131,22 +91,14 @@ public class DiracSettingsFragment extends PreferenceFragment implements
     }
 
     @Override
-    public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
-        // TODO: Toggle enhancer
+    public void onSwitchChanged(Switch switchView, boolean isChecked) {
+        mSwitchBar.setChecked(isChecked);
 
-        mTextView.setText(getString(isChecked ? R.string.switch_bar_on : R.string.switch_bar_off));
-        mSwitchBar.setActivated(isChecked);
+        DiracUtils.setMusic(isChecked);
 
-        mHeadsetType.setEnabled(isChecked);
-        mPreset.setEnabled(isChecked);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
-            getActivity().onBackPressed();
-            return true;
+        if (!DiracUtils.getHifiMode()) {
+            mHeadsetType.setEnabled(isChecked);
+            mPreset.setEnabled(isChecked);
         }
-        return false;
     }
 }
