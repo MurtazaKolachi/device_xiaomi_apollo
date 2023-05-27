@@ -307,6 +307,9 @@ PRODUCT_COPY_FILES += \
 # OMX
 TARGET_SUPPORTS_OMX_SERVICE := false
 
+# Miui Camera
+include device/xiaomi/camera/miuicamera.mk
+
 # Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayCommon \
