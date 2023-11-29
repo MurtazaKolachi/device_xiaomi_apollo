@@ -274,6 +274,11 @@ PRODUCT_VENDOR_PROPERTIES += \
     $(foreach tag,$(SPAMMY_LOG_TAGS),log.tag.$(tag)=E)
 endif
 
+# Media
+PRODUCT_PACKAGES += \
+    libstagefrighthw \
+    libstagefright_foundation-v33
+
 # Media configs
 PRODUCT_PACKAGES += \
     media_codecs_c2.xml \
