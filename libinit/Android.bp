@@ -5,6 +5,13 @@
 //
 
 cc_library_static {
+    name: "libvariant_xiaomi_apollo",
+    srcs: ["libvariant_xiaomi_apollo.cpp"],
+    header_libs: ["//device/xiaomi/apollo:libvariant_headers"],
+    recovery_available: true,
+}
+
+cc_library_static {
     name: "init_xiaomi_kona",
     srcs: [
         "init_xiaomi_kona.cpp",
