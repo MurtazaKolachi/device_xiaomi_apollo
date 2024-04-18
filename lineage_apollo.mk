@@ -19,6 +19,10 @@ TARGET_ENABLE_BLUR := true
 TARGET_DISABLE_EPPE := true
 TARGET_INCLUDE_ACCORD := false
 
+# Inherit Camera-related flags
+TARGET_USES_MIUI_CAMERA := true
+TARGET_INCLUDES_MIUI_CAMERA := true
+
 # Inherit from apollo device
 $(call inherit-product, device/xiaomi/apollo/device.mk)
 
