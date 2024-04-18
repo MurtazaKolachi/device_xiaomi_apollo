@@ -20,6 +20,10 @@ TARGET_OPTIMIZED_DEXOPT := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
 TARGET_ENABLE_BLUR := true
 
+# Inherit Camera-related flags
+TARGET_USES_MIUI_CAMERA := true
+TARGET_INCLUDES_MIUI_CAMERA := true
+
 # Inherit from apollo device
 $(call inherit-product, device/xiaomi/apollo/device.mk)
 
