@@ -152,6 +152,7 @@ TARGET_BUILD_DEVICE_AS_WEBCAM := true
 PRODUCT_PACKAGES += \
     XiaomiParts \
     DSPVolumeSynchronizer \
+    XiaomiDolby
 
 # Display
 PRODUCT_PACKAGES += \
