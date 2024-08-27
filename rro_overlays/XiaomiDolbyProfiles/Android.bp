@@ -1,0 +1,13 @@
+//
+// Copyright (C) 2017-2021 The LineageOS Project
+//           (C) 2023-24 Paranoid Android
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+runtime_resource_overlay {
+    name: "XiaomiDolbyProfiles",
+    resource_dirs: ["res"],
+    manifest: "AndroidManifest.xml",
+    vendor: true,
+}
