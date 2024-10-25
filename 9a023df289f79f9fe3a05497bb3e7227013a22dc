@@ -16,6 +16,23 @@
       "message": "zram is there again...",
       "revId": "9a023df289f79f9fe3a05497bb3e7227013a22dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5aca1f7_870790fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33916
+      },
+      "writtenOn": "2024-10-25T21:11:40Z",
+      "side": 1,
+      "message": "zram works fine on cmi again",
+      "revId": "9a023df289f79f9fe3a05497bb3e7227013a22dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
