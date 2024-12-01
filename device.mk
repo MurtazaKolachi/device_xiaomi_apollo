@@ -60,6 +60,24 @@ PRODUCT_COPY_FILES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# ART
+WITH_DEXPREOPT := true
+ART_BUILD_TARGET_NDEBUG := true
+ART_BUILD_TARGET_DEBUG := false
+ART_BUILD_HOST_NDEBUG := true
+ART_BUILD_HOST_DEBUG := false
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+USE_DEX2OAT_DEBUG := false
+PRODUCT_DEX_PREOPT_GENERATE_DM_FILES := true
+
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI \
+    Launcher3QuickStep \
+    Trebuchet \
+    NexusLauncherRelease
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
