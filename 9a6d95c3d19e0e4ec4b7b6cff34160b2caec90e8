@@ -16,6 +16,23 @@
       "message": "will be needed on QPR1... maybe.",
       "revId": "9a6d95c3d19e0e4ec4b7b6cff34160b2caec90e8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "88325b9f_b839f2f7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2024-12-14T09:14:45Z",
+      "side": 1,
+      "message": "Makes it work with qpr1 wpa_supplicant",
+      "revId": "9a6d95c3d19e0e4ec4b7b6cff34160b2caec90e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
