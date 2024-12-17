@@ -16,6 +16,24 @@
       "message": "Try removing this, labeling should be enough",
       "revId": "0dbd7172292e7d13c894b2a432e468271003c4cc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f7509e1_ddb7493f",
+        "filename": "sepolicy/vendor/hal_fingerprint_default.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 29620
+      },
+      "writtenOn": "2024-12-17T22:53:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fdf97b89_6e46cd1d",
+      "revId": "0dbd7172292e7d13c894b2a432e468271003c4cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
