@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fdf97b89_6e46cd1d",
+        "filename": "sepolicy/vendor/hal_fingerprint_default.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-12-17T12:33:35Z",
+      "side": 1,
+      "message": "Try removing this, labeling should be enough",
+      "revId": "0dbd7172292e7d13c894b2a432e468271003c4cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
