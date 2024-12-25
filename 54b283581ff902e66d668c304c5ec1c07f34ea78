@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8406451_8c72f358",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34224
+      },
+      "writtenOn": "2024-12-25T20:18:15Z",
+      "side": 1,
+      "message": "Fixed DRM on Xiaomi Pad 6 (pipa)",
+      "revId": "54b283581ff902e66d668c304c5ec1c07f34ea78",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
