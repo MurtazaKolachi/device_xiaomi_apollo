@@ -51,6 +51,24 @@
       "parentUuid": "17e6af8d_804e39f3",
       "revId": "361647dc8225cce9ca12632026b0cdac8a774a14",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "345d18f3_85fbb8e7",
+        "filename": "extract-files.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-01-02T23:36:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b93646ab_eb1ac694",
+      "revId": "361647dc8225cce9ca12632026b0cdac8a774a14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
