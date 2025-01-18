@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08a23854_b39a8ee5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2025-01-18T15:20:37Z",
+      "side": 1,
+      "message": "Previously used fingerprints are getting wiped for me when I update to AIDL.",
+      "revId": "ddc084fe5e9395a4b678b5a8cde47705c9ec6f7e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
