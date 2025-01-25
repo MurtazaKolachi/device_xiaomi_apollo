@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c690b1d2_57f0dd0c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34789
+      },
+      "writtenOn": "2025-01-25T07:19:33Z",
+      "side": 1,
+      "message": "armv8-2a-dotprod uses most of the cortex ISA, and as such should be the best option here.  I\u0027d also recommend this patch to sm8250 chipsets from other vendors as long as they do not have it yet. Samsung has it, but others apparently have less optimized values.  That\u0027s out-of-scope here, but I\u0027ll add them in CC",
+      "revId": "7bab90202237f00bead13c2dc80007b097577fcd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
