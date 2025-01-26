@@ -33,6 +33,24 @@
       "message": "Working fine to me.",
       "revId": "b9f4442a598fe1d1307e39549ddc0b334279d9da",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da7d2bff_63ab0750",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-01-26T17:57:50Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "30e3e8c9_fb902f94",
+      "revId": "b9f4442a598fe1d1307e39549ddc0b334279d9da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
