@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d86c128_c4042f39",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-02-16T14:24:17Z",
+      "side": 1,
+      "message": "I don\u0027t think any of this is device specific or should be fixed at all",
+      "revId": "84014d1620a1b7b25a4d4e986338cb3379f6cc83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a77b0337_fe9bdb75",
+        "filename": "sepolicy/private/system_suspend.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-02-16T14:24:17Z",
+      "side": 1,
+      "message": "Label your wakeup nodes properly instead",
+      "revId": "84014d1620a1b7b25a4d4e986338cb3379f6cc83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
