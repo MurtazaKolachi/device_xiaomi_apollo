@@ -16,6 +16,23 @@
       "message": "hotspot gives no network",
       "revId": "c634c50e8dd72e1a7656454457ccf9168f67534b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "837757d0_e33c560f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-02-17T11:54:34Z",
+      "side": 1,
+      "message": "nevermind, change 404408 makes it support 1.1",
+      "revId": "c634c50e8dd72e1a7656454457ccf9168f67534b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
