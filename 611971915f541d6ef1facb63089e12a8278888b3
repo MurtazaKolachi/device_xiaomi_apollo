@@ -16,6 +16,23 @@
       "message": "we can bump it to 6 easily I think?",
       "revId": "611971915f541d6ef1facb63089e12a8278888b3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "494d4e13_fa9293c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-02-18T07:23:57Z",
+      "side": 1,
+      "message": "we are using target-level 6. let\u0027s abandon this",
+      "revId": "611971915f541d6ef1facb63089e12a8278888b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
