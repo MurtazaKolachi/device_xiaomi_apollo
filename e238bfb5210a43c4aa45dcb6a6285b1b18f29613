@@ -16,6 +16,23 @@
       "message": "You could pick https://review.lineageos.org/q/I0bdd4d63b60a1e29cdd69e71f7268932a105c16b afterwards.",
       "revId": "e238bfb5210a43c4aa45dcb6a6285b1b18f29613",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bcd5d302_ec78ec8f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-18T21:52:54Z",
+      "side": 1,
+      "message": "Also: https://github.com/LineageOS/android_hardware_qcom-caf_common/commit/a96669b5092e6f18eace1f5ac9eb0a9c0367e08e",
+      "revId": "e238bfb5210a43c4aa45dcb6a6285b1b18f29613",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
