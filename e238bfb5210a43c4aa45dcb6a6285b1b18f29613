@@ -51,6 +51,23 @@
       "parentUuid": "bcd5d302_ec78ec8f",
       "revId": "e238bfb5210a43c4aa45dcb6a6285b1b18f29613",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1ee1780f_1c9dd96e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-02-19T10:59:59Z",
+      "side": 1,
+      "message": "@me.cafebabe@gmail.com we can abandon after \nhttps://review.lineageos.org/c/LineageOS/android_device_xiaomi_sm8250-common/+/419472",
+      "revId": "e238bfb5210a43c4aa45dcb6a6285b1b18f29613",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
