@@ -63,6 +63,8 @@ ifeq ($(TARGET_IS_VAB),true)
 # Inherit virtual_ab_ota product
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/bootctrl
+
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \
     android.hardware.boot@1.1-impl-qti.recovery \
