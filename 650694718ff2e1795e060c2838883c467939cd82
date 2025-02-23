@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "350c60bc_ff95faed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31334
+      },
+      "writtenOn": "2025-02-23T04:22:51Z",
+      "side": 1,
+      "message": "Break build on apollon",
+      "revId": "650694718ff2e1795e060c2838883c467939cd82",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
