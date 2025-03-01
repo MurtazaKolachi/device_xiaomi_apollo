@@ -33,6 +33,24 @@
       "message": "Not needed, pick https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/420251",
       "revId": "a0c46b228bc51a101dbb1ad2d79bc02a0a8e5cdf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3c8ff765_323ecf38",
+        "filename": "kona.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 338,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-03-01T23:59:22Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "1800cc27_4cd30af4",
+      "revId": "a0c46b228bc51a101dbb1ad2d79bc02a0a8e5cdf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
