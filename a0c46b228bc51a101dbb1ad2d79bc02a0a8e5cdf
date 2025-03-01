@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dbe46047_56749a3e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-03-01T21:31:29Z",
+      "side": 1,
+      "message": "My device isn\u0027t A/B therefore doesn\u0027t need this and I can\u0027t check...\n\nyour other patchsets basically looks good to me, though",
+      "revId": "a0c46b228bc51a101dbb1ad2d79bc02a0a8e5cdf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1800cc27_4cd30af4",
