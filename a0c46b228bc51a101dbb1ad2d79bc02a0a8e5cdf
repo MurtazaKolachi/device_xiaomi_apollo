@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1800cc27_4cd30af4",
+        "filename": "kona.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 338,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-03-01T21:29:32Z",
+      "side": 1,
+      "message": "Not needed, pick https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/420251",
+      "revId": "a0c46b228bc51a101dbb1ad2d79bc02a0a8e5cdf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
