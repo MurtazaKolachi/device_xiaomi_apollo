@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b42b5aea_5101d7bc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-03-05T02:12:34Z",
+      "side": 1,
+      "message": "@seba@sebaubuntu.dev Hotspot is broken in Apollo build 25-03-01 and we need to merge this",
+      "revId": "02b8d0615b76762c571480c433858a38f296907b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
