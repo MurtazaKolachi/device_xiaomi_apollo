@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d732fef_f9f50fee",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20520
+      },
+      "writtenOn": "2025-03-27T04:57:21Z",
+      "side": 1,
+      "message": "I dont have radio on pipa, but built and ran fine afterwards",
+      "revId": "b0484232b09798691445f2e1e093455972231dbe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
