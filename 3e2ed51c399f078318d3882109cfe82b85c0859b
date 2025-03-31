@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fdcb2eac_e88509ab",
+        "filename": "framework_compatibility_matrix.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-03-31T20:17:46Z",
+      "side": 1,
+      "message": "You could probably just replace this change with https://review.lineageos.org/q/I8d4d54bba1b3dff27c11b0034852697b818ee609 as the xiaomi FCM will let you remove a few more common entries",
+      "revId": "3e2ed51c399f078318d3882109cfe82b85c0859b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
