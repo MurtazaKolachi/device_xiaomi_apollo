@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cee973fe_49ab00bc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-03-31T23:04:13Z",
+      "side": 1,
+      "message": "This problem existed for a long time in all Xiaomi models with the 8250 soc. The antenna in the switch between LTE bands would break and the modem would crash, and there was no way to fix it except by restarting it. I can confirm that this problem has been completely resolved. Tested on Apollon mi 10t pro",
+      "revId": "98f28b841b38cc860f50e611f0c018d2c02efef9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
