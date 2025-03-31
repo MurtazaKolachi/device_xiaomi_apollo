@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7d4d0042_62604397",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20520
+      },
+      "writtenOn": "2025-03-31T19:19:45Z",
+      "side": 1,
+      "message": "need againts tablet",
+      "revId": "bdec27e4b71d4b60e709c18cac2a7efa308d6f46",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b07a0e03_74266e05",
+        "filename": "kona.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 300,
+      "author": {
+        "id": 20520
+      },
+      "writtenOn": "2025-03-31T19:19:45Z",
+      "side": 1,
+      "message": "guard againts tablet",
+      "revId": "bdec27e4b71d4b60e709c18cac2a7efa308d6f46",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
