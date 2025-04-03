@@ -22,6 +22,30 @@
       },
       "revId": "0a0ba350d354f496b8d903285058604f2c6996bb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd1adf65_4941bf92",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-04-03T15:03:52Z",
+      "side": 0,
+      "message": "No, changing persist.vendor.ssr.restart_level\u003dALL_ENABLE to RELATED alone wouldn\u0027t be sufficient. The previous implementation relied on the vendor.ssr_setup service to handle subsystem restart configurations dynamically based on the persist.vendor.ssr.restart_level property. However, this approach has been replaced with direct writes to the sysfs nodes in init.xiaomi.rc, ensuring that each subsystem restart level is explicitly set to RELATED at boot time.\n\nThis change eliminates the dependency on proprietary SSR blobs (ssr_setup) and avoids unnecessary property parsing during runtime. Additionally, setting RELATED via sysfs is more deterministic, as it ensures that the restart levels are applied consistently across all relevant subsystems without relying on an intermediate service.\n\nFurthermore, SELinux policies (sysfs_ssr_toggle) have been defined to explicitly allow vendor_init to write to these sysfs nodes, ensuring that the new approach functions correctly under the security model.\n\nThus, simply modifying the property to RELATED wouldn\u0027t achieve the same result, as the new implementation no longer relies on it.",
+      "parentUuid": "c9426b1a_0153a54f",
+      "range": {
+        "startLine": 242,
+        "startChar": 33,
+        "endLine": 242,
+        "endChar": 43
+      },
+      "revId": "0a0ba350d354f496b8d903285058604f2c6996bb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
