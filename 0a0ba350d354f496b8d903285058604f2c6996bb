@@ -70,6 +70,30 @@
       },
       "revId": "0a0ba350d354f496b8d903285058604f2c6996bb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2f575ae_df4df16d",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-04-03T16:17:09Z",
+      "side": 0,
+      "message": "All brands use it well. Isn\u0027t it better to do what is tested and works?",
+      "parentUuid": "0d41474c_bb3f9fd4",
+      "range": {
+        "startLine": 242,
+        "startChar": 33,
+        "endLine": 242,
+        "endChar": 43
+      },
+      "revId": "0a0ba350d354f496b8d903285058604f2c6996bb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
