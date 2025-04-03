@@ -33,6 +33,23 @@
       "message": "Some kernel patches may not be really needed, but I sent the patches as I tested them.",
       "revId": "98f28b841b38cc860f50e611f0c018d2c02efef9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76900c80_8c40a425",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-04-03T15:16:54Z",
+      "side": 1,
+      "message": "It\u0027s better to add all the kernel patches as well. They work fine. I\u0027ve intentionally locked and unlocked bands with the \"Network Signal Guru\" application and every time the modem recovers fine without crashing.",
+      "revId": "98f28b841b38cc860f50e611f0c018d2c02efef9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
