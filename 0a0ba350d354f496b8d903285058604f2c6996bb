@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c9426b1a_0153a54f",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-04-03T14:23:03Z",
+      "side": 0,
+      "message": "Can\u0027t you just change this to `RELATED`?",
+      "range": {
+        "startLine": 242,
+        "startChar": 33,
+        "endLine": 242,
+        "endChar": 43
+      },
+      "revId": "0a0ba350d354f496b8d903285058604f2c6996bb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
