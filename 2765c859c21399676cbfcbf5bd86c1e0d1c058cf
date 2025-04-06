@@ -16,6 +16,24 @@
       "message": "Think the summary should be changed to \"Support Wifi6E\" - since 6GHz is wifi 6E (and not 6). Also is there a device that supports this on 8250? According to https://en.wikipedia.org/wiki/List_of_Qualcomm_Snapdragon_systems_on_chips#Snapdragon_8_series only the 865+ (8250-AB) has support for this. Do we support a xiaomi that has that soc?",
       "revId": "2765c859c21399676cbfcbf5bd86c1e0d1c058cf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "540adecd_9a8ac6ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-04-06T20:33:29Z",
+      "side": 1,
+      "message": "Ah,Thank you for the information you provided.",
+      "parentUuid": "07f499e1_df70443d",
+      "revId": "2765c859c21399676cbfcbf5bd86c1e0d1c058cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
