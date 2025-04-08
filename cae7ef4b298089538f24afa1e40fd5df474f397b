@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "de79a2bc_fb7c982a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-04-08T02:56:33Z",
+      "side": 1,
+      "message": "I consider the previous one better and more complete than this one, and I like it. First, if Google ever removes or changes this prop, we still have it directly in the phone\u0027s node and the kernel, and there will be no need to check this in the future. Second, although this method might be faster, it requires an additional blob.",
+      "revId": "cae7ef4b298089538f24afa1e40fd5df474f397b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
