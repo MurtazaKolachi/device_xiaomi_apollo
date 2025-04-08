@@ -34,6 +34,41 @@
       "parentUuid": "de79a2bc_fb7c982a",
       "revId": "cae7ef4b298089538f24afa1e40fd5df474f397b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "011117ca_e6f7305a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-04-08T11:47:55Z",
+      "side": 1,
+      "message": "\u003e Google ever removes or changes this prop\n\nThis prop is only used by ssr_setup, it won\u0027t change\n\n\u003e Second, although this method might be faster, it requires an additional blob.\n\nIt\u0027s a tradeoff between having a blob and having to manually handle sepolicy, which we avoid by using the binary",
+      "parentUuid": "ef5e936a_9f633246",
+      "revId": "cae7ef4b298089538f24afa1e40fd5df474f397b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1aa509f9_6583e3d7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-04-08T11:47:55Z",
+      "side": 1,
+      "message": "Needs Verified+1 btw",
+      "revId": "cae7ef4b298089538f24afa1e40fd5df474f397b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
