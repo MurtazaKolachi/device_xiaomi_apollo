@@ -16,6 +16,24 @@
       "message": "Doesn\u0027t set_prop imply get_prop?",
       "revId": "2a99e919bf63e6e19d6945da0aafe281a742fdeb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf8d04a5_30cd1db5",
+        "filename": "sepolicy/vendor/rild.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-04-09T18:44:24Z",
+      "side": 1,
+      "message": "26  1726 I auditd  : type\u003d1400 audit(0.0:138): avc:  denied  { read } for  comm\u003d5849414F4D49204D424E name\u003d\"u:object_r:vendor_ssr_prop:s0\" dev\u003d\"tmpfs\" ino\u003d1458 scontext\u003du:r:rild:s0 tcontext\u003du:object_r:vendor_ssr_prop:s0 tclass\u003dfile permissive\u003d0\n\n W /system/bin/init: type\u003d1107 audit(0.0:139): uid\u003d0 auid\u003d4294967295 ses\u003d4294967295 subj\u003du:r:init:s0 msg\u003d\u0027avc:  denied  { set } for property\u003dpersist.vendor.ssr.restart_level pid\u003d1726 uid\u003d1001 gid\u003d1001 scontext\u003du:r:rild:s0 tcontext\u003du:object_r:vendor_ssr_prop:s0 tclass\u003dproperty_service permissive\u003d0\u0027\n\n04-09 17:58:25.760  1726  1726 W /vendor/bin/hw/qcrild: type\u003d1400 audit(0.0:140): avc:  denied  { read } for  comm\u003d5849414F4D49204D424E name\u003d\"u:object_r:vendor_ssr_prop:s0\" dev\u003d\"tmpfs\" ino\u003d1458 scontext\u003du:r:rild:s0 tcontext\u003du:object_r:vendor_ssr_prop:s0 tclass\u003dfile permissive\u003d0\n\n\n auditd  : type\u003d1107 audit(0.0:145): uid\u003d0 auid\u003d4294967295 ses\u003d4294967295 subj\u003du:r:init:s0 msg\u003d\u0027avc:  denied  { set } for property\u003dpersist.vendor.ssr.restart_level pid\u003d1726 uid\u003d1001 gid\u003d1001 scontext\u003du:r:rild:s0 tcontext\u003du:object_r:vendor_ssr_prop:s0 tclass\u003dproperty_service permissive\u003d0\u0027\n\nW /system/bin/init: type\u003d1107 audit(0.0:145): uid\u003d0 auid\u003d4294967295 ses\u003d4294967295 subj\u003du:r:init:s0 msg\u003d\u0027avc:  denied  { set } for property\u003dpersist.vendor.ssr.restart_level pid\u003d1726 uid\u003d1001 gid\u003d1001 scontext\u003du:r:rild:s0 tcontext\u003du:object_r:vendor_ssr_prop:s0 tclass\u003dproperty_service permissive\u003d0\u0027",
+      "parentUuid": "2ea216b2_e48dcae0",
+      "revId": "2a99e919bf63e6e19d6945da0aafe281a742fdeb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
