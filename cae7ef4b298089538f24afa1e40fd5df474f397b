@@ -69,6 +69,23 @@
       "message": "Needs Verified+1 btw",
       "revId": "cae7ef4b298089538f24afa1e40fd5df474f397b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "194db467_7790a60c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-04-09T16:27:06Z",
+      "side": 1,
+      "message": "How to test it? Wait for the modem to crash and the signal to drop, or manually lock and unlock the LTE bands using the Network Guru app. You’ll see that the signal returns after a few seconds.",
+      "revId": "cae7ef4b298089538f24afa1e40fd5df474f397b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
