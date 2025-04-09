@@ -103,6 +103,23 @@
       "message": "I\u0027ve been testing it for a few days and the modem hasn\u0027t broken.",
       "revId": "cae7ef4b298089538f24afa1e40fd5df474f397b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7ebdc3a_7c1d8eb2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-04-09T18:57:07Z",
+      "side": 1,
+      "message": "It seems that we don\u0027t really need this, and the issue can be resolved with kernel patches. However, it\u0027s only useful for better matching between the kernel and the device.",
+      "revId": "cae7ef4b298089538f24afa1e40fd5df474f397b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
