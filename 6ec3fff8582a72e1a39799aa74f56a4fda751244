@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6555263f_13b20d7f",
+        "filename": "sepolicy/vendor/hal_audio_default.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-04-10T00:30:04Z",
+      "side": 1,
+      "message": "Needs labeling",
+      "revId": "6ec3fff8582a72e1a39799aa74f56a4fda751244",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
