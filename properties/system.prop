@@ -63,3 +63,9 @@ persist.bluetooth.sbc_hd_higher_bitrate=1
 
 # Battery
 ro.config.small_battery=true
+
+# Infinity Defintions
+ro.infinity.soc=Snapdragon 865 (7nm)
+ro.infinity.battery=5000 mAh
+ro.infinity.display=1080 x 2400, 144 Hz
+ro.infinity.camera=64MP + 13MP + 5MP
