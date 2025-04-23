@@ -60,3 +60,9 @@ ro.audio.resampler.psd.halflength=960
 ro.audio.resampler.psd.cutoff_percent=98
 ro.audio.resampler.psd.tbwcheat=0
 persist.bluetooth.sbc_hd_higher_bitrate=1
+
+# Infinity Defintions
+ro.infinity.soc=Snapdragon 865 (7nm)
+ro.infinity.battery=5000 mAh
+ro.infinity.display=1080 x 2400, 144 Hz
+ro.infinity.camera=64MP + 13MP + 5MP
