@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fff1880c_2e1788cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20487
+      },
+      "writtenOn": "2025-04-23T19:52:08Z",
+      "side": 1,
+      "message": "you could try to build 64bit only it works now there was error with omx on 14 but i think it is gone :\nmake/target/product/core_64_bit_only.mk:PRODUCT_VENDOR_PROPERTIES +\u003d dalvik.vm.dex2oat64.enabled\u003dtrue",
+      "revId": "05382e2a92c55511bdfb9288532abb0dd09883d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
