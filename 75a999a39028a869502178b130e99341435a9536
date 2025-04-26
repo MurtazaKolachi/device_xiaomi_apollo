@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b8f4371e_74bda4ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34491
+      },
+      "writtenOn": "2025-04-26T09:06:48Z",
+      "side": 1,
+      "message": "Maybe not necessary, there is a default value in fwb\n* For reference only: https://github.com/LineageOS/android_frameworks_base/blob/b898dd080d8d4322c765c009b4a63e460b4563f3/core/res/res/values/config.xml#L4500",
+      "revId": "75a999a39028a869502178b130e99341435a9536",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
