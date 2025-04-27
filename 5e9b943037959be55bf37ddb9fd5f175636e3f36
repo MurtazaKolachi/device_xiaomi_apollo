@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2a3bb38_a9e43427",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-04-27T06:48:07Z",
+      "side": 1,
+      "message": "what if some old devices (A10 launched ones) blobs really uses those non-vendor prefixed properties?\n\nAlso, you missed the `sm8250-common: ` prefix",
+      "revId": "5e9b943037959be55bf37ddb9fd5f175636e3f36",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
