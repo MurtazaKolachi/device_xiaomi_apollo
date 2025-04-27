@@ -16,6 +16,24 @@
       "message": "what if some old devices (A10 launched ones) blobs really uses those non-vendor prefixed properties?\n\nAlso, you missed the `sm8250-common: ` prefix",
       "revId": "5e9b943037959be55bf37ddb9fd5f175636e3f36",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07e00bea_2dfcf14d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-04-27T07:05:30Z",
+      "side": 1,
+      "message": "It doesn\u0027t cause any problems for phones shipped with Android 12 or earlier. I get this warning every time i build and i thought we\u0027d better fix this.",
+      "parentUuid": "d2a3bb38_a9e43427",
+      "revId": "5e9b943037959be55bf37ddb9fd5f175636e3f36",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
