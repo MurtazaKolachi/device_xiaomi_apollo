@@ -34,6 +34,24 @@
       "parentUuid": "2ea216b2_e48dcae0",
       "revId": "2a99e919bf63e6e19d6945da0aafe281a742fdeb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a89a9719_fb1e77f3",
+        "filename": "sepolicy/vendor/rild.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-04-27T07:45:41Z",
+      "side": 1,
+      "message": "set_prop macro includes a get_prop call\n\nyou can remove your get_prop call, build \u0026 test",
+      "parentUuid": "cf8d04a5_30cd1db5",
+      "revId": "2a99e919bf63e6e19d6945da0aafe281a742fdeb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
