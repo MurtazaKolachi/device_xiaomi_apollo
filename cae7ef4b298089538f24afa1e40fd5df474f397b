@@ -137,6 +137,24 @@
       "message": "what\u0027s the difference with `\u003dALL_ENABLE`? doesn\u0027t it work just fine?\n\n\u003e although this method might be faster, it requires an additional blob\n\n`\u003dRELATED` requires the same blob lol\n\nbtw, https://github.com/David112x/android-firmware-qti-sdm660/blob/master/LINUX/android/vendor/qcom/proprietary/ss-restart/ssr_setup/ssr_setup.c",
       "revId": "cae7ef4b298089538f24afa1e40fd5df474f397b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b40db9ee_363ce716",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-04-29T18:36:43Z",
+      "side": 1,
+      "message": "NP. we can use 425142 instead",
+      "parentUuid": "d5a3282c_7aa98ab5",
+      "revId": "cae7ef4b298089538f24afa1e40fd5df474f397b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
