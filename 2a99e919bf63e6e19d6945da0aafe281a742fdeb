@@ -70,6 +70,24 @@
       "parentUuid": "a89a9719_fb1e77f3",
       "revId": "2a99e919bf63e6e19d6945da0aafe281a742fdeb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a9a2419d_61893771",
+        "filename": "sepolicy/vendor/rild.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-04-29T23:49:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e0853af1_73bd5515",
+      "revId": "2a99e919bf63e6e19d6945da0aafe281a742fdeb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
