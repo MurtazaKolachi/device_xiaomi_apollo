@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e903a571_d9344e74",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-04-30T08:36:37Z",
+      "side": 1,
+      "message": "@althafvly@gmail.comI know that the Poco F3 also has this issue. Please confirm it as well. Thank you",
+      "revId": "4a9f5753798a4ca1f918e1a7a99502440587b328",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "79d48181_75aea241",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-04-30T08:36:37Z",
+      "side": 1,
+      "message": "@althafvly@gmail.com I know that the Poco F3 also has this issue. Please confirm it as well. Thank you",
+      "revId": "4a9f5753798a4ca1f918e1a7a99502440587b328",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
