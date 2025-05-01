@@ -50,6 +50,23 @@
       "message": "This does correct the sysfs path, but:\n\n1. These LEDs exists on unmodified pm8150l.dtsi, so this can be commonized (btw, more LEDs exists too that are also not explicitly labeled)\n2. I found that these nodes are still being labeled to `sysfs_leds` on the device without this correction (system/sepolicy/private/genfs_contexts:129)\n3. Is there anything actually using those LED nodes?",
       "revId": "5b0766bdc0375b715149c1bd5e73c5ad1c3ad802",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b417ec5_2b1cc8aa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-05-01T14:30:35Z",
+      "side": 1,
+      "message": "Even if that\u0027s the case, keep both paths, we share sepolicy with sdm710 and sm8150",
+      "revId": "5b0766bdc0375b715149c1bd5e73c5ad1c3ad802",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
