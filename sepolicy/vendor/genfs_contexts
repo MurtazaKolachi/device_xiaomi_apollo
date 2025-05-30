@@ -1,3 +1,11 @@
+# AxionAOSP Kernel Tuning
+genfscon proc /sys/vm/dirty_ratio                                                                   u:object_r:proc_dirty:s0
+genfscon proc /sys/kernel/sched_migration_cost_ns                                                   u:object_r:proc_sched:s0
+
+# AxionAOSP GPU Boost
+genfscon sysfs /devices/platform/1c500000.mali/available_frequencies                                u:object_r:sysfs_gpu:s0
+genfscon sysfs /devices/platform/1c500000.mali/hint_min_freq                                        u:object_r:sysfs_gpu:s0
+
 # DSP
 genfscon sysfs /kernel/boot_cdsp/boot                                                               u:object_r:sysfs_msm_boot:s0
 
