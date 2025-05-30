@@ -21,6 +21,8 @@ debug.hwui.skia_use_perfetto_track_events=false
 debug.gralloc.gfx_ubwc_disable=0
 debug.sf.enable_hwc_vds=1
 persist.vendor.color.matrix=2
+# Fix for HDR
+persist.sys.vk_use_ogl_for_media=true
 
 # DPM
 persist.vendor.dpm.feature=1

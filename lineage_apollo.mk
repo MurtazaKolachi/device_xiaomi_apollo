@@ -14,6 +14,29 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from apollo device
 $(call inherit-product, device/xiaomi/apollo/device.mk)
 
+# Axion Bringup!
+TARGET_INCLUDES_LOS_PREBUILTS := true
+PRODUCT_NO_CAMERA := false
+TARGET_ENABLE_BLUR := true
+# Color Distortion Fix
+TARGET_NEEDS_VULKAN_MEDIA_FIX := true
+# Maintainer Info
+AXION_MAINTAINER := Murtaza_Kolachi
+# CPU governor support
+PERF_DEFAULT_GOV := schedutil
+# Flashlight strength
+TORCH_STR_SUPPORTED := true
+# About phone"
+AXION_CAMERA_REAR_INFO := 64,13,5
+AXION_CAMERA_FRONT_INFO := 20
+AXION_PROCESSOR := Snapdragon_865_(7nm)
+
+#AxionFX
+#TARGET_INCLUDE_AXFX := true
+
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := lineage_apollo
 PRODUCT_DEVICE := apollo
 PRODUCT_MANUFACTURER := Xiaomi
