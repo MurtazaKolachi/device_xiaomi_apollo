@@ -67,6 +67,24 @@
       "message": "Even if that\u0027s the case, keep both paths, we share sepolicy with sdm710 and sm8150",
       "revId": "5b0766bdc0375b715149c1bd5e73c5ad1c3ad802",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "392b65d9_0e00a658",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-06-03T14:44:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1b417ec5_2b1cc8aa",
+      "revId": "5b0766bdc0375b715149c1bd5e73c5ad1c3ad802",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
