@@ -16,6 +16,23 @@
       "message": "mhhh it kinda works?",
       "revId": "74c9ecef506a10ddd00dc793e372ed22d1e8883a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5128549c_7d66d65d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2025-06-10T04:41:00Z",
+      "side": 1,
+      "message": "Sure it works?. I don\u0027t remember exactly but it was not working with official mi charger.",
+      "revId": "74c9ecef506a10ddd00dc793e372ed22d1e8883a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
