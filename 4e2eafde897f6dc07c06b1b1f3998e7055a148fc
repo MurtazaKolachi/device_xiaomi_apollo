@@ -16,6 +16,23 @@
       "message": "Goes with this chain https://review.lineageos.org/c/LineageOS/android_device_qcom_sepolicy_vndr/+/436010",
       "revId": "4e2eafde897f6dc07c06b1b1f3998e7055a148fc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a832775_2e087302",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-07-07T10:48:47Z",
+      "side": 1,
+      "message": "Bypassing verification since it\u0027s a simple move to qcom sepolicy",
+      "revId": "4e2eafde897f6dc07c06b1b1f3998e7055a148fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
