@@ -56,9 +56,6 @@ ro.vendor.use_data_netmgrd=true
 ro.vold.umsdirtyratio=20
 power.saving.mode=1
 
-# WFD
-vendor.wfdservice64=enable
-
 # RmNet Data
 persist.rmnet.data.enable=true
 persist.data.wda.enable=true
