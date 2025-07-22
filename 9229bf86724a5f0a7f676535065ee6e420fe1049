@@ -16,6 +16,23 @@
       "message": "Neede at least for 23 - otherwise radio crashes",
       "revId": "9229bf86724a5f0a7f676535065ee6e420fe1049",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f544298_883beaa9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2025-07-22T18:34:01Z",
+      "side": 1,
+      "message": "Apparently UMI has single slot variants",
+      "revId": "9229bf86724a5f0a7f676535065ee6e420fe1049",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
