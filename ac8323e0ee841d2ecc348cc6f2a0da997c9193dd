@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8bf655bf_554cabf0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-07-29T20:59:21Z",
+      "side": 1,
+      "message": "Determined that:\n- umi global variants has two IMEIs anyway (lol)\n- Works fine, we expect dual SIM everywhere else in the device tree",
+      "revId": "ac8323e0ee841d2ecc348cc6f2a0da997c9193dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
