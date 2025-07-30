@@ -33,6 +33,23 @@
       "message": "Also for testing muppets - maybe you could provide a github CR to pick - because this is insane double work to test?",
       "revId": "16fd0db64adefc60841d7fd4519f135134dffaea",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9d3f87ad_806831de",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-07-30T17:32:13Z",
+      "side": 1,
+      "message": "Please add the build description here",
+      "revId": "16fd0db64adefc60841d7fd4519f135134dffaea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
