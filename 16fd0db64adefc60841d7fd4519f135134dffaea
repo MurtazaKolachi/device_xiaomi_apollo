@@ -35,6 +35,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6fd55226_6025cc9d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-07-30T17:54:38Z",
+      "side": 1,
+      "message": "Since we don\u0027t have the 23.0 branch yet, I added it here. Well, I’ve added it to my personal GitHub for testing. You can cherry-pick or revert some of the commits if needed, as I use them in my personal build.\n\nhttps://github.com/Khalvat-M/proprietary_vendor_xiaomi_sm8250-common/commits/lineage-23.0/",
+      "parentUuid": "d00ddfb2_a675f9c9",
+      "revId": "16fd0db64adefc60841d7fd4519f135134dffaea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9d3f87ad_806831de",
