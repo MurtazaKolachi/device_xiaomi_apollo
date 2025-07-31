@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca053d30_26593d4f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2025-07-31T20:24:40Z",
+      "side": 1,
+      "message": "Blobs seem to work - wfd casting tested on alioth and fiyapoo-cast2 wfd adapter. DRM protected buffers not verified/working - it could be my wfd adapter not supporting this.",
+      "revId": "6c310932260444ba66b052daaaa163ed814a3f38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
