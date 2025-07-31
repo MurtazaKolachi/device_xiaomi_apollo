@@ -122,6 +122,24 @@
       "parentUuid": "922a1646_9d076dec",
       "revId": "16fd0db64adefc60841d7fd4519f135134dffaea",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ca47d014_490532a5",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-07-31T14:48:48Z",
+      "side": 1,
+      "message": "One last thing: Place dada fingerprint before lmi one",
+      "parentUuid": "75572edf_348290fa",
+      "revId": "16fd0db64adefc60841d7fd4519f135134dffaea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
