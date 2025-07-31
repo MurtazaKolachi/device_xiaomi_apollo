@@ -330,7 +330,8 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlayDevice \
     LineageSDKOverlayDevice \
     SettingsOverlayDevice \
-    SystemUIOverlayDevice
+    SystemUIOverlayDevice \
+    Nfc
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
