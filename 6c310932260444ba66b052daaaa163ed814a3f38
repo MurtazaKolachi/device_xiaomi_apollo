@@ -16,6 +16,23 @@
       "message": "Blobs seem to work - wfd casting tested on alioth and fiyapoo-cast2 wfd adapter. DRM protected buffers not verified/working - it could be my wfd adapter not supporting this.",
       "revId": "6c310932260444ba66b052daaaa163ed814a3f38",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0078165d_c0efa1f2",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-08-04T06:33:51Z",
+      "side": 1,
+      "message": "```suggestion\n# dada: dada-user 16 BP2A.250605.015 OS2.0.217.0.WOCMIXM release-keys\n```",
+      "revId": "6c310932260444ba66b052daaaa163ed814a3f38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
