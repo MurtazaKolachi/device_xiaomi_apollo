@@ -33,6 +33,24 @@
       "message": "```suggestion\n# dada: dada-user 16 BP2A.250605.015 OS2.0.217.0.WOCMIXM release-keys\n```",
       "revId": "6c310932260444ba66b052daaaa163ed814a3f38",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "89455bb8_56d7fae2",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-08-04T10:24:08Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "0078165d_c0efa1f2",
+      "revId": "6c310932260444ba66b052daaaa163ed814a3f38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
