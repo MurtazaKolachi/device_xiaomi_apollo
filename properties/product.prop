@@ -1,2 +1,5 @@
+# Blur
+ro.sf.blurs_are_expensive=1
+
 # BPF
 ro.bpf.kver_override=5.10.239
