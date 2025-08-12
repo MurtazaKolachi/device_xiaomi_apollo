@@ -16,6 +16,24 @@
       "message": "keeping it on 23.0 will trigger build error\n\ndropping it on 22.2 fixes devices needing their own libinit, however breaks devices using common libinit",
       "revId": "475ada14423ad17b752861e2b61e7aee54531f38",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ece9694_f37d7bc5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-08-12T22:10:17Z",
+      "side": 1,
+      "message": "Just switch to soong_config_set for everything like other devices",
+      "parentUuid": "7723018a_1cd336f6",
+      "revId": "475ada14423ad17b752861e2b61e7aee54531f38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
