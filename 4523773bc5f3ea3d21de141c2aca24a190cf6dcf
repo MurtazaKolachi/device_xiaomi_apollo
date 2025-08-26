@@ -34,6 +34,24 @@
       "parentUuid": "6e991554_49f0a81b",
       "revId": "4523773bc5f3ea3d21de141c2aca24a190cf6dcf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73dfbf7e_00b13b06",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35551
+      },
+      "writtenOn": "2025-08-26T14:55:50Z",
+      "side": 1,
+      "message": "solved thanks , old extract util make it compile to 32bit, after sync with latest extract util changes it solved 64 bit liba",
+      "parentUuid": "b70295cc_2a80db7c",
+      "revId": "4523773bc5f3ea3d21de141c2aca24a190cf6dcf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
