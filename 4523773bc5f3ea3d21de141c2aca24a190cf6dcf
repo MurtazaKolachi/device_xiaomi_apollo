@@ -16,6 +16,24 @@
       "message": "why get architecture not supported in sm8250 devices\n\"libwfdservice\" of \"wfdservice\" missing variant:\n  os:android,arch:arm_armv8-a,link:shared\navailable variants:\n  os:android,arch:arm64_armv8-2a-dotprod,link:static\n  os:android,arch:arm64_armv8-2a-dotprod,link:shared",
       "revId": "4523773bc5f3ea3d21de141c2aca24a190cf6dcf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b70295cc_2a80db7c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-08-26T11:50:53Z",
+      "side": 1,
+      "message": "\u003earm64_armv8-2a-dotprod\n\nYou\u0027re not using LineageOS device trees",
+      "parentUuid": "6e991554_49f0a81b",
+      "revId": "4523773bc5f3ea3d21de141c2aca24a190cf6dcf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
