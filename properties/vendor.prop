@@ -249,6 +249,9 @@ persist.radio.VT_HYBRID_ENABLE=1
 # Keystore
 ro.hardware.keystore_desede=true
 
+# LMK
+ro.config.low_ram=false
+
 # mdm helper
 persist.vendor.mdm_helper.fail_action=retry
 
