@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b852ee0_0577503d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-10-28T20:07:13Z",
+      "side": 1,
+      "message": "...how are you making executable files by mistake?\n\nAlso a lot of these are no-op",
+      "revId": "8961cdd85a0a58ced5910a8b93212be759509171",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
