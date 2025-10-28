@@ -16,6 +16,24 @@
       "message": "Should be set to 26,26 now that CDMA/TDSCDMA is deprecated\nhttps://github.com/AOSPA/android_device_qcom_common/commit/a6d2add717e5c416b72c4003b95c69cabe7997d0",
       "revId": "5adebcd503d899b9c6079230f30c26fb104dcae0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64fda988_dec0261d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-10-28T23:48:43Z",
+      "side": 1,
+      "message": "Picked",
+      "parentUuid": "c616ff5e_86f4df0c",
+      "revId": "5adebcd503d899b9c6079230f30c26fb104dcae0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
