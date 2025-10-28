@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a8649c7_7dfa2b7a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-10-28T02:20:14Z",
+      "side": 1,
+      "message": "override can be done with this now\nhttps://review.lineageos.org/c/LineageOS/android_device_mainline_common/+/452860",
+      "revId": "7d08c6fa6c1ad51cdfc0a1f693d8e2a443a111b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
