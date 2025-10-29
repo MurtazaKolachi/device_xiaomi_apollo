@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "75115b5f_b912f525",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-10-29T21:42:35Z",
+      "side": 1,
+      "message": "I\u0027d split the actual refactor from the clang-formating.",
+      "revId": "73425c73aee87b0fa8fdcde962eb47aa1150c2f9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
