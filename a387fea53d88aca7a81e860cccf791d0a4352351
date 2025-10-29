@@ -1,0 +1,293 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7dba2bc7_d8d1e477",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T17:52:20Z",
+      "side": 1,
+      "message": "that being said, you should never blindly allow everything you see on auditd unless is actually required for the thing in question to work (e.g. IR Blaster).",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2a5aa827_f673d46c",
+        "filename": "sepolicy/private/adbroot.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T17:52:20Z",
+      "side": 1,
+      "message": "unwanted",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9e63deb6_0d70df99",
+        "filename": "sepolicy/private/kcmdlinectrl.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T17:52:20Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f7bbf318_6645b330",
+        "filename": "sepolicy/private/linkerconfig.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T17:52:20Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "89a14502_8f2a1c6d",
+        "filename": "sepolicy/private/misctrl.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T17:52:20Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "898fb7c8_1ae8b2ce",
+        "filename": "sepolicy/private/servicemanager.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T17:52:20Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ecf85c99_710ed0e7",
+        "filename": "sepolicy/private/vdc.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T17:52:20Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc6ffc4d_29b238a5",
+        "filename": "sepolicy/vendor/e2fs.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T17:52:20Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e895945f_417173e9",
+        "filename": "sepolicy/vendor/fsck.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T17:52:20Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a781d37_cddfc124",
+        "filename": "sepolicy/vendor/hal_power_default.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T17:52:20Z",
+      "side": 1,
+      "message": "why?",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e141d402_ad059bbc",
+        "filename": "sepolicy/vendor/hal_thermal_default.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T17:52:20Z",
+      "side": 1,
+      "message": "why?",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "566abb80_8549ea52",
+        "filename": "sepolicy/vendor/init.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T17:52:20Z",
+      "side": 1,
+      "message": "Already defined on `device/qcom/sepolicy_vndr/legacy-um/generic/vendor/common/init.te`",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2155a568_911db4aa",
+        "filename": "sepolicy/vendor/kernel.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T17:52:20Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4882dba0_4bd12dee",
+        "filename": "sepolicy/vendor/mediaserver.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T17:52:20Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc8924d0_0eb6ec80",
+        "filename": "sepolicy/vendor/priv_app.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T17:52:20Z",
+      "side": 1,
+      "message": "That\u0027s bad to begin with.",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c2190bdf_1ba40fd6",
+        "filename": "sepolicy/vendor/system_app.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T17:52:20Z",
+      "side": 1,
+      "message": "That\u0027s bad to begin with.",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc902a69_2cf573e0",
+        "filename": "sepolicy/vendor/vendor_qti_init_shell.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T17:52:20Z",
+      "side": 1,
+      "message": "double check the init scripts.",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
