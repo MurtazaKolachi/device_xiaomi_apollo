@@ -29,7 +29,7 @@ void search_variant(const std::vector<variant_info>& variants) {
     }
 }
 
-void set_variant_props(const variant_info variant) {
+void set_variant_props(const variant_info& variant) {
     // Older devices don't have marketname
     auto marketname = !variant.marketname.empty() ? variant.marketname : variant.model;
 
@@ -48,5 +48,7 @@ void set_variant_props(const variant_info variant) {
                           fingerprint_to_description(variant.build_fingerprint));
     }
 
-    if (variant.nfc) property_override(SKU_PROP, "nfc");
+    if (variant.nfc) {
+        property_override(SKU_PROP, "nfc");
+    }
 }
