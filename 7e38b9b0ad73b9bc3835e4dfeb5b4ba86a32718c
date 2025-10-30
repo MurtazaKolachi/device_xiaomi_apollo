@@ -22,6 +22,30 @@
       },
       "revId": "7e38b9b0ad73b9bc3835e4dfeb5b4ba86a32718c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86eee6eb_c891fa3a",
+        "filename": "libinit/libinit_variant.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-10-30T22:18:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6b547091_2dbaf353",
+      "range": {
+        "startLine": 32,
+        "startChar": 41,
+        "endLine": 32,
+        "endChar": 42
+      },
+      "revId": "7e38b9b0ad73b9bc3835e4dfeb5b4ba86a32718c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
