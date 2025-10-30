@@ -18,6 +18,23 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3658028a_30cdfe1d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-10-30T13:39:10Z",
+      "side": 1,
+      "message": "Thank you for reviewing and for your feedback. As you mentioned, it seems this patch is not necessary. I will abandon this change, and we can restore the relevant parts later if needed.",
+      "revId": "a387fea53d88aca7a81e860cccf791d0a4352351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2a5aa827_f673d46c",
