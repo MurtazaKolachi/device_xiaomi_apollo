@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6b547091_2dbaf353",
+        "filename": "libinit/libinit_variant.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-10-30T21:32:06Z",
+      "side": 1,
+      "message": "doesn\u0027t belong to this change.",
+      "range": {
+        "startLine": 32,
+        "startChar": 41,
+        "endLine": 32,
+        "endChar": 42
+      },
+      "revId": "7e38b9b0ad73b9bc3835e4dfeb5b4ba86a32718c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
