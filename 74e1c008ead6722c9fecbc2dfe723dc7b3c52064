@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1859a0f8_52d9f830",
+        "filename": "resource-overlay/LineageSDK/AndroidManifest.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2025-11-15T09:19:54Z",
+      "side": 1,
+      "message": "Should this not be 150?",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 38
+      },
+      "revId": "74e1c008ead6722c9fecbc2dfe723dc7b3c52064",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
