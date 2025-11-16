@@ -16,6 +16,24 @@
       "message": "are you able to reproduce this issue or are you blindly picking this change?",
       "revId": "bb1c3793af86ea8fb0a4bebd58d913c8fadac93e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a547a43_ae1c91c3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-11-16T16:05:44Z",
+      "side": 1,
+      "message": "We have two issues here: First, during calls, the sound sometimes switches to the speaker. Second, the ringtone doesn\u0027t play through Bluetooth during calls. I haven’t tested this patch yet, but since it addresses the exact same issue, I added it to try",
+      "parentUuid": "5bd5b1cd_e9963636",
+      "revId": "bb1c3793af86ea8fb0a4bebd58d913c8fadac93e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
