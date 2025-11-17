@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "99c72252_33387507",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-11-17T16:18:35Z",
+      "side": 1,
+      "message": "...why is everything under `resource-overlay`? The original change used `rro_overlays`",
+      "revId": "74756821b94b1af99b3d5ca89c832f6bdd373296",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
