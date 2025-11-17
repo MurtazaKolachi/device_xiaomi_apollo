@@ -22,6 +22,30 @@
       },
       "revId": "74e1c008ead6722c9fecbc2dfe723dc7b3c52064",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3865193c_63ca8ad6",
+        "filename": "resource-overlay/LineageSDK/AndroidManifest.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-11-17T03:40:10Z",
+      "side": 1,
+      "message": "I kept them exactly as you had set them, but 150 is correct",
+      "parentUuid": "1859a0f8_52d9f830",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 38
+      },
+      "revId": "74e1c008ead6722c9fecbc2dfe723dc7b3c52064",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
