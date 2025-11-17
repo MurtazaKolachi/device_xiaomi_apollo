@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "679f1ca7_401df0ca",
+        "filename": "rro_overlays/Frameworks/res/values/config.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2025-11-17T21:12:23Z",
+      "side": 1,
+      "message": "Why does this suddenly become LineageOS copyright?",
+      "range": {
+        "startLine": 3,
+        "startChar": 33,
+        "endLine": 3,
+        "endChar": 42
+      },
+      "revId": "32123d063278b5b0edb3e726d2c6c0035e7a982b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
