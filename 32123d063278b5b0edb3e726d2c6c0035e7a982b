@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a443ce38_8d059409",
+        "filename": "rro_overlays/Frameworks/res/values/config.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2025-11-17T22:55:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "679f1ca7_401df0ca",
+      "range": {
+        "startLine": 3,
+        "startChar": 33,
+        "endLine": 3,
+        "endChar": 42
+      },
+      "revId": "32123d063278b5b0edb3e726d2c6c0035e7a982b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a29d70f4_2223b54b",
@@ -37,6 +61,24 @@
       "writtenOn": "2025-11-17T21:16:58Z",
       "side": 1,
       "message": "This is also not being followed, from where has the names been copied? The folders must follow the module nae as well",
+      "revId": "32123d063278b5b0edb3e726d2c6c0035e7a982b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1fa2dec_61aea048",
+        "filename": "rro_overlays/README.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2025-11-17T22:55:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a29d70f4_2223b54b",
       "revId": "32123d063278b5b0edb3e726d2c6c0035e7a982b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
