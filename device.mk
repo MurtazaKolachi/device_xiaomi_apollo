@@ -317,7 +317,8 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlayDevice \
     LineageSDKOverlayDevice \
     SettingsOverlayDevice \
-    SystemUIOverlayDevice
+    SystemUIOverlayDevice \
+    EvolutionUpdaterOverlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
