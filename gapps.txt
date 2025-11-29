@@ -13,11 +13,17 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # EvolutionX Flags
 TARGET_BOOT_ANIMATION_RES := 1080
-WITH_GMS := false
-BUILD_BCR := false
+WITH_GMS := true
+TARGET_USES_MINI_GAPPS := true
+BUILD_BCR := true
 TARGET_ENABLE_BLUR := true
-TARGET_DISABLE_EPPE := true
 TARGET_INCLUDE_ACCORD := false
+
+ifeq ($(TARGET_USES_MINI_GAPPS),true)
+PRODUCT_PACKAGES += \
+    TurboAdapter
+endif
+TARGET_DISABLE_EPPE := true
 
 # Inherit from apollo device
 $(call inherit-product, device/xiaomi/apollo/device.mk)
@@ -33,6 +39,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="apollo_global-user 12 RKQ1.211001.001 V14.0.4.0.SJDMIXM release-keys" \
     BuildFingerprint=Xiaomi/apollo_global/apollo:12/RKQ1.211001.001/V14.0.4.0.SJDMIXM:user/release-keys
-
-# Keys
--include vendor/lineage-priv/keys/keys.mk
