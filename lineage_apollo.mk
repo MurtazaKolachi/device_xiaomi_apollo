@@ -11,6 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# EvolutionX Flags
+TARGET_BOOT_ANIMATION_RES := 1080
+WITH_GMS := false
+BUILD_BCR := false
+TARGET_ENABLE_BLUR := true
+TARGET_DISABLE_EPPE := true
+TARGET_INCLUDE_ACCORD := false
+
 # Inherit from apollo device
 $(call inherit-product, device/xiaomi/apollo/device.mk)
 
