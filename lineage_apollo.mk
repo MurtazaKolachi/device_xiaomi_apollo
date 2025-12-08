@@ -14,6 +14,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from apollo device
 $(call inherit-product, device/xiaomi/apollo/device.mk)
 
+TARGET_ENABLE_BLUR := true
+# AviumUI Specific Flags
+AVIUM_BUILDTYPE := Unoffical
+AVIUM_VERSION_APPEND_TIME_OF_DAY := false
+WITH_GMS := false
+# TARGET_GMS_TYPE := MINI
+AVIUM_MAINTAINER := Murtaza_Kolachi
+
 PRODUCT_NAME := lineage_apollo
 PRODUCT_DEVICE := apollo
 PRODUCT_MANUFACTURER := Xiaomi
