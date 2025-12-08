@@ -165,6 +165,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service
 
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,144)
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
+
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
@@ -318,7 +321,8 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlayDevice \
     LineageSDKOverlayDevice \
     SettingsOverlayDevice \
-    SystemUIOverlayDevice
+    SystemUIOverlayDevice \
+    LunarisUpdaterOverlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
