@@ -246,6 +246,10 @@ ro.hardware.keystore_desede=true
 # mdm helper
 persist.vendor.mdm_helper.fail_action=retry
 
+# Logging
+persist.log.tag.WifiHAL=S
+persist.log.tag.WifiStaIfaceAidlImpl=S
+
 # Media
 debug.stagefright.c2inputsurface=-1
 ro.odm.build.media_performance_class=30
