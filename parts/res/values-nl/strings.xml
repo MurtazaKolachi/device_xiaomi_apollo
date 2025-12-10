@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Speaker schoonmaken</string>
+    <string name="clear_speaker_summary">Speel een 30 seconden durend audiofragment af om de speaker schoon te maken</string>
+    <string name="clear_speaker_description">Gebruik deze functie een- of tweemaal wanneer uw speaker door wat stof geblokkeerd wordt. Zet het volume op maximum.\n\Wanneer de speaker volledig geblokkeerd wordt, gebruik dan deze functie 2 tot 5 keer terwijl u het apparaat schudt met de speaker naar beneden gericht.</string>
+    <string name="thermal_title">Optimalisatie profiel</string>
+    <string name="thermal_summary">Afzonderlijke app-profielen instellen voor optimale prestaties</string>
+    <string name="thermal_default">Niet optimaliseren</string>
+    <string name="thermal_benchmark">Prestatie</string>
+    <string name="thermal_browser">Browser</string>
+    <string name="thermal_camera">Camera</string>
+    <string name="thermal_dialer">Telefoon</string>
+    <string name="thermal_gaming">Games</string>
+    <string name="thermal_streaming">Streaming-applicaties</string>
+    <string name="refresh_rate_tile_title">Vernieuwingsfrequentie</string>
+    <string name="touch_control_title">Optimalisaties aanraakscherm</string>
+    <string name="touch_game_mode_title">Activeer game-mode</string>
+    <string name="touch_game_mode_summary">Helpt om de game-ervaring te verbeteren door het aanraakscherm te optimaliseren</string>
+    <string name="touch_response_title">Aanraakreactie</string>
+    <string name="touch_response_summary">Regelt de aanraakreactie</string>
+    <string name="touch_sensitivity_title">Aanraakgevoeligheid</string>
+    <string name="touch_sensitivity_summary">Regelt de gevoeligheid van herhaalde aanrakingen</string>
+    <string name="touch_resistant_title">Aanraakgebied</string>
+    <string name="touch_resistant_summary">Vermindert de gevoeligheid nabij de randen om toevallige aanrakingen te voorkomen</string>
+    <string name="refresh_title">Verversingssnelheid per app</string>
+    <string name="refresh_summary">Stel een specifieke verversingssnelheid in voor elke app</string>
+    <string name="refresh_default">Standaard</string>
+    <string name="refresh_medium">Medium (60Hz)</string>
+    <string name="refresh_high">Hoog (90Hz)</string>
+    <string name="refresh_extreme">Extreem (120Hz)</string>
+</resources>

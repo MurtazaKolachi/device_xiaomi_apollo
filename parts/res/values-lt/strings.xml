@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Garsiakalbio valymas</string>
+    <string name="clear_speaker_summary">Leiskite 30 sekundžių garsą, kad išvalytumėte garsiakalbį</string>
+    <string name="clear_speaker_description">aleiskite šią funkciją vieną ar du kartus, jei pastebėsite, kad jūsų garsiakalbis yra šiek tiek užsiteršes. Nustatykite maksimalų medijos garsumą.\n\nJei garsiakalbis labai užsiteršes, paleiskite šią funkciją 2–5 kartus purtydami įrenginį garsiakalbiu žemyn.</string>
+    <string name="thermal_title">Optimizavimo profilis</string>
+    <string name="thermal_summary">Norėdami optimaliausio našumo, sureguliuokite kiekvienos programos profilius</string>
+    <string name="thermal_default">Nėra optimizavimo</string>
+    <string name="thermal_benchmark">Našumas</string>
+    <string name="thermal_browser">Naršyklė</string>
+    <string name="thermal_camera">Fotoaparatas</string>
+    <string name="thermal_dialer">Rinkiklis</string>
+    <string name="thermal_gaming">Žaidimai</string>
+    <string name="thermal_streaming">Srautinės programos</string>
+    <string name="refresh_rate_tile_title">Atnaujinimo dažnis </string>
+    <string name="touch_control_title">Jutiklinio ekrano optimizavimas</string>
+    <string name="touch_game_mode_title">įjungti žaidimo režimą</string>
+    <string name="touch_game_mode_summary">Padeda pagerinti žaidimų patirtį optimizuojant jutiklinį ekraną</string>
+    <string name="touch_response_title">prisilietimo atsakas</string>
+    <string name="touch_response_summary">Valdo reakciją į prisilietimą</string>
+    <string name="touch_sensitivity_title">Lietimo jautrumas</string>
+    <string name="touch_sensitivity_summary">Valdo pasikartojančių bakstelėjimų jautrumą</string>
+    <string name="touch_resistant_title">lietimui atspari sritis</string>
+    <string name="touch_resistant_summary">Sumažina jautrumą šalia kraštų, kad būtų išvengta atsitiktinio prisilietimo</string>
+    <string name="refresh_title">Programos atnaujinimo dažnis</string>
+    <string name="refresh_summary">Kiekvienai programai nustatykite konkretų atnaujinimo dažnį</string>
+    <string name="refresh_default">Numatytieji</string>
+    <string name="refresh_medium">Vidutinis (60 Hz)</string>
+    <string name="refresh_high">Aukštas (90 Hz)</string>
+    <string name="refresh_extreme">Ekstremalus (120 Hz)</string>
+</resources>

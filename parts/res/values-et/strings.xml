@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Kõlari puhastamine</string>
+    <string name="clear_speaker_summary">Kõlari puhastamiseks esitada 30 sekundiline siknaal</string>
+    <string name="clear_speaker_description">Käivitage see funktsioon üks või kaks korda, kui leiate, et kõlar on määrdunud. Seadke helitugevus maksimaalseks. \n\nKui kõlar on tugevalt määrdunud, käivitage funktsiooni 2–5 korda, raputades samal ajal seadet, kõlar allapoole. </string>
+    <string name="thermal_title">Optimeerimise profiil</string>
+    <string name="thermal_summary">Reguleerige profiile rakenduse optimaalse jõudluse saavutamiseks</string>
+    <string name="thermal_default">Optimeeritud puudub</string>
+    <string name="thermal_benchmark">Jõudlus</string>
+    <string name="thermal_browser">Veebilehitseja</string>
+    <string name="thermal_camera">Kaamera</string>
+    <string name="thermal_dialer">Valija</string>
+    <string name="thermal_gaming">Mängud</string>
+    <string name="thermal_streaming">Rakenduste voogesitus</string>
+    <string name="refresh_rate_tile_title">Värskendamise tihedus</string>
+    <string name="touch_control_title">Puutetundliku ekraani optimeerimine</string>
+    <string name="touch_game_mode_title">Luba mängurežiim</string>
+    <string name="touch_game_mode_summary">Aitab puutetundliku ekraani optimeerimise kaudu parandada mängukogemust </string>
+    <string name="touch_response_title">Anduri vastus</string>
+    <string name="touch_response_summary">Juhib puutetundlikku reageerimist</string>
+    <string name="touch_sensitivity_title">Puutetundlikkus</string>
+    <string name="touch_sensitivity_summary">Kontrollib tundlikkust korduvate puudutuste korral</string>
+    <string name="touch_resistant_title">Puutekindel ala</string>
+    <string name="touch_resistant_summary">Vähendab tundlikkust servade lähedal, et vältida juhuslikke puudutusi </string>
+    <string name="refresh_title">Rakenduste värskendamise sagedus</string>
+    <string name="refresh_summary">Määrake iga rakenduse jaoks konkreetne värskendussagedus</string>
+    <string name="refresh_default">Vaikeseade</string>
+    <string name="refresh_medium">Keskmine (60Hz)</string>
+    <string name="refresh_high">Kõrge (90Hz)</string>
+    <string name="refresh_extreme">Äärmuslik (120Hz)</string>
+</resources>

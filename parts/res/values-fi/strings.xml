@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Puhdista kaiutin</string>
+    <string name="clear_speaker_summary">Toista 30 sekuntia ääntä puhdistaaksesi kaiuttimen.</string>
+    <string name="clear_speaker_description">Käytä tätä toimintoa muutaman kerran, jos kaijutin on pölyssä tai tukossa. Aseta volyymi maksimiin \n\n jos kaijutin on tukossa pahasti, niin toista tämä monta kertaa ravistaen kaijutin alaspäin.</string>
+    <string name="thermal_title">Optimointi profiili</string>
+    <string name="thermal_summary">Säädä ohjelmakohtasia profiileja optimaaliselle suorituskyvylle</string>
+    <string name="thermal_default">Ei optimointia</string>
+    <string name="thermal_benchmark">Suorituskyky</string>
+    <string name="thermal_browser">Selain</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_dialer">Puhelin</string>
+    <string name="thermal_gaming">Pelit</string>
+    <string name="thermal_streaming">Suoratoistosovellukset</string>
+    <string name="refresh_rate_tile_title">Virkistystaajuus</string>
+    <string name="touch_control_title">Kosketusnäytön optimoinnit</string>
+    <string name="touch_game_mode_title">Ota pelitila käyttöön</string>
+    <string name="touch_game_mode_summary">Auttaa parantamaan pelikokemusta optimoimalla kosketusnäyttöä</string>
+    <string name="touch_response_title">Kosketusherkkyys</string>
+    <string name="touch_response_summary">Kontrolloi kosketusherkkyyttä</string>
+    <string name="touch_sensitivity_title">Kosketusherkkyys</string>
+    <string name="touch_sensitivity_summary">Kontrolloi toistettavien näpäytysten herkkyyttä</string>
+    <string name="touch_resistant_title">Kosketusta vastustava alue </string>
+    <string name="touch_resistant_summary">Vähentää lähellä reunaa tapahtuvia vahinko kosketuksia</string>
+    <string name="refresh_title">Sovelluskohtainen virkistystaajuus</string>
+    <string name="refresh_summary">Aseta tietty virkistystaajuus sovelluskohtaisesti</string>
+    <string name="refresh_default">Oletus</string>
+    <string name="refresh_medium">Keskitaso (60Hz)</string>
+    <string name="refresh_high">Korkea (90Hz)</string>
+    <string name="refresh_extreme">Extreme (120Hz)</string>
+</resources>

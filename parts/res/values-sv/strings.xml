@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Rensa högtalare</string>
+    <string name="clear_speaker_summary">Spela ett 30 sekunders ljudklipp för att rensa högtalaren</string>
+    <string name="clear_speaker_description">Kör denna funktion en eller två gånger ifall du finner att din högtalare är täckt av damm. Sätt mediavolym till max.\n\nOm högtalaren är kraftigt blockerad, kör denna funktion 2-5 gånger medan du skakar din enhet med högtalaren riktad nedåt.</string>
+    <string name="thermal_title">Optimerings profil</string>
+    <string name="thermal_summary">Justera per-applikation profiler för optimal prestanda</string>
+    <string name="thermal_default">Ingen optimering</string>
+    <string name="thermal_benchmark">Prestanda</string>
+    <string name="thermal_browser">Bläddrare</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_dialer">Uppringare</string>
+    <string name="thermal_gaming">Spel</string>
+    <string name="thermal_streaming">Streaming applikationer</string>
+    <string name="refresh_rate_tile_title">Uppdateringsfrekvens</string>
+    <string name="touch_control_title">Optimering utav tryckskärm</string>
+    <string name="touch_game_mode_title">Aktivera spelläge</string>
+    <string name="touch_game_mode_summary">Hjälper till att förbättra spelupplevelsen genom att optimera tryckskärmen</string>
+    <string name="touch_response_title">Tryckåtergivning</string>
+    <string name="touch_response_summary">Styr tryckåtergivning</string>
+    <string name="touch_sensitivity_title">Tryckkänslighet</string>
+    <string name="touch_sensitivity_summary">Styr känsligheten för upprepade tryck</string>
+    <string name="touch_resistant_title">Tryck-tåligt område</string>
+    <string name="touch_resistant_summary">Justerar känsligheten nära kanterna för att förhindra oavsiktliga tryck</string>
+    <string name="refresh_title">Individuell uppdateringsfrekvens per app</string>
+    <string name="refresh_summary">Ställ in en individuell uppdateringsfrekvens för varje app</string>
+    <string name="refresh_default">Standardinställning</string>
+    <string name="refresh_medium">Medium (60Hz)</string>
+    <string name="refresh_high">Hög (90Hz)</string>
+    <string name="refresh_extreme">Extrem (120Hz)</string>
+</resources>

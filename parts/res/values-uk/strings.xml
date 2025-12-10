@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Очистка динаміка</string>
+    <string name="clear_speaker_summary">Відтворення 30-секундного аудіо для очищення динаміка</string>
+    <string name="clear_speaker_description">Запустіть цю функцію раз або двічі, якщо ви помітите, що ваш динамік трохи засмітився. Встановіть максимальну гучність.\n\nЯкщо динамік засмітився сильно, запустіть цю функцію 2-5 разів, потрушуючи ваш пристрій направлений динаміком вниз.</string>
+    <string name="thermal_title">Профіль оптимізації</string>
+    <string name="thermal_summary">Налаштуйте профілі для кожного додатку для оптимальної продуктивності</string>
+    <string name="thermal_default">Без оптимізації</string>
+    <string name="thermal_benchmark">Швидкодія</string>
+    <string name="thermal_browser">Браузер</string>
+    <string name="thermal_camera">Камера</string>
+    <string name="thermal_dialer">Набір номеру</string>
+    <string name="thermal_gaming">Ігри</string>
+    <string name="thermal_streaming">Потокові додатки</string>
+    <string name="refresh_rate_tile_title">Частота оновлення</string>
+    <string name="touch_control_title">Оптимізація сенсорного екрану</string>
+    <string name="touch_game_mode_title">Ввімкнути режим ігри</string>
+    <string name="touch_game_mode_summary">Допомагає удосконалити опит ігри за допомогою оптимізації сенсорного екрану</string>
+    <string name="touch_response_title">Відчуття жестів</string>
+    <string name="touch_response_summary">Настройка відчуття єкрану</string>
+    <string name="touch_sensitivity_title">Чутливість єкрану</string>
+    <string name="touch_sensitivity_summary">Контролює чутливість при повторюваних натисканнях</string>
+    <string name="touch_resistant_title">Стійкі до натиснень області</string>
+    <string name="touch_resistant_summary">Знижує чутливість по краях для запобігання випадкових натиснень</string>
+    <string name="refresh_title">Частота оновлення для кожного додатка</string>
+    <string name="refresh_summary">Встановіть певну частоту оновлення для кожного додатка</string>
+    <string name="refresh_default">Типово</string>
+    <string name="refresh_medium">Середній (60Гц)</string>
+    <string name="refresh_high">Високий (90Гц)</string>
+    <string name="refresh_extreme">Екстремальний (120Гц)</string>
+</resources>

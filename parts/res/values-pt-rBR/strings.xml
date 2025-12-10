@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Limpar alto-falante</string>
+    <string name="clear_speaker_summary">Tocar um som de 30 segundos para limpar o alto-falante</string>
+    <string name="clear_speaker_description">Execute esse recurso uma ou duas vezes se o alto-falante estiver bloqueado por sujeira ou água. Você deve ajustar o volume de mídia para o máximo.\n\nSe o alto-falante estiver muito bloqueado, execute este recurso 2 a 5 vezes enquanto agita seu dispositivo com o alto-falante voltado para baixo.</string>
+    <string name="thermal_title">Perfil de otimização</string>
+    <string name="thermal_summary">Ajuste de perfil de cada aplicativo para melhor desempenho</string>
+    <string name="thermal_default">Não otimizar</string>
+    <string name="thermal_benchmark">Desempenho</string>
+    <string name="thermal_browser">Navegador</string>
+    <string name="thermal_camera">Câmera</string>
+    <string name="thermal_dialer">Discador</string>
+    <string name="thermal_gaming">Jogos</string>
+    <string name="thermal_streaming">Aplicativos de transmissão</string>
+    <string name="refresh_rate_tile_title">Taxa de atualização</string>
+    <string name="touch_control_title">Otimizações da tela de toque</string>
+    <string name="touch_game_mode_title">Ativar modo jogo</string>
+    <string name="touch_game_mode_summary">Ajuda a melhorar a experiência em jogos otimizando a tela de toque</string>
+    <string name="touch_response_title">Resposta de toque</string>
+    <string name="touch_response_summary">Controlar a resposta de toque</string>
+    <string name="touch_sensitivity_title">Sensibilidade do toque</string>
+    <string name="touch_sensitivity_summary">Controla a sensibilidade para toques repetidos</string>
+    <string name="touch_resistant_title">Área resistente a toques</string>
+    <string name="touch_resistant_summary">Reduz a sensibilidade perto das bordas para evitar toques acidentais</string>
+    <string name="refresh_title">Taxa de atualização por aplicativo</string>
+    <string name="refresh_summary">Usar uma taxa de atualização específica para cada aplicativo</string>
+    <string name="refresh_default">Padrão</string>
+    <string name="refresh_medium">Média (60Hz)</string>
+    <string name="refresh_high">Alta (90Hz)</string>
+    <string name="refresh_extreme">Extrema (120Hz)</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Hangszórótisztítás</string>
+    <string name="clear_speaker_summary">Tisztítás egy 30 pásodperces hang lejátszásával</string>
+    <string name="clear_speaker_description">Futtassa ezt a funkciót egyszer vagy kétszer ha úgy gondolja hangszórója beporosodott. Állítsa a hangerőt maximumra.\n\nHa nagyon poros, akkor 3-5 alkalommal végezzen tisztítást de közben a készüléket is erősen rázza meg, hangszóróval lefelé.</string>
+    <string name="thermal_title">Optimalizálásprofilok</string>
+    <string name="thermal_summary">Alkalmazásonkét állíthatja be a profilokat az optimális teljesítmény érdekében</string>
+    <string name="thermal_default">Nincs optimalizálás</string>
+    <string name="thermal_benchmark">Teljesítménycentrikus</string>
+    <string name="thermal_browser">Böngészéshez</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_dialer">Tárcsázóhoz</string>
+    <string name="thermal_gaming">Játékokhoz</string>
+    <string name="thermal_streaming">Sztreamelő alkalmazáshoz</string>
+    <string name="refresh_rate_tile_title">Képernyőfrissítési érték</string>
+    <string name="touch_control_title">Az Érintőképernyő optimalizálása</string>
+    <string name="touch_game_mode_title">A játékmód engedélyezése</string>
+    <string name="touch_game_mode_summary">Az érintőpanel optimalizálásával segít javítani a játékélményt</string>
+    <string name="touch_response_title">Érintési reakció</string>
+    <string name="touch_response_summary">Itt szabályozható az érintési reakció</string>
+    <string name="touch_sensitivity_title">Érintési érzékenység</string>
+    <string name="touch_sensitivity_summary">Az ismétlődő éintések érzékenységét kontrollálja</string>
+    <string name="touch_resistant_title">Az érintés-érzékeny terület</string>
+    <string name="touch_resistant_summary">Csökkenti az érzékenységet a széleken, hogy megakadályozza a véletlen érintéseket</string>
+    <string name="refresh_title">Alkalmazásonkénti képernyőfrissítés</string>
+    <string name="refresh_summary">Minden alkalmazáshoz külön beállítható egyéni érték</string>
+    <string name="refresh_default">Alapértelmezett</string>
+    <string name="refresh_medium">Közepes (60Hz)</string>
+    <string name="refresh_high">Magas (90Hz)</string>
+    <string name="refresh_extreme">Extrém (120Hz)</string>
+</resources>

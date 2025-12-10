@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">স্পিকার সাফ করুন</string>
+    <string name="clear_speaker_summary">স্পিকারটি সাফ করতে 30 সেকেন্ডের একটি অডিও বাজান</string>
+    <string name="clear_speaker_description">এই বৈশিষ্ট্যটি এক অথবা দুবার চালান যদি আপনি দেখেন যে স্পিকারটি ধুলোয় হালকাভাবে অবরুদ্ধ আছে। মিডিয়া ভলিউম সর্বোচ্চ স্তরে সেট করুন।\n\n যদি স্পিকারটি খুবই অবরুদ্ধ থাকে তবে এই বৈশিষ্ট্যটি 2-5 বার চালান এবং স্পিকারটি নীচের দিকে মুখ করে ফোনটি ঝাড়তে থাকুন।</string>
+    <string name="thermal_title">অপ্টিমাইজেশন প্রোফাইল</string>
+    <string name="thermal_summary">সর্বোত্তম পারফরম্যান্সের জন্য প্রতিটি অ্যাপ্লিকেশনের প্রোফাইলগুলি অ্যাডজাস্ট করুন</string>
+    <string name="thermal_default">কোনও অপ্টিমাইজেশন নেই</string>
+    <string name="thermal_benchmark">পারফরম্যান্স</string>
+    <string name="thermal_browser">ব্রাউজার</string>
+    <string name="thermal_camera">ক্যামেরা</string>
+    <string name="thermal_dialer">ডায়ালার</string>
+    <string name="thermal_gaming">গেমস</string>
+    <string name="thermal_streaming">স্ট্রিমিং অ্যাপ্লিকেশনগুলি</string>
+    <string name="refresh_rate_tile_title">রিফ্রেশ রেট</string>
+    <string name="touch_control_title">টাচ স্ক্রিন অপ্টিমাইজেশন</string>
+    <string name="touch_game_mode_title">গেম মোড চালু করুন</string>
+    <string name="touch_game_mode_summary">টাচ স্ক্রিনটি অপটিমাইজ করে গেমিংয়ের অভিজ্ঞতা উন্নত করতে সহায়তা করে</string>
+    <string name="touch_response_title">টাচ রেসপন্স</string>
+    <string name="touch_response_summary">টাচ রেসপন্স নিয়ন্ত্রণ করে</string>
+    <string name="touch_sensitivity_title">টাচ সেনসিটিভিটি</string>
+    <string name="touch_sensitivity_summary">বারবার ট্যাপ করার সেনসিটিভিটি নিয়ন্ত্রণ করে</string>
+    <string name="touch_resistant_title">টাচ-রেজিস্ট্যান্ট অঞ্চল</string>
+    <string name="touch_resistant_summary">দুর্ঘটনাজনিত টাচ প্রতিরোধ করতে প্রান্তগুলির সেনসিটিভিটি কমায়</string>
+    <string name="refresh_default">ডিফল্ট</string>
+</resources>

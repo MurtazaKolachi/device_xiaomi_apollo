@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Åpne høyttaleren</string>
+    <string name="clear_speaker_summary">Spill av et 30-sekunders lydklipp for å åpne høyttaleren</string>
+    <string name="clear_speaker_description">Bruk denne funksjonen en gang eller to dersom du finner ut at høyttaleren har blitt blokkert av rusk. Sett medievolum til høyeste nivå.\n\nDersom blokkeringen er kraftig, bruk funksjonen to–fem ganger og rist samtidig enheten med høyttaleren vendt nedover.</string>
+    <string name="thermal_title">Optimaliseringsprofiler</string>
+    <string name="thermal_summary">Juster profiler for enkeltapper for optimal ytelse</string>
+    <string name="thermal_default">Ingen optimalisering</string>
+    <string name="thermal_benchmark">Ytelse</string>
+    <string name="thermal_browser">Nettleser</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_dialer">Telefon</string>
+    <string name="thermal_gaming">Spill</string>
+    <string name="thermal_streaming">Strømmeapplikasjoner</string>
+    <string name="refresh_rate_tile_title">Oppdateringsintervall</string>
+    <string name="touch_control_title">Berøringsskjerm-optimaliseringer</string>
+    <string name="touch_game_mode_title">Aktiver spillmodus</string>
+    <string name="touch_game_mode_summary">Hjelper til å forbedre spilloplevelsen ved å optimalisere berøringsskjermen</string>
+    <string name="touch_response_title">Berøringsrespons</string>
+    <string name="touch_response_summary">Styrer berøringsresponsen</string>
+    <string name="touch_sensitivity_title">Berøringsfølsomhet</string>
+    <string name="touch_sensitivity_summary">Styrer følsomheten for gjentatte trykk</string>
+    <string name="touch_resistant_title">Berøringsbestandig område</string>
+    <string name="touch_resistant_summary">Reduserer følsomhet nær kantene for å forhindre utilsiktede trykk</string>
+    <string name="refresh_default">Standard</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Linisin ang speaker</string>
+    <string name="clear_speaker_summary">Magpatunog ng 30-segundong tunog para ma-linis ang speaker</string>
+    <string name="clear_speaker_description">Gamitin ang feature na ito ng isa o dalawang beses kung ang speaker ay may konting dumi. I-todo ang media volume. \n\nKapag ang speaker ay talagang barado, gamitin ang feature na ito ng dalawa hanggang limang beses habang inaalog ang device nang nakatapat sa baba ang speakers.</string>
+    <string name="thermal_title">Optimization profile</string>
+    <string name="thermal_summary">Adjust per-app profiles for optimum performance</string>
+    <string name="thermal_default">Walang optimization</string>
+    <string name="thermal_benchmark">Performance</string>
+    <string name="thermal_browser">Browser</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_dialer">Dialer</string>
+    <string name="thermal_gaming">Mga Laro</string>
+    <string name="thermal_streaming">Streaming applications</string>
+    <string name="refresh_rate_tile_title">Refresh Rate</string>
+    <string name="touch_control_title">Touch screen optimizations</string>
+    <string name="touch_game_mode_title">Paganahin ang game mode</string>
+    <string name="touch_game_mode_summary">Tumutulong sa paglalaro sa pamamagitan ng pag-optimize ng touch screen</string>
+    <string name="touch_response_title">Touch response</string>
+    <string name="touch_response_summary">Controls touch response</string>
+    <string name="touch_sensitivity_title">Touch sensitivity</string>
+    <string name="touch_sensitivity_summary">Kino-kontrol ang sensitivity sa paulit-ulit na mga pindot</string>
+    <string name="touch_resistant_title">Touch-resistant na lugar</string>
+    <string name="touch_resistant_summary">Binababaan ang sensitivity sa mga dulo upang mapigilan ang aksidenteng mga pindot</string>
+    <string name="refresh_title">Refresh rate kada-app</string>
+    <string name="refresh_summary">Pumili ng partikular na refresh rate para sa bawat appication</string>
+    <string name="refresh_default">Default</string>
+    <string name="refresh_medium">Katamtaman (60Hz)</string>
+    <string name="refresh_high">Mabilis (90Hz)</string>
+    <string name="refresh_extreme">Mas mabilis (120Hz)</string>
+</resources>

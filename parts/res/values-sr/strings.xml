@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Очисти звучник</string>
+    <string name="clear_speaker_summary">Пусти аудио од 30 секунди да би очистили звучник</string>
+    <string name="clear_speaker_description">Поновити ову радњу ако откријете да прашина помало гуши звучник. Подесите јачина звука на максимум.\n\nАко прашина тешко гуши звучник, извршити ову радњу 2 до 5 пута док се poтреси уређај са звучником надоле.</string>
+    <string name="thermal_title">Профил за оптимизацију</string>
+    <string name="thermal_summary">Подеси профиле за сваку апликацију појединачно за оптималне перформансе</string>
+    <string name="thermal_default">Нема оптимизације</string>
+    <string name="thermal_benchmark">Перформансе</string>
+    <string name="thermal_browser">Претраживач</string>
+    <string name="thermal_camera">Камера</string>
+    <string name="thermal_dialer">Телефон</string>
+    <string name="thermal_gaming">Игре</string>
+    <string name="thermal_streaming">Апликације за стримовање</string>
+    <string name="refresh_rate_tile_title">Брзина Освежавања</string>
+    <string name="touch_control_title">Оптимизације екрана</string>
+    <string name="touch_game_mode_title">Омогући режим за игрице</string>
+    <string name="touch_game_mode_summary">Помаже код побољшања искуства играња оптимизујући екран</string>
+    <string name="touch_response_title">Одговор на додир</string>
+    <string name="touch_response_summary">Контролише одговор на додир</string>
+    <string name="touch_sensitivity_title">Осетљивост на додир</string>
+    <string name="touch_sensitivity_summary">Контролише осетљивост на додир при поновљеним додирима</string>
+    <string name="touch_resistant_title">Област отпорна на додир</string>
+    <string name="touch_resistant_summary">Смањује осетљивост у близини ивица како би спречио нежељене додире</string>
+    <string name="refresh_default">Подразумевана</string>
+</resources>

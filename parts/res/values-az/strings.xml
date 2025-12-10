@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Dinamiki təmizləyin</string>
+    <string name="clear_speaker_summary">Dinamiki təmizləmək üçün 30 saniyə ərzində səs oxudun</string>
+    <string name="clear_speaker_description">Əgər dinamikə yüngül toz dolduğunu görürsünüzsə, bu özəlliyi bir və ya iki dəfə işə salın. Media səs həcmini maksimuma tənzimləyin.\n\nƏgər dinamik tozla çox dolubsa, cihazı dinamikini üzü aşağı formada tutaraq silkələyin və bu özəlliyi 2-5 dəfə təkrar işə salın.</string>
+    <string name="thermal_title">Optimallaşdırma profilləri</string>
+    <string name="thermal_summary">Optimal performans üçün hər bir tətbiq profillərini nizamla</string>
+    <string name="thermal_default">Optimallaşdırma yoxdur</string>
+    <string name="thermal_benchmark">Performans</string>
+    <string name="thermal_browser">Səyyah</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_dialer">Nömrəyığan</string>
+    <string name="thermal_gaming">Oyunlar</string>
+    <string name="thermal_streaming">Axın tətbiqləri</string>
+    <string name="refresh_rate_tile_title">Təzələmə Sürəti</string>
+    <string name="touch_control_title">Toxunaqlı ekranı optimallaşdır</string>
+    <string name="touch_game_mode_title">Oyun rejimini fəallaşdır</string>
+    <string name="touch_game_mode_summary">Toxunaqlı ekranı optimallaşdıraraq oyun təcrübəsini yaxşılaşdırmağa kömək edər</string>
+    <string name="touch_response_title">Toxunuş reaksiyası</string>
+    <string name="touch_response_summary">Toxunuş reaksiyasına nəzarət edər</string>
+    <string name="touch_sensitivity_title">Toxunuş həssaslığı</string>
+    <string name="touch_sensitivity_summary">Təkrarlanan toxunuşlar üçün həssaslığa nəzarət edər</string>
+    <string name="touch_resistant_title">Toxunuşa davamlı sahə</string>
+    <string name="touch_resistant_summary">Təsadüfi toxunuşların qarşısını almaq üçün kənarlara yaxın sahələrin həssaslığını azaldar</string>
+    <string name="refresh_title">Tətbiq başına təzələmə sürəti</string>
+    <string name="refresh_summary">Hər bir tətbiq üçün özəl təzələmə sürəti tənzimləyin</string>
+    <string name="refresh_default">İlkin</string>
+    <string name="refresh_medium">Orta (60Hz)</string>
+    <string name="refresh_high">Yüksək (90Hz)</string>
+    <string name="refresh_extreme">Ekstremal (120Hz)</string>
+</resources>

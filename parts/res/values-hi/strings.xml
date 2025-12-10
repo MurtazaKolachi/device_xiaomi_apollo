@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">स्पष्ट वक्ता</string>
+    <string name="clear_speaker_summary">स्पीकर को साफ़ करने के लिए 30 सेकंड का ऑडियो चलाएं</string>
+    <string name="clear_speaker_description">इस सुविधा को एक या दो बार चलाएं यदि आप पाते हैं कि आपका स्पीकर धूल से हल्का अवरुद्ध है। मीडिया वॉल्यूम को अधिकतम पर सेट करें। \ N \ n यदि स्पीकर को बहुत अधिक अवरुद्ध किया गया है, तो अपने डिवाइस को नीचे की ओर स्पीकर के साथ हिलाते हुए इस सुविधा को 2-5 बार चलाएं।</string>
+    <string name="thermal_title">Profil pengoptimalan</string>
+    <string name="thermal_summary">Sesuaikan profil per-aplikasi untuk kinerja optimal</string>
+    <string name="thermal_default">Tidak ada optimasi</string>
+    <string name="thermal_benchmark">Performa</string>
+    <string name="thermal_browser">Peramban</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_dialer">Telepon</string>
+    <string name="thermal_gaming">Permainan</string>
+    <string name="thermal_streaming">Aplikasi streaming</string>
+    <string name="refresh_rate_tile_title">रिफ्रेश रेट</string>
+    <string name="touch_control_title">टच स्क्रीन को ऑप्टिमाइज़ करे </string>
+    <string name="touch_game_mode_title">खेल मोड चालु करे </string>
+    <string name="touch_game_mode_summary">टच स्क्रीन ऑप्टिमाइजेशन द्वारा गेमिंग अनुभव को बेहतर बनाने में मदद करता है</string>
+    <string name="touch_response_title">छूने पर प्रतिक्रिया</string>
+    <string name="touch_response_summary">छूने पर प्रतिक्रियाओ के नियंत्रण</string>
+    <string name="touch_sensitivity_title">टच सेंसिटिविटी</string>
+    <string name="touch_resistant_title">टच प्रतिरोधी क्षेत्र</string>
+    <string name="touch_resistant_summary">गलत स्पर्शों को रोकने के लिए किनारों के पास संवेदनशीलता कम कर देता है</string>
+    <string name="refresh_default">डिफ़ॉल्ट</string>
+</resources>

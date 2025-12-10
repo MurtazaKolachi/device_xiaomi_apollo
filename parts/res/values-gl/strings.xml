@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Limpar altofalante</string>
+    <string name="clear_speaker_summary">Reproduce un audio de 30 segundos para limpar o altofalante</string>
+    <string name="thermal_title">Optimización de perfil</string>
+    <string name="thermal_summary">Axuste os perfís por aplicación para obter un rendemento óptimo</string>
+    <string name="thermal_default">Sen optimización</string>
+    <string name="thermal_benchmark">Desempeño</string>
+    <string name="thermal_browser">Navegador</string>
+    <string name="thermal_camera">Cámara</string>
+    <string name="thermal_dialer">Marcador</string>
+    <string name="thermal_gaming">Xogos</string>
+    <string name="thermal_streaming">Aplicacións de streaming</string>
+    <string name="refresh_rate_tile_title">Taxa de refresco</string>
+    <string name="touch_game_mode_title">Activar Modo de Xogo</string>
+    <string name="touch_game_mode_summary">Optimiza a pantalla para mellorar a experiencia de xogo</string>
+    <string name="touch_response_title">Resposta táctil </string>
+    <string name="touch_response_summary">Controla a resposta táctil </string>
+    <string name="touch_sensitivity_title">Sensibilidade táctil </string>
+    <string name="touch_sensitivity_summary">Controla a sensibilidade táctil para toques repetidos </string>
+    <string name="touch_resistant_title">Área anti-toques </string>
+    <string name="touch_resistant_summary">Reduce a sensibilidade preto das esquinas para previr toques accidentais </string>
+    <string name="refresh_default">Predeterminado</string>
+</resources>

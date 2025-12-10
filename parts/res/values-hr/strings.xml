@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Očisti zvučnik</string>
+    <string name="clear_speaker_summary">Reproduciraj 30-sekundni zvuk da očistite zvučnik</string>
+    <string name="clear_speaker_description">Pokrenite ovu značajku jednom ili dvaput ako ustanovite da je vaš zvučnik lagano blokiran prašinom. Postavite glasnoću medija na maksimalnu.\n\nAko je zvučnik jako blokiran, pokrenite ovu značajku 2-5 puta dok tresete uređaj sa zvučnikom okrenutim prema dolje.</string>
+    <string name="thermal_title">Profil optimizacije</string>
+    <string name="thermal_summary">Prilagodi profile po aplikaciji za optimalne performanse</string>
+    <string name="thermal_default">Nema optimizacije</string>
+    <string name="thermal_benchmark">Performanse</string>
+    <string name="thermal_browser">Preglednik</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_dialer">Birač broja</string>
+    <string name="thermal_gaming">Igre</string>
+    <string name="thermal_streaming">Aplikacije za strimovanje</string>
+    <string name="refresh_rate_tile_title">Brzina osvježavanja</string>
+    <string name="touch_control_title">Optimizacija zaslona osjetljivog na dodir</string>
+    <string name="touch_game_mode_title">Omogućite način igranja</string>
+    <string name="touch_game_mode_summary">Pomaže poboljšati iskustvo igranja optimiziranjem zaslona osjetljivog na dodir</string>
+    <string name="touch_response_title">Reakcija na dodir</string>
+    <string name="touch_response_summary">Kontrolira reakciju na dodir</string>
+    <string name="touch_sensitivity_title">Razina osjetljivosti dodira</string>
+    <string name="touch_sensitivity_summary">Kontrolira osjetljivost za ponovljene dodire</string>
+    <string name="touch_resistant_title">Područje otporno na dodir</string>
+    <string name="touch_resistant_summary">Smanjuje osjetljivost u blizini rubova kako bi spriječio slučajne dodire</string>
+    <string name="refresh_title">Stopa osvježavanja po aplikaciji</string>
+    <string name="refresh_summary">Postavite određenu brzinu osvježavanja za svaku aplikaciju</string>
+    <string name="refresh_default">Zadano</string>
+    <string name="refresh_medium">Srednje (60Hz)</string>
+    <string name="refresh_high">Visoko (90Hz)</string>
+    <string name="refresh_extreme">Ekstremno (120Hz)</string>
+</resources>

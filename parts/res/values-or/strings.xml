@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">ସ୍ପିକର୍ ସଫା କରନ୍ତୁ |</string>
+    <string name="clear_speaker_summary">ସ୍ପିକରକୁ ସଫା କରିବା ପାଇଁ 30 ସେକେଣ୍ଡର ଅଡିଓ ଚଲାନ୍ତୁ |</string>
+    <string name="clear_speaker_description">ଏହି ବ feature ଶିଷ୍ଟ୍ୟକୁ ଥରେ କିମ୍ବା ଦୁଇଥର ଚଲାନ୍ତୁ ଯଦି ଆପଣ ଜାଣନ୍ତି ଯେ ଆପଣଙ୍କର ସ୍ପିକରକୁ ଧୂଳି ଦ୍ୱାରା ହାଲୁକା ଭାବରେ ଅବରୋଧ କରାଯାଇଛି | ମିଡିଆ ଭଲ୍ୟୁମ୍ କୁ ସର୍ବାଧିକ ସେଟ୍ କରନ୍ତୁ |</string>
+    <string name="thermal_title">ଅପ୍ଟିମାଇଜେସନ୍ ପ୍ରୋଫାଇଲ୍ |</string>
+    <string name="thermal_summary">ସର୍ବୋତ୍କୃଷ୍ଟ କାର୍ଯ୍ୟଦକ୍ଷତା ପାଇଁ ପ୍ରତି-ଆପ୍ ପ୍ରୋଫାଇଲ୍ ଆଡଜଷ୍ଟ କରନ୍ତୁ |</string>
+    <string name="thermal_default">କ optim ଣସି ଅପ୍ଟିମାଇଜେସନ୍ ନାହିଁ |</string>
+    <string name="thermal_benchmark">ସଞ୍ଚାଳନକାରିତା</string>
+    <string name="thermal_browser">ବ୍ରାଉଜର୍</string>
+    <string name="thermal_camera">କ୍ୟାମେରା</string>
+    <string name="thermal_dialer">ଡାଏଲର୍</string>
+    <string name="thermal_gaming">ଖେଳଗୁଡିକ</string>
+    <string name="thermal_streaming">ଷ୍ଟ୍ରିମିଂ ପ୍ରୟୋଗଗୁଡ଼ିକ |</string>
+    <string name="refresh_rate_tile_title">ସତେଜ ହାର</string>
+    <string name="touch_control_title">ସ୍କ୍ରିନ୍ ଅପ୍ଟିମାଇଜେସନ୍ ଟଚ୍ କରନ୍ତୁ |</string>
+    <string name="touch_game_mode_title">ଖେଳ ମୋଡ୍ ସକ୍ଷମ କରନ୍ତୁ |</string>
+    <string name="touch_game_mode_summary">ଟଚ୍ ସ୍କ୍ରିନ୍କୁ ଅପ୍ଟିମାଇଜ୍ କରି ଖେଳ ଅଭିଜ୍ଞତାକୁ ଉନ୍ନତ କରିବାରେ ସାହାଯ୍ୟ କରେ |</string>
+    <string name="touch_response_title">ପ୍ରତିକ୍ରିୟା ସ୍ପର୍ଶ କରନ୍ତୁ |</string>
+    <string name="touch_response_summary">ସ୍ପର୍ଶ ପ୍ରତିକ୍ରିୟାକୁ ନିୟନ୍ତ୍ରଣ କରେ |</string>
+    <string name="touch_sensitivity_title">ସମ୍ବେଦନଶୀଳତା ସ୍ପର୍ଶ କରନ୍ତୁ |</string>
+    <string name="touch_sensitivity_summary">ବାରମ୍ବାର ଟ୍ୟାପ୍ ପାଇଁ ସମ୍ବେଦନଶୀଳତାକୁ ନିୟନ୍ତ୍ରଣ କରେ |</string>
+    <string name="touch_resistant_title">ସ୍ପର୍ଶ-ପ୍ରତିରୋଧୀ କ୍ଷେତ୍ର |</string>
+    <string name="touch_resistant_summary">ଦୁର୍ଘଟଣାଜନକ ସ୍ପର୍ଶକୁ ରୋକିବା ପାଇଁ ଧାର ନିକଟରେ ସମ୍ବେଦନଶୀଳତା ହ୍ରାସ କରେ |</string>
+    <string name="refresh_default">ଡିଫଲ୍ଟ</string>
+</resources>

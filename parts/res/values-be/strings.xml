@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Ачыстка дынаміка</string>
+    <string name="clear_speaker_summary">Прайграць 30-секундны сігнал для ачысткі дынаміка</string>
+    <string name="clear_speaker_description">Запусціце гэту функцыю адзін або некалькі разоў, калі выявіцца, што ваш дынамік забрудніўся. Устанавіце максімальную гучнасць.\n\nКалі дынамік моцна забруджаны, запрасіце функцыю 2-5 разоў, адначасова ўскаланоўваючы вашу прыладу, накіраваўшы яе дынамікам уніз.</string>
+    <string name="thermal_title">Профіль аптымізацыі</string>
+    <string name="thermal_summary">Наладзьце дадатковыя профілі для дасягнення аптымальнай прадукцыйнасці</string>
+    <string name="thermal_default">Без аптымізацыі</string>
+    <string name="thermal_benchmark">Прадукцыйнасць</string>
+    <string name="thermal_browser">Браўзер</string>
+    <string name="thermal_camera">Камера</string>
+    <string name="thermal_dialer">Набіральнік нумара</string>
+    <string name="thermal_gaming">Гульні</string>
+    <string name="thermal_streaming">Патокавыя прыкладанні</string>
+    <string name="refresh_rate_tile_title">Частата абнаўлення</string>
+    <string name="touch_control_title">Аптымізацыя сэнсарнага экрана</string>
+    <string name="touch_game_mode_title">Уключыць гульнявы рэжым</string>
+    <string name="touch_game_mode_summary">Дапамагае палепшыць гульнявы працэс за кошт аптымізацыі сэнсарнага экрана</string>
+    <string name="touch_response_title">Адчувальнасць сэнсара</string>
+    <string name="touch_response_summary">Кіруе адчувальнасцю сэнсара</string>
+    <string name="touch_sensitivity_title">Адчувальнасць дотыкаў</string>
+    <string name="touch_sensitivity_summary">Кантралюе адчувальнасць пры паўторных дотыках</string>
+    <string name="touch_resistant_title">Вобласць, устойлівая да дотыкаў </string>
+    <string name="touch_resistant_summary">Зніжае адчувальнасць па краях для прадухілення выпадковых націсканняў</string>
+    <string name="refresh_title">Частата абнаўлення прыкладанняў</string>
+    <string name="refresh_summary">Усталюйце пэўную частату абнаўлення для кожнага прыкладання</string>
+    <string name="refresh_default">Стандартныя</string>
+    <string name="refresh_medium">Сярэдняя (60Hz)</string>
+    <string name="refresh_high">Высокая (90Hz)</string>
+    <string name="refresh_extreme">Лімітавая (120Hz)</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">スピーカー掃除</string>
+    <string name="clear_speaker_summary">30秒音楽を鳴らしてスピーカーを清掃する</string>
+    <string name="clear_speaker_description">ほこりでスピーカーが軽く汚れている時に1~2度この機能を実行して下さい。メディア音量を最大に設定します。\n\nスピーカーの汚れがひどい場合は、画面を伏せるように端末を置いてから2~5回実行して下さい。</string>
+    <string name="thermal_title">最適化のプロファイル</string>
+    <string name="thermal_summary">パフォーマンス最適化のためにアプリごとのプロファイルを調整する</string>
+    <string name="thermal_default">最適化なし</string>
+    <string name="thermal_benchmark">パフォーマンス</string>
+    <string name="thermal_browser">ブラウザ</string>
+    <string name="thermal_camera">カメラ</string>
+    <string name="thermal_dialer">電話</string>
+    <string name="thermal_gaming">ゲーム</string>
+    <string name="thermal_streaming">ストリーミングアプリ</string>
+    <string name="refresh_rate_tile_title">リフレッシュレート</string>
+    <string name="touch_control_title">タッチ画面の最適化</string>
+    <string name="touch_game_mode_title">ゲームモードを有効化</string>
+    <string name="touch_game_mode_summary">タッチ画面の最適化でゲーミング体験を向上するのに寄与できます</string>
+    <string name="touch_response_title">タッチ反応速度</string>
+    <string name="touch_response_summary">タッチ反応速度を制御する</string>
+    <string name="touch_sensitivity_title">タッチ感度</string>
+    <string name="touch_sensitivity_summary">複数回のタップに対する感度を制御する</string>
+    <string name="touch_resistant_title">タッチ感度低下範囲</string>
+    <string name="touch_resistant_summary">誤動作を回避するために画面の縁の周辺の感度を低下させる</string>
+    <string name="refresh_title">アプリごとのリフレッシュレート</string>
+    <string name="refresh_summary">アプリごとに特定のリフレッシュレートを設定する</string>
+    <string name="refresh_default">デフォルト</string>
+    <string name="refresh_medium">中 (60Hz)</string>
+    <string name="refresh_high">高 (90Hz)</string>
+    <string name="refresh_extreme">最高 (120Hz)</string>
+</resources>

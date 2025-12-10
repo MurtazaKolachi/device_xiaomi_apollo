@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">רמקול ברור</string>
+    <string name="clear_speaker_summary">השמע אודיו במשך 30 שניות כדי \'לנקות\' את הרמקול</string>
+    <string name="clear_speaker_description">הפעל תכונה זו פעם או פעמיים אם אתה מגלה שהרמקול שלך חסום קלות מאבק. הגדר את עוצמת הקול של המדיה למקסימום.\n\nאם הרמקול חסום בכבדות, הפעל תכונה זו 2-5 פעמים תוך כדי טלטול המכשיר שלך כשהרמקול פונה כלפי מטה.</string>
+    <string name="thermal_title">אופטימיזציית פרופיל</string>
+    <string name="thermal_summary">התאם פרופילים לכל אפליקציה כדי להגיע לביצועים מיטביים</string>
+    <string name="thermal_default">אין אופטימיזציה</string>
+    <string name="thermal_benchmark">ביצועים</string>
+    <string name="thermal_browser">דפדפן</string>
+    <string name="thermal_camera">מצלמה</string>
+    <string name="thermal_dialer">חייגן</string>
+    <string name="thermal_gaming">משחקים</string>
+    <string name="thermal_streaming">אפליקציות הזרמה</string>
+    <string name="refresh_rate_tile_title">קצב ריענון</string>
+    <string name="touch_control_title">מיטוב מסך מגע</string>
+    <string name="touch_game_mode_title">אפשר מצב משחק</string>
+    <string name="touch_game_mode_summary">עוזר לשיפור חווית המשחק על ידי מיטוב מסך המגע</string>
+    <string name="touch_response_title">תגובת המגע</string>
+    <string name="touch_response_summary">שולט על תגובת המגע</string>
+    <string name="touch_sensitivity_title">רגישות המגע</string>
+    <string name="touch_sensitivity_summary">שולט על רגישות לנגיעות חוזרות</string>
+    <string name="touch_resistant_title">איזור עמיד למגע</string>
+    <string name="touch_resistant_summary">מפחית את הרגישות ליד הקצוות המסך כדי למנוע נגיעות בטעות</string>
+    <string name="refresh_title">קצב ריענון מותאם לאפליקציה</string>
+    <string name="refresh_summary">הגדר קצב ריענון שונה לכל אפליקציה</string>
+    <string name="refresh_default">ברירת מחדל</string>
+    <string name="refresh_medium">בינוני (60 הרץ)</string>
+    <string name="refresh_high">גבוה (90 הרץ)</string>
+    <string name="refresh_extreme">קיצוני (120 הרץ)</string>
+</resources>

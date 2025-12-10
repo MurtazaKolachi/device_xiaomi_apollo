@@ -41,6 +41,7 @@
     <!-- Touch Control Settings -->
     <string name="touch_control_title">Touch Control</string>
     <string name="touch_game_mode_title">Enable</string>
+    <string name="touch_game_mode_summary">Helps to improve the gaming experience by optimizing the touch screen</string>
     <string name="touch_response_title">Responsivity</string>
     <string name="touch_response_summary">Controls touch response</string>
     <string name="touch_sensitivity_title">Sensitivity</string>

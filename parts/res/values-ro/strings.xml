@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Claritatea sunetului</string>
+    <string name="clear_speaker_summary">Redă un sunet de 30 sec. pentru claritatea sunetului</string>
+    <string name="clear_speaker_description">Rulează această caracteristică o dată sau de două ori dacă difuzorul este ușor blocat de praf. Setează volumul media la maxim.\n\n Dacă difuzorul este blocat puternic, rulează această caracteristică de 2-5 ori în timp ce scuturi dispozitivul cu difuzorul orientat în jos.</string>
+    <string name="thermal_title">Profil optimizare</string>
+    <string name="thermal_summary">Ajustare profiluri per-aplicație pentru performanță optimă</string>
+    <string name="thermal_default">Nicio optimizare</string>
+    <string name="thermal_benchmark">Performanță</string>
+    <string name="thermal_browser">Navigator</string>
+    <string name="thermal_camera">Cameră</string>
+    <string name="thermal_dialer">Telefon</string>
+    <string name="thermal_gaming">Jocuri</string>
+    <string name="thermal_streaming">Aplicații streaming</string>
+    <string name="refresh_rate_tile_title">Rată de reîmprospătare</string>
+    <string name="touch_control_title">Optimizarea ecranului tactil</string>
+    <string name="touch_game_mode_title">Pornirea modului joc</string>
+    <string name="touch_game_mode_summary">Ajută pentru a îmbunătăți experiența de joc prin optimizarea ecranului tactil</string>
+    <string name="touch_response_title">Răspuns la atingere</string>
+    <string name="touch_response_summary">Controtlul răspunsului la atingere</string>
+    <string name="touch_sensitivity_title">Sensibilitatea la atingere</string>
+    <string name="touch_sensitivity_summary">Controlul sensibilității la antigeri repetate</string>
+    <string name="touch_resistant_title">Zona rezistentă la atingere</string>
+    <string name="touch_resistant_summary">Reduce sensibilitatea în apropierea marginilor pentru a preveni atingerile accidentale</string>
+    <string name="refresh_title">Rata de reîmprospătare per aplicație</string>
+    <string name="refresh_summary">Setează o rată de reîmprospătare specifică pentru fiecare aplicație</string>
+    <string name="refresh_default">Implicit</string>
+    <string name="refresh_medium">Medie (60 Hz)</string>
+    <string name="refresh_high">Ridicată (90 Hz)</string>
+    <string name="refresh_extreme">Extremă (120 Hz)</string>
+</resources>

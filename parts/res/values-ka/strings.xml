@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">დინამიკის გაწმენდა</string>
+    <string name="clear_speaker_summary">ჩართეთ 30 წამიანი აუდიო რათა გაიწმინდოს დინამიკი</string>
+    <string name="clear_speaker_description">გაუშვით ეს ფუნქცია ერთხელ ან ორჯერ, თუ აღმოაჩენთ, რომ თქვენი დინამიკი მსუბუქად არის დაბლოკილი მტვრისგან. დააყენეთ მედიის ხმა მაქსიმუმზე. \n\nთუ დინამიკი დაბლოკილია ძლიერად, გაუშვით ეს ფუნქცია 2-5-ჯერ და შეარყიეთ ტელეფონი.</string>
+    <string name="thermal_title">ოპტიმიზაციის პროფილები</string>
+    <string name="thermal_summary">შეცვალეთ თითო აპლიკაციური პროფილები ოპტიმალური მუშაობისთვის</string>
+    <string name="thermal_default">ოპტიმიზაციის გარეშე</string>
+    <string name="thermal_benchmark">წარმადობა</string>
+    <string name="thermal_browser">ბრაუზერი</string>
+    <string name="thermal_camera">კამერა</string>
+    <string name="thermal_dialer">დასარეკი</string>
+    <string name="thermal_gaming">თამაშები</string>
+    <string name="thermal_streaming">სტრიმინგ აპლიკაციები</string>
+    <string name="refresh_rate_tile_title">განახლების სიჩქარე</string>
+    <string name="touch_control_title">სენსორული ეკრანის ოპტიმიზაცია</string>
+    <string name="touch_game_mode_title">თამაშის რეჟიმის ჩართვა</string>
+    <string name="touch_game_mode_summary">გეხმარებათ რომ გააუმჯობესოს თამაშის გამოცდილება შეხების ეკრანის ოპტიმიზაციის საშუალებით</string>
+    <string name="touch_response_title">პასუხი შეხებისას</string>
+    <string name="touch_response_summary">აკონტროლებს შეხებაზე რეაგირებას</string>
+    <string name="touch_sensitivity_title">შეხების მგრძნობელობა</string>
+    <string name="touch_sensitivity_summary">აკონტროლებს განმეორებით შეხებისას მგრძნობელობას</string>
+    <string name="touch_resistant_title">შეხების რეზისტენტული ადგილი</string>
+    <string name="touch_resistant_summary">ამცირებს მგრძნობელობას კიდეებთან ახლოს შემთხვევითი შეხების თავიდან ასაცილებლად</string>
+    <string name="refresh_title">განახლების სიხშირე თითო აპლიკაციაზე</string>
+    <string name="refresh_summary">სპეციფიკური განახლების სიხშირის დაყენება თითოეული აპლიკაციისთვის</string>
+    <string name="refresh_default">ნაგულისხმევი</string>
+    <string name="refresh_medium">საშუალო (60ჰც)</string>
+    <string name="refresh_high">მაღალი (90ჰც)</string>
+    <string name="refresh_extreme">ექსტრემი (120ჰც)</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Ясен високоговорител</string>
+    <string name="clear_speaker_summary">Пуснете 30-секунден звук, за да изчистите високоговорителя</string>
+    <string name="clear_speaker_description">Стартирайте тази функция веднъж или два пъти, ако установите, че високоговорителят ви е леко блокиран от прах. Задайте максимална сила на медия-звука.\n\nАко високоговорителят ви е силно блокиран, стартирайте тази функция 2-5 пъти, докато разклащате устройството си с високоговорителя обърнат надолу</string>
+    <string name="thermal_title">Профил за оптимизация</string>
+    <string name="thermal_summary">Регулирайте профили за приложение за оптимална производителност</string>
+    <string name="thermal_default">Без оптимизация</string>
+    <string name="thermal_benchmark">Производителност</string>
+    <string name="thermal_browser">Браузър</string>
+    <string name="thermal_camera">Камера</string>
+    <string name="thermal_dialer">Телефон</string>
+    <string name="thermal_gaming">Игри</string>
+    <string name="thermal_streaming">Приложения за поточно предаване</string>
+    <string name="refresh_rate_tile_title">Честота на опресняване</string>
+    <string name="touch_control_title">Оптимизации на сензорния екран</string>
+    <string name="touch_game_mode_title">Разреши режим игра</string>
+    <string name="touch_game_mode_summary">Помага за подобряване на игрите чрез оптимизиране на сензорния екран</string>
+    <string name="touch_response_title">Докосване</string>
+    <string name="touch_response_summary">Контролира докосването</string>
+    <string name="touch_sensitivity_title">Чувствителност на докосване</string>
+    <string name="touch_sensitivity_summary">Контролира чувствителността при повтарящи се докосвания</string>
+    <string name="touch_resistant_title">Устойчива на допир зона</string>
+    <string name="touch_resistant_summary">Намалява чувствителността в близост до краищата, за да предотврати случайни докосвания</string>
+    <string name="refresh_default">По подразбиране</string>
+</resources>

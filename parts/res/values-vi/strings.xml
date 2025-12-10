@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Làm sạch loa</string>
+    <string name="clear_speaker_summary">Phát một đoạn âm thanh dài 30 giây để làm sạch loa</string>
+    <string name="clear_speaker_description">Chạy tính năng này một hoặc hai lần nếu bạn thấy loa của mình bị bụi bám nhẹ. Đặt âm lượng phương tiện ở mức tối đa.\n\nNếu loa bị chặn nhiều, hãy chạy tính năng này 2-5 lần trong khi lắc thiết bị của bạn với loa hướng xuống dưới.</string>
+    <string name="thermal_title">Hồ sơ tối ưu hóa</string>
+    <string name="thermal_summary">Điều chỉnh cấu hình trên mỗi ứng dụng để có hiệu suất tối ưu</string>
+    <string name="thermal_default">Không tối ưu hóa</string>
+    <string name="thermal_benchmark">Hiệu suất</string>
+    <string name="thermal_browser">Trình duyệt</string>
+    <string name="thermal_camera">Máy ảnh</string>
+    <string name="thermal_dialer">Trình quay số</string>
+    <string name="thermal_gaming">Trò chơi</string>
+    <string name="thermal_streaming">Ứng dụng truyền trực tuyến</string>
+    <string name="refresh_rate_tile_title">Tần Số Làm Mới Màn Hình</string>
+    <string name="touch_control_title">Tối ưu hóa màn hình cảm ứng</string>
+    <string name="touch_game_mode_title">Bật chế độ trò chơi</string>
+    <string name="touch_game_mode_summary">Giúp cải thiện trải nghiệm trò chơi bằng cách tối ưu hóa màn hình cảm ứng</string>
+    <string name="touch_response_title">Phản hồi chạm</string>
+    <string name="touch_response_summary">Điều khiển phản ứng chạm</string>
+    <string name="touch_sensitivity_title">Độ nhạy cảm ứng</string>
+    <string name="touch_sensitivity_summary">Kiểm soát độ nhạy cho các lần chạm lặp lại</string>
+    <string name="touch_resistant_title">Khu vực chống cảm ứng</string>
+    <string name="touch_resistant_summary">Giảm độ nhạy gần các cạnh để tránh chạm nhầm</string>
+    <string name="refresh_title">Tốc độ làm mới cho mỗi ứng dụng</string>
+    <string name="refresh_summary">Đặt tốc độ làm mới cụ thể cho từng ứng dụng</string>
+    <string name="refresh_default">Mặc định</string>
+    <string name="refresh_medium">Trung bình (60Hz)</string>
+    <string name="refresh_high">Cao (90Hz)</string>
+    <string name="refresh_extreme">Cực đại (120Hz)</string>
+</resources>

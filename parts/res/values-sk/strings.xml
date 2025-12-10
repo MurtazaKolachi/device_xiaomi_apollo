@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Vyčistiť reproduktor</string>
+    <string name="clear_speaker_summary">Zahrať 30-sekundovú nahrávku pre vyčistenie reproduktoru</string>
+    <string name="clear_speaker_description">Túto funkciu spustite raz alebo dvakrát, ak zistíte, že váš reproduktor je ľahko znečistený prachom. Nastavte hlasitosť na maximum.\n\nAk je reproduktor silne znečistený, spustite túto funkciu 2-5 krát a zatraste zariadením tak, aby reproduktor smeroval nadol.</string>
+    <string name="thermal_title">Profily optimalizácie</string>
+    <string name="thermal_summary">Prispôsobiť profily aplikácií pre optimálny výkon</string>
+    <string name="thermal_default">Žiadna optimalizácia</string>
+    <string name="thermal_benchmark">Výkon</string>
+    <string name="thermal_browser">Prehliadač</string>
+    <string name="thermal_camera">Fotoaparát</string>
+    <string name="thermal_dialer">Vytáčanie</string>
+    <string name="thermal_gaming">Hry</string>
+    <string name="thermal_streaming">Streamovacie aplikácie</string>
+    <string name="refresh_rate_tile_title">Obnovovacia frekvencia</string>
+    <string name="touch_control_title">Optimalizácie dotykovej obrazovky</string>
+    <string name="touch_game_mode_title">Zapnúť Herný režim</string>
+    <string name="touch_game_mode_summary">Pomáha vylepšiť herný zážitok optimalizáciou dotykovej obrazovky</string>
+    <string name="touch_response_title">Dotyková odozva</string>
+    <string name="touch_response_summary">Ovláda dotykovú odozvu</string>
+    <string name="touch_sensitivity_title">Citlivosť dotykov</string>
+    <string name="touch_sensitivity_summary">Ovláda citlivosť opakovaných kliknutí</string>
+    <string name="touch_resistant_title">Oblasť odolná proti dotyku</string>
+    <string name="touch_resistant_summary">Znižuje citlivosť blízko okrajov, aby sa zabránilo náhodným dotykom</string>
+    <string name="refresh_title">Obnovovacia frekvencia na aplikáciu</string>
+    <string name="refresh_summary">Nastavte špecifickú obnovovaciu frekvenciu pre každú aplikáciu</string>
+    <string name="refresh_default">Predvolené</string>
+    <string name="refresh_medium">Stredná (60Hz)</string>
+    <string name="refresh_high">Vysoká (90 Hz)</string>
+    <string name="refresh_extreme">Extrémna (120Hz)</string>
+</resources>

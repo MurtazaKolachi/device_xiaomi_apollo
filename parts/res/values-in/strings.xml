@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Bersihkan Speaker</string>
+    <string name="clear_speaker_summary">Putar audio 30 detik untuk membersihkan speaker</string>
+    <string name="clear_speaker_description">Jalankan fitur ini satu atau dua kali jika speaker Anda sedikit terhalang oleh debu. Setel volume media ke maksimum.\n\nJika speaker sangat terhalang, jalankan fitur ini 2-5 kali sambil menggoyangkan perangkat Anda dengan speaker menghadap ke bawah.</string>
+    <string name="thermal_title">Profil pengoptimalan</string>
+    <string name="thermal_summary">Sesuaikan profil per-aplikasi untuk kinerja optimal</string>
+    <string name="thermal_default">Tidak ada optimasi</string>
+    <string name="thermal_benchmark">Performa</string>
+    <string name="thermal_browser">Peramban</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_dialer">Telepon</string>
+    <string name="thermal_gaming">Permainan</string>
+    <string name="thermal_streaming">Aplikasi streaming</string>
+    <string name="refresh_rate_tile_title">Kecepatan Refresh</string>
+    <string name="touch_control_title">Optimalisasi layar sentuh</string>
+    <string name="touch_game_mode_title">Aktifkan mode permainan</string>
+    <string name="touch_game_mode_summary">Membantu meningkatkan pengalaman bermain game dengan mengoptimalkan layar sentuh</string>
+    <string name="touch_response_title">Responsif sentuhan</string>
+    <string name="touch_response_summary">Mengontrol respons sentuhan</string>
+    <string name="touch_sensitivity_title">Sensitivitas Sentuhan</string>
+    <string name="touch_sensitivity_summary">Mengontrol sensitivitas untuk ketukan berulang</string>
+    <string name="touch_resistant_title">Area tahan sentuh</string>
+    <string name="touch_resistant_summary">Mengurangi kepekaan di dekat tepi untuk mencegah sentuhan yang tidak disengaja</string>
+    <string name="refresh_title">Kecepatan refresh per aplikasi</string>
+    <string name="refresh_summary">Atur kecepatan refresh khusus untuk setiap aplikasi</string>
+    <string name="refresh_default">Bawaan</string>
+    <string name="refresh_medium">Sedang (60 Hz)</string>
+    <string name="refresh_high">Tinggi (90Hz)</string>
+    <string name="refresh_extreme">Ekstrem (120 Hz)</string>
+</resources>

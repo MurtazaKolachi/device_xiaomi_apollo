@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">ಸ್ಪೀಕರನ್ನು ಕ್ಲೀನ್ ಮಾಡು</string>
+    <string name="clear_speaker_summary">ಈ 30 ಸೆಕೆಂಡ್ ಆಡಿಯೋ ಪ್ಲೇ ಮಾಡಿದರೆ ಸ್ಪೀಕರ್ ಕ್ಲಿಯರ್ ಆಗುತ್ತದೆ</string>
+    <string name="clear_speaker_description">ಈ ಫೀಚರನ್ನು ಒಂದು ಅಥವಾ ಎರಡು ಬಾರಿ ಬಳಸಿ, \n\n ತುಂಬಾ ಧೂಳು ಅಥವಾ ಸ್ಪೀಕರ್ ಬ್ಲಾಕ್ ಆಗಿದ್ದಲ್ಲಿ ಎರಡರಿಂದ ಐದು ಬಾರಿ ಬಳಸಿ. ಈ ಫೀಚರನ್ನು ಬೆಳೆಸುವಾಗ ನಿಮ್ಮ ವಾಲ್ಯೂಮ್ ಗರಿಷ್ಠಮಟ್ಟದಲ್ಲಿ ಇರಿಸಿ.</string>
+    <string name="thermal_title">Kannada</string>
+    <string name="thermal_summary">ಆಪ್ ಪ್ರೊಫೈಲ್ ನಂತೆ ಆಪ್ಟಿಮಂ  ಪರ್ಫಾರ್ಮೆನ್ಸ್ಗಾಗಿ ಅಡ್ಜಸ್ಟ್ ಮಾಡಿ</string>
+    <string name="thermal_default">ಆಪ್ಟಿಮೈಸೇಶನ್ ಇಲ್ಲ</string>
+    <string name="thermal_benchmark">ಕಾರ್ಯಕ್ಷಮತೆ</string>
+    <string name="thermal_browser">ಬ್ರೌಸರ್</string>
+    <string name="thermal_camera">ಕ್ಯಾಮರಾ</string>
+    <string name="thermal_dialer">ಡಯಲರ್</string>
+    <string name="thermal_gaming">ಆಟಗಳು</string>
+    <string name="thermal_streaming">ಸ್ಟ್ರೀಮಿಂಗ್ ಅಪ್ಲಿಕೇಶನ್ಗಳು</string>
+    <string name="refresh_rate_tile_title">ರಿಫ್ರೆಶ್ ರೇಟ್ </string>
+    <string name="touch_control_title">ಟಚ್ ಸ್ಕ್ರೀನ್ ಆಪ್ಟಿಮೈಸೇಶನ್</string>
+    <string name="touch_game_mode_title">ಗೇಮ್ ಮೋಡ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="touch_game_mode_summary">ಟಚ್ ಸ್ಕ್ರೀನ್ ಅನ್ನು ಆಪ್ಟಿಮೈಜ್ ಮಾಡುವ ಮೂಲಕ ಗೇಮಿಂಗ್ ಅನುಭವವನ್ನು ಸುಧಾರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ</string>
+    <string name="touch_response_title">ಟಚ್ ಪ್ರತಿಕ್ರಿಯೆ</string>
+    <string name="touch_response_summary">ಟಚ್ ಪ್ರತಿಕ್ರಿಯೆ ನಿಯಂತ್ರಿಸುತ್ತಿದೆ</string>
+    <string name="touch_sensitivity_title">ಟಚ್ ಸೂಕ್ಷ್ಮತೆ</string>
+    <string name="touch_sensitivity_summary">ಪುನರಾವರ್ತಿತ ಟ್ಯಾಪ್‌ಗಳಿಗೆ ಸೂಕ್ಷ್ಮತೆಯನ್ನು ನಿಯಂತ್ರಿಸುತ್ತದೆ</string>
+    <string name="touch_resistant_title">ಟಚ್-ನಿರೋಧಕ ಪ್ರದೇಶ</string>
+    <string name="touch_resistant_summary">ಆಕಸ್ಮಿಕ ಸ್ಪರ್ಶವನ್ನು ತಡೆಗಟ್ಟಲು ಅಂಚುಗಳ ಬಳಿ ಸೂಕ್ಷ್ಮತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ</string>
+    <string name="refresh_default">ಡಿಫಾಲ್ಟ್</string>
+</resources>

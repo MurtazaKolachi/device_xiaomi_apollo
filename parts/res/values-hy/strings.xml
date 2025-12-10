@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="clear_speaker_title">Մաքրել բարձրախոսը</string>
+    <string name="thermal_title">Օպտիմալացման պրոֆիլները</string>
+    <string name="thermal_default">Օպտիմալացված է</string>
+    <string name="thermal_benchmark">Արդյունավետություն</string>
+    <string name="thermal_browser">Դիտարկիչ</string>
+    <string name="thermal_camera">Ֆոտոխցիկ</string>
+    <string name="thermal_dialer">Համարհավաքիչ</string>
+    <string name="thermal_gaming">Խաղեր</string>
+    <string name="thermal_streaming">Հեռարձկման հավելվածներ</string>
+    <string name="refresh_rate_tile_title">Թարմացման հաճախությունը</string>
+    <string name="touch_control_title">Էկրանի օպտիմալացում</string>
+    <string name="touch_game_mode_title">Միացնել խաղի ռեժիմը</string>
+    <string name="refresh_title">Թարմացման արագությունը յուրաքանչյուր հավելվածի համար</string>
+    <string name="refresh_default">Կանխադրված</string>
+    <string name="refresh_medium">Միջին (60Հց)</string>
+    <string name="refresh_high">Բարձր (90Հց)</string>
+    <string name="refresh_extreme">Ծայրահեղ (120Հց)</string>
+</resources>
