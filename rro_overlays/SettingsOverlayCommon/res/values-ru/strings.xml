@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_color_mode_options_natural">Натуральные</string>
+    <string name="config_color_mode_options_boosted">Усиленные</string>
+    <string name="config_color_mode_options_automatic">Адаптивная регулировка</string>
+    <string name="config_color_mode_options_vivid">Яркие</string>
+    <string name="config_color_mode_options_saturated">Насыщенные</string>
+    <string name="config_color_mode_options_original">Оригинальные</string>
+    <string name="config_color_mode_options_p3">P3</string>
+    <string name="config_color_mode_options_srgb">sRGB</string>
+</resources>
