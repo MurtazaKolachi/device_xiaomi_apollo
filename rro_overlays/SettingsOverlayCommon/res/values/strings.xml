@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_color_mode_options_natural">Natural</string>
+    <string name="config_color_mode_options_boosted">Boosted</string>
+    <string name="config_color_mode_options_automatic">Automatic</string>
+    <string name="config_color_mode_options_vivid">Vivid</string>
+    <string name="config_color_mode_options_saturated">Saturated</string>
+    <string name="config_color_mode_options_original">Original</string>
+    <string name="config_color_mode_options_p3">P3</string>
+    <string name="config_color_mode_options_srgb">sRGB</string>
+</resources>
