@@ -14,6 +14,12 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from apollo device
 $(call inherit-product, device/xiaomi/apollo/device.mk)
 
+WITH_GMS := false
+TARGET_SUPPORTS_BLUR := true
+TARGET_DISABLE_MATLOG := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_EXCLUDES_AUDIOFX := true
+
 PRODUCT_NAME := lineage_apollo
 PRODUCT_DEVICE := apollo
 PRODUCT_MANUFACTURER := Xiaomi
