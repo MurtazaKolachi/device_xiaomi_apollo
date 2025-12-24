@@ -323,7 +323,8 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlayDevice \
     LineageSDKOverlayDevice \
     SettingsOverlayDevice \
-    SystemUIOverlayDevice
+    SystemUIOverlayDevice \
+    CrDroidUpdaterOverlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
