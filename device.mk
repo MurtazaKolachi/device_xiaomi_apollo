@@ -335,6 +335,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlayCommon \
     DeviceAsWebcamResCommon \
     FrameworkResOverlayCommon \
+    LineageDialerOverlayCommon \
     LineageSDKOverlayCommon \
     LineageSettingsOverlayCommon \
     SettingsOverlayCommon \
