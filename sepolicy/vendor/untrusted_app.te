@@ -1,0 +1,22 @@
+dontaudit untrusted_app { 
+    serialno_prop 
+    oem_unlock_prop 
+    userdebug_or_eng_prop 
+    input_device 
+    sysfs_net 
+    proc_version
+    mnt_sdcard_file
+    system_lib_file
+    proc_tty_drivers
+    qemu_hw_prop
+    qemu_sf_lcd_density_prop
+    proc
+    proc_pid_max
+}:file read;
+
+dontaudit untrusted_app input_device:dir search;
+dontaudit untrusted_app mnt_sdcard_file:lnk_file read;
+dontaudit untrusted_app system_lib_file:file execmod;
+dontaudit untrusted_app proc_net:file execmod;
+dontaudit untrusted_app sysfs:dir read;
+dontaudit untrusted_app block_device:dir search;
