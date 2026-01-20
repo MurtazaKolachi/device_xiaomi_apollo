@@ -5,7 +5,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -23,14 +23,12 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.SectionIndexer;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -57,8 +55,7 @@ public class RefreshSettingsFragment extends PreferenceFragment
     private ApplicationsState mApplicationsState;
     private ApplicationsState.Session mSession;
     private ActivityFilter mActivityFilter;
-    private Map<String, ApplicationsState.AppEntry> mEntryMap =
-            new HashMap<String, ApplicationsState.AppEntry>();
+    private Map<String, ApplicationsState.AppEntry> mEntryMap = new HashMap<>();
 
     private RefreshUtils mRefreshUtils;
     private RecyclerView mAppsRecyclerView;
@@ -77,7 +74,6 @@ public class RefreshSettingsFragment extends PreferenceFragment
         mActivityFilter = new ActivityFilter(getActivity().getPackageManager());
 
         mAllPackagesAdapter = new AllPackagesAdapter(getActivity());
-
         mRefreshUtils = new RefreshUtils(getActivity());
     }
 
@@ -88,14 +84,13 @@ public class RefreshSettingsFragment extends PreferenceFragment
     }
 
     @Override
-    public void onViewCreated(final View view, @Nullable Bundle savedInstanceState) {
+    public void onViewCreated(@NonNull final View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
         mAppsRecyclerView = view.findViewById(R.id.refresh_rv_view);
         mAppsRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         mAppsRecyclerView.setAdapter(mAllPackagesAdapter);
     }
-
 
     @Override
     public void onResume() {
@@ -107,7 +102,6 @@ public class RefreshSettingsFragment extends PreferenceFragment
     @Override
     public void onDestroy() {
         super.onDestroy();
-
         mSession.onPause();
         mSession.onDestroy();
     }
@@ -132,28 +126,23 @@ public class RefreshSettingsFragment extends PreferenceFragment
     }
 
     @Override
-    public void onAllSizesComputed() {
-    }
+    public void onAllSizesComputed() {}
 
     @Override
-    public void onLauncherInfoChanged() {
-    }
+    public void onLauncherInfoChanged() {}
 
     @Override
-    public void onPackageIconChanged() {
-    }
+    public void onPackageIconChanged() {}
 
     @Override
-    public void onPackageSizeChanged(String packageName) {
-    }
+    public void onPackageSizeChanged(String packageName) {}
 
     @Override
-    public void onRunningStateChanged(boolean running) {
-    }
+    public void onRunningStateChanged(boolean running) {}
 
     private void handleAppEntries(List<ApplicationsState.AppEntry> entries) {
-        final ArrayList<String> sections = new ArrayList<String>();
-        final ArrayList<Integer> positions = new ArrayList<Integer>();
+        final ArrayList<String> sections = new ArrayList<>();
+        final ArrayList<Integer> positions = new ArrayList<>();
         final PackageManager pm = getActivity().getPackageManager();
         String lastSectionIndex = null;
         int offset = 0;
@@ -164,7 +153,7 @@ public class RefreshSettingsFragment extends PreferenceFragment
             final String sectionIndex;
 
             if (!info.enabled) {
-                sectionIndex = "--"; // XXX
+                sectionIndex = "--";
             } else if (TextUtils.isEmpty(label)) {
                 sectionIndex = "";
             } else {
@@ -177,7 +166,6 @@ public class RefreshSettingsFragment extends PreferenceFragment
                 positions.add(offset);
                 lastSectionIndex = sectionIndex;
             }
-
             offset++;
         }
 
@@ -194,17 +182,12 @@ public class RefreshSettingsFragment extends PreferenceFragment
 
     private int getStateDrawable(int state) {
         switch (state) {
-            case RefreshUtils.STATE_STANDARD:
-                return R.drawable.ic_refresh_60;
-            case RefreshUtils.STATE_MEDIUM:
-                return R.drawable.ic_refresh_90;
-            case RefreshUtils.STATE_HIGH:
-                return R.drawable.ic_refresh_120;
-            case RefreshUtils.STATE_EXTREME:
-                return R.drawable.ic_refresh_144;
+            case RefreshUtils.STATE_STANDARD: return R.drawable.ic_refresh_60;
+            case RefreshUtils.STATE_MEDIUM: return R.drawable.ic_refresh_90;
+            case RefreshUtils.STATE_HIGH: return R.drawable.ic_refresh_120;
+            case RefreshUtils.STATE_EXTREME: return R.drawable.ic_refresh_144;
             case RefreshUtils.STATE_DEFAULT:
-            default:
-                return R.drawable.ic_refresh_default;
+            default: return R.drawable.ic_refresh_default;
         }
     }
 
@@ -212,8 +195,8 @@ public class RefreshSettingsFragment extends PreferenceFragment
         private TextView title;
         private Spinner mode;
         private ImageView icon;
-        private View rootView;
         private ImageView stateIcon;
+        private ModeAdapter modeAdapter; // Optimization: Reuse adapter
 
         private ViewHolder(View view) {
             super(view);
@@ -221,14 +204,13 @@ public class RefreshSettingsFragment extends PreferenceFragment
             this.mode = view.findViewById(R.id.app_mode);
             this.icon = view.findViewById(R.id.app_icon);
             this.stateIcon = view.findViewById(R.id.state);
-            this.rootView = view;
-
-            view.setTag(this);
+            
+            this.modeAdapter = new ModeAdapter(view.getContext());
+            this.mode.setAdapter(modeAdapter);
         }
     }
 
-     private class ModeAdapter extends BaseAdapter {
-
+    private class ModeAdapter extends BaseAdapter {
         private final LayoutInflater inflater;
         private final int[] items = {
                 R.string.refresh_default,
@@ -242,155 +224,101 @@ public class RefreshSettingsFragment extends PreferenceFragment
             inflater = LayoutInflater.from(context);
         }
 
-        @Override
-        public int getCount() {
-            return items.length;
-        }
-
-        @Override
-        public Object getItem(int position) {
-            return items[position];
-        }
-
-        @Override
-        public long getItemId(int position) {
-            return 0;
-        }
+        @Override public int getCount() { return items.length; }
+        @Override public Object getItem(int position) { return items[position]; }
+        @Override public long getItemId(int position) { return 0; }
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            TextView view;
-            if (convertView != null) {
-                view = (TextView) convertView;
-            } else {
-                view = (TextView) inflater.inflate(android.R.layout.simple_spinner_dropdown_item,
-                        parent, false);
-            }
-
+            TextView view = (convertView != null) ? (TextView) convertView :
+                    (TextView) inflater.inflate(android.R.layout.simple_spinner_dropdown_item, parent, false);
             view.setText(items[position]);
             view.setTextSize(14f);
-
             return view;
         }
     }
 
-        private class AllPackagesAdapter extends RecyclerView.Adapter<ViewHolder>
+    private class AllPackagesAdapter extends RecyclerView.Adapter<ViewHolder>
             implements AdapterView.OnItemSelectedListener, SectionIndexer {
 
         private List<ApplicationsState.AppEntry> mEntries = new ArrayList<>();
         private String[] mSections;
         private int[] mPositions;
 
-        public AllPackagesAdapter(Context context) {
-            mActivityFilter = new ActivityFilter(context.getPackageManager());
-        }
+        public AllPackagesAdapter(Context context) {}
 
-        @Override
-        public int getItemCount() {
-            return mEntries.size();
-        }
+        @Override public int getItemCount() { return mEntries.size(); }
+        @Override public long getItemId(int position) { return mEntries.get(position).id; }
 
+        @NonNull
         @Override
-        public long getItemId(int position) {
-            return mEntries.get(position).id;
-        }
-@NonNull
-        @Override
-         public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
             return new ViewHolder(LayoutInflater.from(parent.getContext())
                     .inflate(R.layout.refresh_list_item, parent, false));
         }
 
- 	@Override
-        public void onBindViewHolder(ViewHolder holder, int position) {
-            Context context = holder.itemView.getContext();
-
+        @Override
+        public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
             ApplicationsState.AppEntry entry = mEntries.get(position);
+            if (entry == null) return;
 
-            if (entry == null) {
-                return;
-            }
-            holder.mode.setAdapter(new ModeAdapter(context));
-            holder.mode.setOnItemSelectedListener(this);
+            holder.mode.setOnItemSelectedListener(null); // Prevent callback loops during setup
             holder.title.setText(entry.label);
             holder.title.setOnClickListener(v -> holder.mode.performClick());
+            
             mApplicationsState.ensureIcon(entry);
             holder.icon.setImageDrawable(entry.icon);
+
             int packageState = mRefreshUtils.getStateForPackage(entry.info.packageName);
             holder.mode.setSelection(packageState, false);
             holder.mode.setTag(entry);
+            holder.mode.setOnItemSelectedListener(this);
             holder.stateIcon.setImageResource(getStateDrawable(packageState));
         }
 
         private void setEntries(List<ApplicationsState.AppEntry> entries,
                 List<String> sections, List<Integer> positions) {
             mEntries = entries;
-            mSections = sections.toArray(new String[sections.size()]);
+            mSections = sections.toArray(new String[0]);
             mPositions = new int[positions.size()];
-            for (int i = 0; i < positions.size(); i++) {
-                mPositions[i] = positions.get(i);
-            }
+            for (int i = 0; i < positions.size(); i++) mPositions[i] = positions.get(i);
             notifyDataSetChanged();
         }
-
 
         @Override
         public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
             final ApplicationsState.AppEntry entry = (ApplicationsState.AppEntry) parent.getTag();
-            
+            if (entry == null) return;
+
             int currentState = mRefreshUtils.getStateForPackage(entry.info.packageName);
             if (currentState != position) {
                 mRefreshUtils.writePackage(entry.info.packageName, position);
                 notifyDataSetChanged();
-            }  
+            }
         }
 
-        @Override
-        public void onNothingSelected(AdapterView<?> parent) {
-        }
+        @Override public void onNothingSelected(AdapterView<?> parent) {}
+        @Override public Object[] getSections() { return mSections; }
 
         @Override
         public int getPositionForSection(int section) {
-            if (section < 0 || section >= mSections.length) {
-                return -1;
-            }
-
-            return mPositions[section];
+            return (section < 0 || section >= mSections.length) ? -1 : mPositions[section];
         }
 
         @Override
         public int getSectionForPosition(int position) {
-            if (position < 0 || position >= getItemCount()) {
-                return -1;
-            }
-
-            final int index = Arrays.binarySearch(mPositions, position);
-
-            /*
-             * Consider this example: section positions are 0, 3, 5; the supplied
-             * position is 4. The section corresponding to position 4 starts at
-             * position 3, so the expected return value is 1. Binary search will not
-             * find 4 in the array and thus will return -insertPosition-1, i.e. -3.
-             * To get from that number to the expected value of 1 we need to negate
-             * and subtract 2.
-             */
+            if (position < 0 || position >= getItemCount()) return -1;
+            int index = Arrays.binarySearch(mPositions, position);
             return index >= 0 ? index : -index - 2;
-        }
-
-        @Override
-        public Object[] getSections() {
-            return mSections;
         }
     }
 
     private class ActivityFilter implements ApplicationsState.AppFilter {
-
         private final PackageManager mPackageManager;
-        private final List<String> mLauncherResolveInfoList = new ArrayList<String>();
+        private final List<String> mLauncherResolveInfoList = new ArrayList<>();
 
         private ActivityFilter(PackageManager packageManager) {
             this.mPackageManager = packageManager;
-
             updateLauncherInfoList();
         }
 
@@ -407,19 +335,13 @@ public class RefreshSettingsFragment extends PreferenceFragment
             }
         }
 
-        @Override
-        public void init() {
-        }
+        @Override public void init() {}
 
         @Override
         public boolean filterApp(ApplicationsState.AppEntry entry) {
-            boolean show = !mAllPackagesAdapter.mEntries.contains(entry.info.packageName);
-            if (show) {
-                synchronized (mLauncherResolveInfoList) {
-                    show = mLauncherResolveInfoList.contains(entry.info.packageName);
-                }
+            synchronized (mLauncherResolveInfoList) {
+                return mLauncherResolveInfoList.contains(entry.info.packageName);
             }
-            return show;
         }
     }
 }
