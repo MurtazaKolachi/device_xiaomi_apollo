@@ -1,0 +1,2 @@
+allow toolbox resourcecache_data_file:dir { getattr rmdir rw_dir_perms };
+allow toolbox resourcecache_data_file:file { getattr unlink };
