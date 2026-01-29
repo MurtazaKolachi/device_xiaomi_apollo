@@ -1,0 +1,2 @@
+allow zygote unlabeled:file { getattr open read };
+allow zygote self:capability sys_chroot;
