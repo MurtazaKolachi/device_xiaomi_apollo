@@ -72,6 +72,8 @@ blob_fixups: blob_fixups_user_type = {
      'vendor/lib64/libstagefrightdolby.so'
      ): blob_fixup()
         .replace_needed('libstagefright_foundation.so', 'libstagefright_foundation-v33.so'),
+    'vendor/etc/gps.conf': blob_fixup()
+        .binary_regex_replace(b'PROXY_APP_PACKAGE_NAME = com.lbe.security.miui', b'PROXY_APP_PACKAGE_NAME = com.google.android.carrierlocation'),
 }  # fmt: skip
 
 
