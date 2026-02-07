@@ -1,2 +1,5 @@
 # Allow IFAAService access to Mlipay HAL
 hal_client_domain(system_app, hal_mlipay)
+
+# Allow Settings app to read settingslib properties
+get_prop(system_app, settingslib_prop)
