@@ -73,13 +73,16 @@ PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := speed-profile
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
 PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/boot/boot-image-profile.txt
+PRODUCT_DEX_PREOPT_GENERATE_DM_FILES := true
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Trebuchet \
     Launcher3QuickStep \
     NexusLauncherRelease \
     Settings \
-    SystemUI
+    SystemUI \
+    webview \
+    LineageSetupWizard
 
 # Audio
 PRODUCT_PACKAGES += \
