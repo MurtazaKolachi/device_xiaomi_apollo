@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- About -->
+    <string name="maintainer_name" translatable="false">Murtaza Kolachi</string>
+    <string name="maintainer_telegram" translatable="false">https://t.me/MurtazaKolachi</string>
+</resources>
