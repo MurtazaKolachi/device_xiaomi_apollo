@@ -304,11 +304,9 @@ TARGET_SUPPORTS_OMX_SERVICE := false
 # Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayCommon \
+    CustomSettingsOverlayCommon \
     DeviceAsWebcamResCommon \
     FrameworkResOverlayCommon \
-    LineageDialerOverlayCommon \
-    LineageSDKOverlayCommon \
-    LineageSettingsOverlayCommon \
     SettingsOverlayCommon \
     SettingsProviderOverlayCommon \
     SystemUIOverlayCommon \
@@ -316,7 +314,6 @@ PRODUCT_PACKAGES += \
     WifiResourcesOverlayCommon \
     ApertureOverlayDevice \
     FrameworkResOverlayDevice \
-    LineageSDKOverlayDevice \
     SettingsOverlayDevice \
     SystemUIOverlayDevice
 
