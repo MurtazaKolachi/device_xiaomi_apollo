@@ -153,23 +153,7 @@ TARGET_BUILD_DEVICE_AS_WEBCAM := true
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiDolby \
-    XiaomiParts \
-    DSPVolumeSynchronizer
-
-# Dolby Props
-PRODUCT_VENDOR_PROPERTIES += \
-    ro.vendor.dolby.dax.version=DAX3_3.6.1.6_r1 \
-    ro.vendor.audio.dolby.dax.version=DAX3_3.6 \
-    ro.vendor.audio.dolby.dax.support=true \
-    ro.vendor.audio.dolby.surround.enable=true
-
-# Dolby MediaCodecs Dependenices
-PRODUCT_PACKAGES += \
-    libcodec2_hidl@1.0.vendor \
-    libcodec2_soft_common.vendor \
-    libstagefright_softomx.vendor \
-    libstagefright_softomx_plugin.vendor
+    XiaomiParts
 
 # Display
 PRODUCT_PACKAGES += \
@@ -187,10 +171,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service
-
-# Dolby VNDK libs
-PRODUCT_PACKAGES += \
-    libstagefright_foundation-v33
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -306,8 +286,6 @@ endif
 PRODUCT_PACKAGES += \
     media_codecs_c2.xml \
     media_codecs_performance_c2.xml \
-    media_codecs_kona.xml \
-    media_codecs_performance_kona.xml \
     video_system_specs.json
 
 # NFC
@@ -328,11 +306,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/com.nxp.mifare.xml
 
 # OMX
-PRODUCT_PACKAGES += \
-    libOmxCore \
-    libOmxVdec \
-    libOmxVenc \
-    libstagefrighthw
+TARGET_SUPPORTS_OMX_SERVICE := false
 
 # Overlays
 PRODUCT_PACKAGES += \
