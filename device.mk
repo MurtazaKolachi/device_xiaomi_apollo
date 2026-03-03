@@ -214,6 +214,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_ENABLE_UFFD_GC := true
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
+# Keys
+-include vendor/private-keys/keys/keys.mk
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
