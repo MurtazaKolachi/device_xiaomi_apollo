@@ -19,6 +19,8 @@ package org.lineageos.settings.touchsampling;
 
 import android.os.Bundle;
 
+import androidx.fragment.app.Fragment;
+
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 
 public class TouchSamplingSettingsActivity extends CollapsingToolbarBaseActivity {
@@ -29,7 +31,10 @@ public class TouchSamplingSettingsActivity extends CollapsingToolbarBaseActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        getFragmentManager().beginTransaction().replace(com.android.settingslib.collapsingtoolbar.R.id.content_frame,
-                new TouchSamplingSettingsFragment(), TAG_HTSR).commit();
+        Fragment fragment = getSupportFragmentManager().findFragmentById(com.android.settingslib.collapsingtoolbar.R.id.content_frame);
+        if (fragment == null) {
+            getSupportFragmentManager().beginTransaction().add(com.android.settingslib.collapsingtoolbar.R.id.content_frame,
+                    new TouchSamplingSettingsFragment(), TAG_HTSR).commit();
+        }
     }
 }

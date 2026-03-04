@@ -19,6 +19,8 @@ package org.lineageos.settings.refreshrate;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import androidx.fragment.app.Fragment;
+
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 
 public class RefreshActivity extends CollapsingToolbarBaseActivity {
@@ -29,8 +31,11 @@ public class RefreshActivity extends CollapsingToolbarBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        getFragmentManager().beginTransaction().replace(com.android.settingslib.collapsingtoolbar.R.id.content_frame,
-                new RefreshSettingsFragment(), TAG_REFRESH).commit();
+        Fragment fragment = getSupportFragmentManager().findFragmentById(com.android.settingslib.collapsingtoolbar.R.id.content_frame);
+        if (fragment == null) {
+            getSupportFragmentManager().beginTransaction().add(com.android.settingslib.collapsingtoolbar.R.id.content_frame,
+                    new RefreshSettingsFragment(), TAG_REFRESH).commit();
+        }
     }
 
 
