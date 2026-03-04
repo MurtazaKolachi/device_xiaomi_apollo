@@ -30,4 +30,15 @@
         <item name="alertDialogTheme">@style/Theme.AlertDialog.SettingsLib</item>
     </style>
 
+    <style name="Theme.SubSettingsBase.Expressive" parent="Theme.SettingsBase.Expressive">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorControlNormal">?android:attr/colorControlNormal</item>
+        <item name="alertDialogTheme">@style/Theme.AlertDialog.SettingsLib.Expressive</item>
+        <!-- Prevent forced edge-to-edge on API 35+ until layouts are adapted -->
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+
 </resources>
