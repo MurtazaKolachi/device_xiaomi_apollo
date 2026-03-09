@@ -8,13 +8,17 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Hertzify stuff.
+$(call inherit-product, vendor/hertzify/config/common_full_phone.mk)
 
 # Inherit from apollo device
 $(call inherit-product, device/xiaomi/apollo/device.mk)
 
-PRODUCT_NAME := lineage_apollo
+TARGET_BOOT_ANIMATION_RES := 1080
+HERTZIFY_MAINTAINER := Murtaza Kolachi
+HERTZIFY_BUILD_TYPE := OFFICIAL
+
+PRODUCT_NAME := hertzify_apollo
 PRODUCT_DEVICE := apollo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
