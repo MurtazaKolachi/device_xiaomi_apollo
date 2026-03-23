@@ -937,7 +937,7 @@ echo $LimitSize > /dev/memcg/camera/memory.soft_limit_in_bytes
 # Set allocstall_threshold to 0 for all targets.
 # Set swappiness to 60 for all targets
 echo 0 > /sys/module/vmpressure/parameters/allocstall_threshold
-echo 60 > /proc/sys/vm/swappiness
+echo 100 > /proc/sys/vm/swappiness
 
 # Disable wsf for all targets beacause we are using efk.
 # wsf Range : 1..1000 So set to bare minimum value 1.
