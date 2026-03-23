@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.refreshrate;
+package co.aospa.settings.refreshrate;
 
 import android.app.ActivityManager;
 import android.app.ActivityTaskManager;

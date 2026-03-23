@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.touchsampling;
+package co.aospa.settings.touchsampling;
 
 import android.content.Context;
 import android.content.Intent;
@@ -26,7 +26,7 @@ import android.provider.Settings;
 import android.util.Log;
 import androidx.preference.PreferenceManager;
 
-import org.lineageos.settings.utils.FileUtils;
+import co.aospa.settings.utils.FileUtils;
 
 import java.io.File;
 import java.io.FileNotFoundException;

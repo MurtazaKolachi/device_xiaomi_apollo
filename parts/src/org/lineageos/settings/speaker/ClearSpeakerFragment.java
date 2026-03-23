@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.speaker;
+package co.aospa.settings.speaker;
 
 import android.content.res.AssetFileDescriptor;
 import android.media.AudioAttributes;
@@ -29,7 +29,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.SwitchPreferenceCompat;
 
-import org.lineageos.settings.R;
+import co.aospa.settings.R;
 
 import java.io.IOException;
 

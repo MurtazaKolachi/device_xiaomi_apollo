@@ -15,7 +15,7 @@ android_app {
     privileged: true,
 
     static_libs: [
-        "org.lineageos.settings.resources",
+        "co.aospa.settings.resources",
         "SettingsLib",
         "//hardware/xiaomi:vendor.xiaomi.hardware.touchfeature-V1.0-java",
     ],
@@ -25,13 +25,13 @@ android_app {
     },
 
     required: [
-        "privapp_whitelist_org.lineageos.settings.xml",
+        "privapp_whitelist_co.aospa.settings.xml",
     ],
 }
 
 prebuilt_etc {
-    name: "privapp_whitelist_org.lineageos.settings.xml",
-    src: "permissions/privapp_whitelist_org.lineageos.settings.xml",
+    name: "privapp_whitelist_co.aospa.settings.xml",
+    src: "permissions/privapp_whitelist_co.aospa.settings.xml",
     sub_dir: "permissions",
     system_ext_specific: true,
 }

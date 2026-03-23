@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.settings.thermal;
+package co.aospa.settings.thermal;
 
 import android.annotation.Nullable;
 import android.app.ActionBar;
@@ -43,7 +43,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.android.settingslib.applications.ApplicationsState;
 
-import org.lineageos.settings.R;
+import co.aospa.settings.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

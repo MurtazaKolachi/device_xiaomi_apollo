@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.settings.thermal;
+package co.aospa.settings.thermal;
 
 import android.app.ActionBar;
 import android.content.SharedPreferences;
@@ -25,8 +25,8 @@ import androidx.preference.PreferenceManager;
 
 import com.android.settingslib.widget.MainSwitchPreference;
 
-import org.lineageos.settings.R;
-import org.lineageos.settings.widget.SeekBarPreference;
+import co.aospa.settings.R;
+import co.aospa.settings.widget.SeekBarPreference;
 
 public class TouchSettingsFragment extends PreferenceFragment
         implements SharedPreferences.OnSharedPreferenceChangeListener, androidx.preference.Preference.OnPreferenceChangeListener {

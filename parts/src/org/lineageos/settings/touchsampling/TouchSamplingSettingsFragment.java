@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.touchsampling;
+package co.aospa.settings.touchsampling;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -26,9 +26,9 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.SwitchPreferenceCompat;
 
-import org.lineageos.settings.R;
-import org.lineageos.settings.touchsampling.TouchSamplingUtils;
-import org.lineageos.settings.utils.FileUtils;
+import co.aospa.settings.R;
+import co.aospa.settings.touchsampling.TouchSamplingUtils;
+import co.aospa.settings.utils.FileUtils;
 
 public class TouchSamplingSettingsFragment extends PreferenceFragment implements
         OnPreferenceChangeListener {
