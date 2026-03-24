@@ -1,0 +1,5 @@
+cc_library_shared {
+    name: "libinput_shim",
+    srcs: ["libinput_shim.cpp"],
+    system_ext_specific: true,
+}
