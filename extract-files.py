@@ -88,6 +88,7 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 namespace_imports = [
+    'device/xiaomi/apollo',
     'hardware/qcom-caf/sm8250',
     'hardware/qcom/wlan',
     'hardware/xiaomi',
