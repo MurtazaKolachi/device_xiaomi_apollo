@@ -89,7 +89,7 @@ lib_fixups: lib_fixups_user_type = {
 
 namespace_imports = [
     'hardware/qcom-caf/sm8250',
-    'hardware/qcom-caf/wlan',
+    'hardware/qcom/wlan',
     'hardware/xiaomi',
     'vendor/qcom/opensource/commonsys-intf/display',
     'vendor/qcom/opensource/commonsys/display',
