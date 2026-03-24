@@ -205,5 +205,7 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+
 # Inherit the proprietary files
 include vendor/xiaomi/apollo/BoardConfigVendor.mk
