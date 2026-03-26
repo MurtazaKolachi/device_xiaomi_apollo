@@ -60,8 +60,8 @@ vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
 
 # Audio
 vendor/lib/hw/audio.primary.kona.so
-vendor/lib/liba2dpoffload.so
 vendor/lib/vndk/libxlog.so
+vendor/lib/liba2dpoffload.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
@@ -69,20 +69,20 @@ vendor/lib/libadiertac.so
 vendor/lib/libadm.so
 vendor/lib/libaudcal.so
 vendor/lib/libaudio_log_utils.so
-vendor/lib/libaudioroute_ext.so
-vendor/lib/libqtigef.so
-vendor/lib/libresampler.so
-vendor/lib/libssrec.so
-vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib/libaudioparsers.so
+vendor/lib/libaudioroute_ext.so
 vendor/lib/libbatterylistener.so
 vendor/lib/libcomprcapture.so
 vendor/lib/libexthwplugin.so
 vendor/lib/libhdmiedid.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/libhfp.so
+vendor/lib/libqtigef.so
+vendor/lib/libresampler.so
 vendor/lib/libsndmonitor.so
 vendor/lib/libspkrprot.so
+vendor/lib/libssrec.so
+vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 
 # Audio firmware
 vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw
@@ -635,11 +635,11 @@ vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # Graphics (Adreno)
+vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so
+vendor/lib/egl/libGLESv1_CM_adreno.so
 vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so
 vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so
-vendor/lib/egl/eglSubDriverAndroid.so
-vendor/lib/egl/libGLESv1_CM_adreno.so
 vendor/lib/egl/libq3dtools_esx.so
 vendor/lib/libC2D2.so
 vendor/lib/libCB.so
@@ -651,11 +651,11 @@ vendor/lib/libgpudataproducer.so
 vendor/lib/libgsl.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
+vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so
+vendor/lib64/egl/libGLESv1_CM_adreno.so
 vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so
 vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so
-vendor/lib64/egl/eglSubDriverAndroid.so
-vendor/lib64/egl/libGLESv1_CM_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
 vendor/lib64/libC2D2.so
 vendor/lib64/libCB.so
@@ -900,9 +900,9 @@ vendor/lib64/unnhal-acc-hta.so
 vendor/lib64/unnhal-acc-hvx.so
 
 # NFC
-vendor/etc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf
+vendor/etc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
 vendor/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so
 
 # NVRAM
