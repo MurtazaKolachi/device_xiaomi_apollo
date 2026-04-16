@@ -20,21 +20,21 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceManager;
 
 import com.android.settingslib.widget.MainSwitchPreference;
+import com.android.settingslib.widget.SliderPreference;
 
 import org.lineageos.settings.R;
-import org.lineageos.settings.widget.SeekBarPreference;
 
-public class TouchSettingsFragment extends PreferenceFragment
-        implements SharedPreferences.OnSharedPreferenceChangeListener, androidx.preference.Preference.OnPreferenceChangeListener {
+public class TouchSettingsFragment extends androidx.preference.PreferenceFragmentCompat
+        implements SharedPreferences.OnSharedPreferenceChangeListener,
+                   androidx.preference.Preference.OnPreferenceChangeListener {
 
     private SharedPreferences mSharedPrefs;
-    private SeekBarPreference mTouchSensitivity;
-    private SeekBarPreference mTouchResponse;
-    private SeekBarPreference mTouchResistant;
+    private SliderPreference mTouchSensitivity;
+    private SliderPreference mTouchResponse;
+    private SliderPreference mTouchResistant;
     private MainSwitchPreference mGameMode;
 
     private String packageName = "";
@@ -56,9 +56,9 @@ public class TouchSettingsFragment extends PreferenceFragment
         mGameMode = (MainSwitchPreference) findPreference(Constants.PREF_TOUCH_GAME_MODE);
         mGameMode.setOnPreferenceChangeListener(this);
 
-        mTouchResistant = (SeekBarPreference) findPreference(Constants.PREF_TOUCH_RESISTANT);
-        mTouchResponse = (SeekBarPreference) findPreference(Constants.PREF_TOUCH_RESPONSE);
-        mTouchSensitivity = (SeekBarPreference) findPreference(Constants.PREF_TOUCH_SENSITIVITY);
+        mTouchResistant = (SliderPreference) findPreference(Constants.PREF_TOUCH_RESISTANT);
+        mTouchResponse = (SliderPreference) findPreference(Constants.PREF_TOUCH_RESPONSE);
+        mTouchSensitivity = (SliderPreference) findPreference(Constants.PREF_TOUCH_SENSITIVITY);
         updateDefaults();
     }
 
@@ -119,9 +119,9 @@ public class TouchSettingsFragment extends PreferenceFragment
         mTouchResponse.setEnabled(modeEnabled);
         mTouchResistant.setEnabled(modeEnabled);
 
-        mTouchResponse.setProgress(Integer.parseInt(values[Constants.TOUCH_RESPONSE]));
-        mTouchSensitivity.setProgress(Integer.parseInt(values[Constants.TOUCH_SENSITIVITY]));
-        mTouchResistant.setProgress(Integer.parseInt(values[Constants.TOUCH_RESISTANT]));
+        mTouchResponse.setValue(Integer.parseInt(values[Constants.TOUCH_RESPONSE]));
+        mTouchSensitivity.setValue(Integer.parseInt(values[Constants.TOUCH_SENSITIVITY]));
+        mTouchResistant.setValue(Integer.parseInt(values[Constants.TOUCH_RESISTANT]));
     }
 
     private void writeTouchValues(String modes) {
