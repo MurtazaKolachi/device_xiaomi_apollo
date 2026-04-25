@@ -29,16 +29,8 @@
 #
 
 on early-init
-    write /proc/sys/kernel/sched_boost 1
 
 on init
-    write /dev/stune/foreground/schedtune.sched_boost_no_override 1
-    write /dev/stune/top-app/schedtune.sched_boost_no_override 1
-    write /dev/stune/schedtune.colocate 0
-    write /dev/stune/background/schedtune.colocate 0
-    write /dev/stune/system-background/schedtune.colocate 0
-    write /dev/stune/foreground/schedtune.colocate 0
-    write /dev/stune/top-app/schedtune.colocate 1
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
     chown system system /sys/devices/platform/soc/${ro.boot.bootdevice}/auto_hibern8
@@ -172,20 +164,6 @@ on boot
     # default country code
     setprop ro.boot.wificountrycode 00
 
-    chown root system /sys/module/migt/parameters/add_lclus_affinity_uidlist
-    chmod 0664 /sys/module/migt/parameters/add_lclus_affinity_uidlist
-    chown root system /sys/module/migt/parameters/del_lclus_affinity_uidlist
-    chmod 0664 /sys/module/migt/parameters/del_lclus_affinity_uidlist
-    chown root system /sys/module/migt/parameters/add_mclus_affinity_uidlist
-    chmod 0664 /sys/module/migt/parameters/add_mclus_affinity_uidlist
-    chown root system /sys/module/migt/parameters/del_mclus_affinity_uidlist
-    chmod 0664 /sys/module/migt/parameters/del_mclus_affinity_uidlist
-    chown root system /sys/module/migt/parameters/add_bclus_affinity_uidlist
-    chmod 0664 /sys/module/migt/parameters/add_bclus_affinity_uidlist
-    chown root system /sys/module/migt/parameters/del_bclus_affinity_uidlist
-    chmod 0664 /sys/module/migt/parameters/del_bclus_affinity_uidlist
-    chown root system /sys/module/migt/parameters/reset_clus_affinity_uidlist
-    chmod 0664 /sys/module/migt/parameters/reset_clus_affinity_uidlist
 
 on property:persist.vendor.sys.fp.fod.large_field=1
     write sys/bus/i2c/devices/3-0049/fod_area 1
@@ -326,28 +304,6 @@ on property:vendor.dcvs.prop=1
    start dcvs-sh
 
 on post-fs-data
-    chmod 0666 /dev/migt
-    restorecon /dev/migt
-    chmod 0777 /sys/module/migt/parameters/migt_freq
-    restorecon /sys/module/migt/parameters/migt_freq
-    chmod 0777 /sys/module/migt/parameters/migt_ms
-    restorecon /sys/module/migt/parameters/migt_ms
-    chmod 0777 /sys/module/migt/parameters/migt_thresh
-    restorecon /sys/module/migt/parameters/migt_thresh
-    chmod 0777 /sys/module/migt/parameters/boost_policy
-    restorecon /sys/module/migt/parameters/boost_policy
-    chmod 0777 /sys/module/migt/parameters/fps_variance_ratio
-    restorecon /sys/module/migt/parameters/fps_variance_ratio
-    chmod 0777 /sys/module/migt/parameters/super_task_max_num
-    restorecon /sys/module/migt/parameters/super_task_max_num
-    chmod 0777 /sys/module/migt/parameters/migt_ceiling_freq
-    restorecon /sys/module/migt/parameters/migt_ceiling_freq
-    chmod 0777 /sys/module/migt/parameters/stask_candidate_num
-    restorecon /sys/module/migt/parameters/stask_candidate_num
-    chmod 0777 /sys/module/migt/parameters/fas_power_mod
-    restorecon /sys/module/migt/parameters/fas_power_mod
-    chmod 0666 /sys/module/migt/parameters/mi_viptask
-    restorecon /sys/module/migt/parameters/mi_viptask
 
 service mi-serial-sh /vendor/bin/init.mi.serial.sh
     class late_start
@@ -361,12 +317,9 @@ on post-fs && property:ro.product.device=elish
 
 on property:sys.lmkd.memory.start_reclaim_in_video_record=1
     setprop sys.lmkd.memory.start_reclaim_in_video_record 0
-    write /sys/kernel/cam_reclaim/event 1
 
 on property:sys.lmkd.memory.start_reclaim_in_capture=1
     setprop sys.lmkd.memory.start_reclaim_in_capture 0
-    write /sys/kernel/cam_reclaim/config "120 0 0 400000 1000 0 0 2000000000"
-    write /sys/kernel/cam_reclaim/event 1
 
 #####copy megvii files#####
 on property:sys.boot_completed=1
