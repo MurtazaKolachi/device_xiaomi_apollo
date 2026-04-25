@@ -75,11 +75,14 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_NO_GCC := true
 BOARD_RAMDISK_USE_LZ4 := true
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_ADDITIONAL_FLAGS += LLVM=1 LLVM_IAS=1
 TARGET_KERNEL_SOURCE := kernel/xiaomi/apollo
 TARGET_KERNEL_CONFIG := vendor/apollo_defconfig
 
 # Kernel Clang Flags
 KERNEL_CC := CC=clang
+KERNEL_LLVM_SUPPORT := true
 override KERNEL_TOOLCHAIN_PREFIX_arm := arm-linux-android-
 
 # OTA assert
