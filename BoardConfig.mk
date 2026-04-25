@@ -76,7 +76,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_NO_GCC := true
 BOARD_RAMDISK_USE_LZ4 := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/apollo
-TARGET_KERNEL_CONFIG := apollo_defconfig
+TARGET_KERNEL_CONFIG := vendor/apollo_defconfig
 
 # Kernel Clang Flags
 KERNEL_CC := CC=clang
