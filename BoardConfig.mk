@@ -78,7 +78,7 @@ BOARD_RAMDISK_USE_LZ4 := true
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_ADDITIONAL_FLAGS += LLVM=1 LLVM_IAS=1
 TARGET_KERNEL_SOURCE := kernel/xiaomi/apollo
-TARGET_KERNEL_CONFIG := apollo_defconfig
+TARGET_KERNEL_CONFIG := vendor/apollo_defconfig
 
 # Kernel Clang Flags
 KERNEL_CC := CC=clang
