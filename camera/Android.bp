@@ -15,8 +15,11 @@
 
 cc_library_static {
     name: "libcameraservice_extension.sm8250",
-    srcs: ["CameraProviderExtension.cpp"],
+    srcs: [
+        "CameraProviderExtension.cpp",
+        "CameraServiceStubs.cpp",
+    ],
     include_dirs: [
-        "frameworks/av/services/camera/libcameraservice/common"
+        "frameworks/av/services/camera/libcameraservice/common",
     ],
 }
