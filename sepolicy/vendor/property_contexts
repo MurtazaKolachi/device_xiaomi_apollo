@@ -74,3 +74,6 @@ ro.input.resampling                                                             
 viewroot.profile_rendering                                                                          u:object_r:exported_system_prop:s0
 is_expressive_design_enabled                                                                        u:object_r:exported_system_prop:s0
 renderthread.skia.                                                                                  u:object_r:exported_system_prop:s0
+
+# USB
+ro.usb.uvc.                                                                                         u:object_r:vendor_usb_prop:s0
