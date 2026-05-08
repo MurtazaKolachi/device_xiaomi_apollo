@@ -47,9 +47,7 @@ bool supportsSetTorchModeExt() {
 }
 
 int32_t getTorchDefaultStrengthLevelExt() {
-    // Our default value is 75. This corresponds to 15%.
-    // As we have changed the maximum value, 59% now corresponds to 75.
-    return 59;
+    return 255;
 }
 
 int32_t getTorchMaxStrengthLevelExt() {
