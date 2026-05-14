@@ -1,3 +1,7 @@
 dontaudit system_server binderfs_logs_transactions:file r_file_perms;
 
 get_prop(system_server, custom_version_prop)
+
+# ro.boot.vbmeta.digest is set by bootloader, system_server shouldn't try to set it.
+# It is a neverallow violation to allow system_server to set bootloader_prop.
+dontaudit system_server bootloader_prop:property_service set;
