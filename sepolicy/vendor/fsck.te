@@ -2,3 +2,4 @@ allow fsck self:capability kill;
 
 # Allow fsck.f2fs to read device partition attributes in sysfs
 allow fsck sysfs:file getattr;
+dontaudit fsck sysfs:file read;
