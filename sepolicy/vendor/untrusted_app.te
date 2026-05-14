@@ -24,6 +24,7 @@ dontaudit untrusted_app system_lib_file:file execmod;
 dontaudit untrusted_app proc_net:file execmod;
 dontaudit untrusted_app sysfs:dir read;
 dontaudit untrusted_app block_device:dir search;
+dontaudit untrusted_app shell_test_data_file:dir search;
 
 # Allow untrusted apps to find (enumerate) the OMAPI service
 allow untrusted_app secure_element_service:service_manager find;
