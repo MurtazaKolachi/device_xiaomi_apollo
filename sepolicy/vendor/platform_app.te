@@ -1,1 +1,3 @@
 allow platform_app zygote:unix_stream_socket getopt;
+
+r_dir_file(platform_app, vendor_sysfs_graphics)
