@@ -276,6 +276,7 @@ vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 vendor/lib64/hw/vendor.xiaomi.hardware.campostproc@1.0-impl.so
 
 # Camera (CamX)
+vendor/lib/libcamxexternalformatutils.so 
 vendor/lib64/libcamxexternalformatutils.so
 vendor/lib64/libcamxfacialfeatures.so
 vendor/lib64/libcamxfdalgo.so
