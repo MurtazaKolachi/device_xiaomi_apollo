@@ -47,3 +47,4 @@ libmiphone_capture_ldc.so 64
 com.xiaomi.plugin.ldc.so 64
 libwa_widelens_undistort.so 64
 libarcsoft_mf_superresolution.so 64
+libcamxexternalformatutils.so
