@@ -52,6 +52,7 @@ persist.vendor.sys.pay                                                          
 persist.radio.VT_HYBRID_ENABLE                                                                      u:object_r:vendor_radio_prop:s0
 
 # RIL
+ril.ecclist                                                                                         u:object_r:vendor_radio_prop:s0
 ro.vendor.ril                                                                                       u:object_r:vendor_public_vendor_default_prop:s0
 
 # Rmnet
