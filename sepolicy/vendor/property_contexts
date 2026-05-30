@@ -38,6 +38,7 @@ persist.vendor.sys.pay                                                          
 persist.vendor.nfc.                                                                                 u:object_r:vendor_nfc_prop:s0
 
 # RIL
+ril.ecclist                                                                                         u:object_r:vendor_radio_prop:s0
 ro.vendor.ril                                                                                       u:object_r:vendor_public_vendor_default_prop:s0
 
 # Thermal
