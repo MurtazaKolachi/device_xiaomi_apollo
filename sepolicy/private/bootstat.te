@@ -1,0 +1,3 @@
+# Allow bootstat to call servicemanager
+allow bootstat servicemanager:binder call;
+dontaudit bootstat hal_health_service:service_manager find;
