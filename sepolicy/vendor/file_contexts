@@ -81,3 +81,7 @@
 
 # Xiaomi Touch
 /dev/xiaomi-touch                                                                                   u:object_r:vendor_touchfeature_device:s0
+
+# UFS
+/sys/devices/platform/soc/[0-9a-f]+\.ufshc/clkscale_enable u:object_r:sysfs_ufs_power:s0
+/sys/devices/platform/soc/[0-9a-f]+\.ufshc/clkgate_enable u:object_r:sysfs_ufs_power:s0
