@@ -5,3 +5,5 @@ set_prop(init, vendor_fingerprint_prop)
 dontaudit init sysfs:file setattr;
 
 allow init adsprpcd_file:file mounton;
+
+allow init sysfs_ufs_power:file { open write setattr };
