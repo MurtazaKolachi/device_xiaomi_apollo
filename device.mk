@@ -266,7 +266,9 @@ SPAMMY_LOG_TAGS := \
     BiometricScheduler \
     BiometricSchedulerOperation \
     GestureAvailabilityTracker \
-    AuthSessionCoordinator
+    AuthSessionCoordinator \
+    QC2GrallocBuffer \
+    QC2V4l2Codec
 
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_VENDOR_PROPERTIES += \
