@@ -29,5 +29,14 @@ dontaudit untrusted_app dalvikcache_data_file:file execmod;
 
 dontaudit untrusted_app_29 cgroup:dir search;
 
+# Dontaudit various untrusted app denials
+dontaudit untrusted_app_all {
+    system_data_root_file
+    media_userdir_file
+    proc_diskstats
+}:file read;
+
+dontaudit untrusted_app_all shell_test_data_file:dir search;
+
 # Allow untrusted apps to find (enumerate) the OMAPI service
 allow untrusted_app secure_element_service:service_manager find;
