@@ -2,7 +2,11 @@ allow init same_process_hal_file:file execute;
 
 set_prop(init, vendor_fingerprint_prop)
 
-allow init tmpfs:blk_file { getattr open read ioctl map };
+allow init tmpfs:blk_file { getattr open read ioctl map relabelfrom };
+allowxperm init tmpfs:blk_file ioctl { 0x1260-0x127f };
+
+allow init vbmeta_block_device:blk_file { getattr open read ioctl map relabelto };
+allowxperm init vbmeta_block_device:blk_file ioctl { 0x1260-0x127f };
 
 dontaudit init sysfs:file setattr;
 
