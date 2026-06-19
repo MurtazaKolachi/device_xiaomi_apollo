@@ -1,2 +1,5 @@
 get_prop(platform_app, bluetooth_lea_prop)
-get_prop(platform_app, usb_uvc_enabled_prop)
+
+# SystemUI (platform_app) attempts to read ro.usb.uvc.enabled which is forbidden by neverallow
+dontaudit platform_app usb_uvc_enabled_prop:file read;
+
