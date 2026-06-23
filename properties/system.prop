@@ -25,9 +25,6 @@ persist.vendor.color.matrix=2
 # DPM
 persist.vendor.dpm.feature=1
 
-# FS-verity
-ro.apk_verity.mode=2
-
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
