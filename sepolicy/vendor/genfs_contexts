@@ -7,10 +7,6 @@ genfscon sysfs /devices/platform/soc/ae00000.qcom,mdss_mdp/idle_state           
 # Fingerprint
 genfscon sysfs /devices/platform/soc/soc:fingerprint_fpc                                            u:object_r:vendor_sysfs_fingerprint:s0
 genfscon sysfs /devices/platform/soc/soc:fingerprint_fpc/wakeup_enable                              u:object_r:vendor_sysfs_fingerprint:s0
-genfscon sysfs /devices/platform/soc/soc:fingerprint_goodix                                         u:object_r:vendor_sysfs_fingerprint:s0
-
-# FOD
-genfscon sysfs /devices/virtual/touch/tp_dev/fod_status                                             u:object_r:vendor_sysfs_graphics:s0
 
 # Health
 genfscon sysfs /class/power_supply/battery/capacity                                                 u:object_r:sysfs_battery_supply:s0
@@ -137,8 +133,6 @@ genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.q
 genfscon sysfs /devices/platform/soc/c80000.i2c/i2c-4/4-003b/power_supply/idt/wakeup                                                               u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/c80000.i2c/i2c-4/4-003b/wakeup                                                                                u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:fingerprint_fpc/wakeup                                                                                    u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/soc:fingerprint_goodix/wakeup                                                                                 u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/soc:goodix_fp/wakeup                                                                                          u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:maxim_ds28e16/power_supply/batt_verify/wakeup                                                             u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:maxim_ds28e16_slave/power_supply/batt_verify_slave/wakeup                                                 u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:oem_rf_cable/wakeup                                                                                       u:object_r:sysfs_wakeup:s0
