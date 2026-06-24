@@ -7,5 +7,3 @@ get_prop(system_server, custom_version_prop)
 dontaudit system_server bootloader_prop:property_service set;
 
 get_prop(system_server, usb_uvc_enabled_prop)
-
-r_dir_file(system_server, fuse)
