@@ -156,6 +156,14 @@
         <item>21</item>
     </integer-array>
 
+    <!-- Vibrator pattern for feedback about a default notification -->
+    <integer-array name="config_defaultNotificationVibePattern">
+        <item>0</item>
+        <item>350</item>
+        <item>250</item>
+        <item>350</item>
+    </integer-array>
+
     <!-- Vibrator pattern for feedback about touching a virtual key -->
     <integer-array name="config_virtualKeyVibePattern">
         <item>0</item>
