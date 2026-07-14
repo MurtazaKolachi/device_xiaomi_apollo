@@ -35,6 +35,7 @@ allow vendor_mi_thermald sysfs_thermal:file rw_file_perms;
 
 # Allow setting thermal properties
 set_prop(vendor_mi_thermald, vendor_thermal_normal_prop)
+set_prop(vendor_mi_thermald, exported_product_thermal_prop)
 
 # mi_thermald wants to read /sys/class, needless to say we can't relabel that
 allow vendor_mi_thermald sysfs:dir r_dir_perms;
