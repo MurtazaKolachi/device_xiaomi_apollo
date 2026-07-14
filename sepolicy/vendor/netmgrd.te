@@ -1,0 +1,2 @@
+# Allow netmgrd to read and write product radio properties for data configs
+set_prop(vendor_netmgrd, product_radio_prop)
