@@ -1,2 +1,10 @@
 # SettingsLib
 system_public_prop(settingslib_prop)
+system_public_prop(product_audio_prop)
+system_public_prop(product_camera_prop)
+system_public_prop(product_fingerprint_prop)
+system_public_prop(product_deviceid_prop)
+system_public_prop(product_radio_prop)
+system_public_prop(product_sensor_prop)
+system_public_prop(exported_product_thermal_prop)
+system_public_prop(product_usb_prop)
