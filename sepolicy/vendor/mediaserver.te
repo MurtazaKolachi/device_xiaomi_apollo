@@ -1,1 +1,1 @@
-allow mediaserver media_quality_service:service_manager find;
+# allow mediaserver media_quality_service:service_manager find;
