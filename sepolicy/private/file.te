@@ -1,2 +1,5 @@
 type sysfs_leds_devicesettings, sysfs_type, fs_type;
 type sysfs_htsr, sysfs_type, fs_type;
+
+# Allow core security and media daemons to read same_process_hal_file
+r_dir_file({ credstore drmserver gatekeeperd incidentd keystore mediametrics }, same_process_hal_file)
