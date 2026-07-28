@@ -3,3 +3,12 @@ hal_client_domain(system_app, hal_mlipay)
 
 # Allow Settings app to read settingslib properties
 get_prop(system_app, settingslib_prop)
+
+# Dontaudit neverallowed service find and binder calls for system_app
+dontaudit system_app {
+    system_suspend_control_service
+    system_suspend_control_internal_service
+    tracingproxy_service
+}:service_manager find;
+
+dontaudit system_app { netd system_suspend vold }:binder call;
