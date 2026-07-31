@@ -1,0 +1,1 @@
+allow adbd pstorefs:dir search;

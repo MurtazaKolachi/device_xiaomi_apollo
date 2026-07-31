@@ -1,0 +1,1 @@
+allow incidentd same_process_hal_file:file { execute read open getattr map };
