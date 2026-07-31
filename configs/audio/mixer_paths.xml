@@ -26,6 +26,7 @@
 <!-- IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.                          -->
 <mixer>
     <!-- These are the initial mixer settings -->
+    <ctl name="Audio Stream Capture 31 App Type Cfg" value="0" />
     <ctl name="Voice Rx Device Mute" id="0" value="0" />
     <ctl name="Voice Rx Device Mute" id="1" value="-1" />
     <ctl name="Voice Rx Device Mute" id="2" value="20" />

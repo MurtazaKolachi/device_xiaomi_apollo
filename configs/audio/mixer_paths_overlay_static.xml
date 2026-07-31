@@ -110,6 +110,8 @@
     <ctl name="Ultrasound Microphone Index" value="0"/>
     <ctl name="Ultrasound Suspend" value="0"/>
 
+    <!-- App Type Cfg controls -->
+    <ctl name="Audio Stream Capture 31 App Type Cfg" value="0" />
 
     <path name="deep-buffer-playback">
         <ctl name="TERT_TDM_RX_0 Audio Mixer MultiMedia1" value="1" />
