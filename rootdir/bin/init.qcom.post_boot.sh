@@ -90,10 +90,14 @@ function configure_zram_parameters() {
 }
 
 function configure_read_ahead_kb_values() {
-    echo 512 > /sys/block/mmcblk0/bdi/read_ahead_kb
-    echo 512 > /sys/block/mmcblk0rpmb/bdi/read_ahead_kb
+    if [ -f /sys/block/mmcblk0/bdi/read_ahead_kb ]; then
+        echo 512 > /sys/block/mmcblk0/bdi/read_ahead_kb
+    fi
+    if [ -f /sys/block/mmcblk0rpmb/bdi/read_ahead_kb ]; then
+        echo 512 > /sys/block/mmcblk0rpmb/bdi/read_ahead_kb
+    fi
 
-    dmpts=$(ls /sys/block/*/queue/read_ahead_kb | grep -e dm -e mmc)
+    dmpts=$(ls /sys/block/*/queue/read_ahead_kb 2>/dev/null | grep -e dm -e sd -e mmc)
     for dm in $dmpts; do
         echo 512 > $dm
     done
