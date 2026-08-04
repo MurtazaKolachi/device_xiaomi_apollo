@@ -148,6 +148,10 @@ on boot
     chmod 0664 /sys/class/power_supply/battery/dc_thermal_levels
     chown system system /sys/class/thermal/thermal_message/sconfig
 
+    # Fast charge
+    chown system system /sys/kernel/fast_charge/force_fast_charge
+    chmod 0660 /sys/kernel/fast_charge/force_fast_charge
+
     # default country code
     setprop ro.boot.wificountrycode 00
 
