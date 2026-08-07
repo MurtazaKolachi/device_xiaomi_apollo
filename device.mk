@@ -253,6 +253,7 @@ SPAMMY_LOG_TAGS := \
     sensors \
     vendor.qti.hardware.display.composer-service \
     vendor.xiaomi.sensor.citsensorservice@2.0-service \
+    android.hardware.sensors@1.0-service \
     ActivityTaskManager \
     ActivityManager \
     ServiceTrackerHelper \
