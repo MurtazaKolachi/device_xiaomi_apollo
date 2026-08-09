@@ -20,3 +20,5 @@ set_prop(vendor_init, product_radio_prop)
 set_prop(vendor_init, product_usb_prop)
 
 allow vendor_init proc_sched:file write;
+
+allow vendor_init cgroup:file getattr;
