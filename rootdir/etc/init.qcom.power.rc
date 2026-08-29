@@ -46,13 +46,10 @@ on property:sys.boot_completed=1
 
     # Setup runtime schedTune
     write /dev/stune/foreground/schedtune.prefer_idle 1
-    write /dev/stune/foreground/schedtune.prefer_high_cap 0
     write /dev/stune/foreground/schedtune.boost 0
     write /dev/stune/schedtune.prefer_idle 0
-    write /dev/stune/schedtune.prefer_high_cap 0
     write /dev/stune/schedtune.boost 0
     write /dev/stune/top-app/schedtune.prefer_idle 1
-    write /dev/stune/top-app/schedtune.prefer_high_cap 0
     write /dev/stune/top-app/schedtune.boost 10
 
     # Setup runtime blkio
@@ -65,9 +62,6 @@ on property:sys.boot_completed=1
     # Enable UFS powersaving
     write /sys/devices/platform/soc/${ro.boot.bootdevice}/clkscale_enable 1
     write /sys/devices/platform/soc/${ro.boot.bootdevice}/clkgate_enable 1
-
-on property:init.svc.recovery=running
-    trigger enable-low-power
 
 on property:vendor.post_boot.parsed=1
     # Setup runtime cpusets
@@ -111,13 +105,10 @@ on init
     write /dev/cpuset/system-background/cpus 0-5
     write /dev/cpuset/restricted/cpus 2-5
     write /dev/stune/foreground/schedtune.prefer_idle 1
-    write /dev/stune/foreground/schedtune.prefer_high_cap 1
     write /dev/stune/foreground/schedtune.boost 100
     write /dev/stune/schedtune.prefer_idle 1
-    write /dev/stune/schedtune.prefer_high_cap 1
     write /dev/stune/schedtune.boost 100
     write /dev/stune/top-app/schedtune.prefer_idle 1
-    write /dev/stune/top-app/schedtune.prefer_high_cap 1
     write /dev/stune/top-app/schedtune.boost 100
 
     # Boot time fs tuning
@@ -126,6 +117,12 @@ on init
     write /sys/block/sda/queue/iosched/group_idle 0
     write /sys/block/sda/queue/iosched/slice_idle 0
     write /sys/block/sda/queue/nr_requests 256
+
+    # Setup permissions for UFS powersaving
+    chown root system /sys/devices/platform/soc/${ro.boot.bootdevice}/clkscale_enable
+    chmod 0664 /sys/devices/platform/soc/${ro.boot.bootdevice}/clkscale_enable
+    chown root system /sys/devices/platform/soc/${ro.boot.bootdevice}/clkgate_enable
+    chmod 0664 /sys/devices/platform/soc/${ro.boot.bootdevice}/clkgate_enable
 
     # Disable UFS powersaving
     write /sys/devices/platform/soc/${ro.boot.bootdevice}/clkscale_enable 0
