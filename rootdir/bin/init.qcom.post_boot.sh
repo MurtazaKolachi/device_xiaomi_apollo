@@ -90,8 +90,12 @@ function configure_zram_parameters() {
 }
 
 function configure_read_ahead_kb_values() {
-    echo 512 > /sys/block/mmcblk0/bdi/read_ahead_kb
-    echo 512 > /sys/block/mmcblk0rpmb/bdi/read_ahead_kb
+    if [ -f /sys/block/mmcblk0/bdi/read_ahead_kb ]; then
+        echo 512 > /sys/block/mmcblk0/bdi/read_ahead_kb
+    fi
+    if [ -f /sys/block/mmcblk0rpmb/bdi/read_ahead_kb ]; then
+        echo 512 > /sys/block/mmcblk0rpmb/bdi/read_ahead_kb
+    fi
 
     dmpts=$(ls /sys/block/*/queue/read_ahead_kb | grep -e dm -e mmc)
     for dm in $dmpts; do
@@ -127,11 +131,14 @@ else
     let LimitSize=524288000
 fi
 
-echo $LimitSize > /dev/memcg/camera/memory.soft_limit_in_bytes
+if [ -f /dev/memcg/camera/memory.soft_limit_in_bytes ]; then
+    echo $LimitSize > /dev/memcg/camera/memory.soft_limit_in_bytes
+fi
 
-# Set allocstall_threshold to 0 for all targets.
-# Set swappiness to 60 for all targets
-echo 0 > /sys/module/vmpressure/parameters/allocstall_threshold
+# Set allocstall_threshold if node exists.
+if [ -f /sys/module/vmpressure/parameters/allocstall_threshold ]; then
+    echo 0 > /sys/module/vmpressure/parameters/allocstall_threshold
+fi
 echo 100 > /proc/sys/vm/swappiness
 
 # Disable wsf for all targets beacause we are using efk.
@@ -216,8 +223,6 @@ echo 1 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/pl
 # configure input boost settings
 echo "0:1344000" > /sys/devices/system/cpu/cpu_boost/input_boost_freq
 echo 120 > /sys/devices/system/cpu/cpu_boost/input_boost_ms
-echo "0:1804800 1:0 2:0 3:0 4:2419200 5:0 6:0 7:3187200" > /sys/devices/system/cpu/cpu_boost/powerkey_input_boost_freq
-echo 400 > /sys/devices/system/cpu/cpu_boost/powerkey_input_boost_ms
 
 # configure governor settings for gold cluster
 echo "schedutil" > /sys/devices/system/cpu/cpufreq/policy4/scaling_governor
