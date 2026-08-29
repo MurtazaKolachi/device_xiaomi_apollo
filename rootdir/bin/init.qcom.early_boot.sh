@@ -91,8 +91,10 @@ esac
 
 function set_perms() {
     #Usage set_perms <filename> <ownership> <permission>
-    chown -h $2 $1
-    chmod $3 $1
+    if [ -e "$1" ]; then
+        chown -h $2 $1
+        chmod $3 $1
+    fi
 }
 
 # check for the type of driver FB or DRM
