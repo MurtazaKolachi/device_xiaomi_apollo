@@ -63,23 +63,6 @@ on fs
     mkdir /mnt/vendor/persist/audio 0755 system system
     chmod 0644 /mnt/vendor/persist/haptics/vov
     chown system system /mnt/vendor/persist/haptics/vov
-    chown system system /sys/bus/i2c/drivers/aw8697_haptic/2-005a/vov
-    restorecon_recursive /mnt/vendor/persist
-    mkdir /mnt/vendor/persist/data 0700 system system
-    chmod 644 /mnt/vendor/persist/audio/us_manual_cal
-    mkdir /mnt/vendor/persist/subsys 0770 root system
-    #+ add for watermark
-    mkdir /mnt/vendor/persist/camera 0777 root root
-    mkdir /dev/logfs 0771 system system
-    mount vfat /dev/block/bootdevice/by-name/logfs /dev/logfs noatime umask=006,uid=1000,gid=1000
-    chown system system /dev/tfa_reg
-    chown system system /dev/tfa_rw
-    chown system system /dev/tfa_rpc
-    chown system system /dev/tfa_control
-    chmod 0660 /dev/tfa_reg
-    chmod 0660 /dev/tfa_rw
-    chmod 0660 /dev/tfa_rpc
-    chmod 0660 /dev/tfa_control
     chmod 0666 /dev/xlog
     chown system system /sys/devices/platform/soc/a8c000.i2c/i2c-2/2-005a/custom_wave
     chmod 0666  /sys/devices/platform/soc/a8c000.i2c/i2c-2/2-005a/custom_wave
@@ -102,12 +85,12 @@ on post-fs-data
     chmod 0644 /dev/elliptic1
     # Enable WLAN cold boot calibration
     write /sys/devices/platform/soc/b0000000.qcom,cnss-qca6390/fs_ready 1
-    chmod 0660 /dev/ir_spi
+    chmod 0660 /dev/lirc0
     #sensors diag2bugreport log dir
     mkdir /data/vendor/sensor_log
     chown system system /data/vendor/sensor_log
     chown system system /vendor/etc/sensors/sensor_diag.cfg
-    chown system system /dev/ir_spi
+    chown system system /dev/lirc0
     mkdir /data/vendor/wlan_logs 0777 root shell
     mkdir /data/vendor/nfc 0770 nfc nfc
     chmod 0644 /dev/elliptic0
@@ -151,29 +134,19 @@ on boot
     chmod 0664 /sys/class/drm/card0-DSI-1/mipi_reg
     chown system system /sys/class/drm/card0-DSI-1/panel_info
     chmod 0444 /sys/class/drm/card0-DSI-1/panel_info
-    chown system system /sys/class/drm/card0-DSI-1/oled_pmic_id
-    chmod 0444 /sys/class/drm/card0-DSI-1/oled_pmic_id
     chown system system /sys/class/drm/card0-DSI-1/wp_info
     chmod 0444 /sys/class/drm/card0-DSI-1/wp_info
     chown system system /sys/class/drm/card0-DSI-1/dynamic_fps
     chmod 0444 /sys/class/drm/card0-DSI-1/dynamic_fps
     chown system system /sys/class/drm/card0-DSI-1/doze_brightness
     chmod 0664 /sys/class/drm/card0-DSI-1/doze_brightness
-    chown system system /sys/class/drm/card0-DSI-1/disp_count
-    chmod 0664 /sys/class/drm/card0-DSI-1/disp_count
     chown system system /sys/class/drm/card0-DSI-1/disp_pcc
     chmod 0664 /sys/class/drm/card0-DSI-1/disp_pcc
-    chown system system /sys/class/backlight/panel0-backlight/brightness_clone
     chmod 0664 /sys/class/power_supply/battery/dc_thermal_levels
     chown system system /sys/class/thermal/thermal_message/sconfig
-    chown system system /sys/class/thermal/thermal_message/balance_mode
-    chown cameraserver cameraserver /sys/class/thermal/thermal_message/flash_state
 
     # default country code
     setprop ro.boot.wificountrycode 00
-
-on property:persist.vendor.sys.fp.fod.large_field=1
-    write sys/bus/i2c/devices/3-0049/fod_area 1
 
 on boot && property:persist.vendor.usb.controller.default=*
     setprop vendor.usb.controller ${persist.vendor.usb.controller.default}
@@ -319,15 +292,6 @@ service mi-serial-sh /vendor/bin/init.mi.serial.sh
 
 on post-fs && property:ro.product.device=elish
     start mi-serial-sh
-
-on property:sys.lmkd.memory.start_reclaim_in_video_record=1
-    setprop sys.lmkd.memory.start_reclaim_in_video_record 0
-    write /sys/kernel/cam_reclaim/event 1
-
-on property:sys.lmkd.memory.start_reclaim_in_capture=1
-    setprop sys.lmkd.memory.start_reclaim_in_capture 0
-    write /sys/kernel/cam_reclaim/config "120 0 0 400000 1000 0 0 2000000000"
-    write /sys/kernel/cam_reclaim/event 1
 
 #####copy megvii files#####
 on property:sys.boot_completed=1
