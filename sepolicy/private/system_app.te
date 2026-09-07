@@ -3,3 +3,17 @@ hal_client_domain(system_app, hal_mlipay)
 
 # Allow Settings app to read settingslib properties
 get_prop(system_app, settingslib_prop)
+
+# Silence harmless Settings app audit denials when querying system services
+dontaudit system_app {
+    system_suspend_control_service
+    system_suspend_control_internal_service
+    tracingproxy_service
+}:service_manager find;
+
+dontaudit system_app {
+    netd
+    storaged
+    system_suspend
+    vold
+}:binder call;
