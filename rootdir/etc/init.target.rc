@@ -59,6 +59,7 @@ on fs
     mount_all /vendor/etc/fstab.qcom --early
     chown root system /mnt/vendor/persist
     chmod 0771 /mnt/vendor/persist
+    restorecon_recursive /mnt/vendor/persist
     mkdir /mnt/vendor/persist/haptics 0755 system system
     mkdir /mnt/vendor/persist/audio 0755 system system
     chmod 0644 /mnt/vendor/persist/haptics/vov
@@ -75,6 +76,7 @@ on post-fs
     # set RLIMIT_MEMLOCK to 64KB
     setrlimit 8 65536 65536
     write /dev/ipa 1
+    restorecon_recursive /mnt/vendor/persist
 
 on late-fs
     mount_all /vendor/etc/fstab.qcom --late
