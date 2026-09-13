@@ -127,7 +127,10 @@ else
     let LimitSize=524288000
 fi
 
-echo $LimitSize > /dev/memcg/camera/memory.soft_limit_in_bytes
+        # This limit is a cgroup v1 interface; newer releases use cgroup v2.
+        if [ -f /dev/memcg/camera/memory.soft_limit_in_bytes ]; then
+            echo $LimitSize > /dev/memcg/camera/memory.soft_limit_in_bytes
+        fi
 
 # Set allocstall_threshold to 0 for all targets.
 # Set swappiness to 60 for all targets
