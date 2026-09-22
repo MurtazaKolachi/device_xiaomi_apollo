@@ -19,7 +19,7 @@ TARGET_INCLUDES_LOS_PREBUILTS := true
 PRODUCT_NO_CAMERA := false
 TARGET_ENABLE_BLUR := true
 # Color Distortion Fix
-TARGET_NEEDS_VULKAN_MEDIA_FIX := true
+#TARGET_NEEDS_VULKAN_MEDIA_FIX := true
 # Maintainer Info
 AXION_MAINTAINER := Murtaza_Kolachi
 # CPU governor support
