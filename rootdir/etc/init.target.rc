@@ -283,16 +283,6 @@ service dcvs-sh /vendor/bin/init.qti.dcvs.sh
 on property:vendor.dcvs.prop=1
    start dcvs-sh
 
-service mi-serial-sh /vendor/bin/init.mi.serial.sh
-    class late_start
-    user root
-    group root system radio
-    disabled
-    oneshot
-
-on post-fs && property:ro.product.device=elish
-    start mi-serial-sh
-
 #####copy megvii files#####
 on property:sys.boot_completed=1
     mkdir /data/vendor/camera/model 0777 cameraserver audio
