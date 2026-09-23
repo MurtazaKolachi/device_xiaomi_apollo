@@ -28,7 +28,7 @@
 #
 
 #
-# start ril-daemon only for targets on which radio is present
+# start qcrild only for targets on which radio is present
 #
 baseband=`getprop ro.baseband`
 sgltecsfb=`getprop persist.vendor.radio.sglte_csfb`
@@ -39,8 +39,6 @@ case "$baseband" in
     "apq" | "sda" | "qcs" )
 #    setprop ro.vendor.radio.noril yes
     setprop ro.vendor.radio.noril true
-    stop ril-daemon
-    stop vendor.ril-daemon
     stop vendor.qcrild
 esac
 
