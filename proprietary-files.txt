@@ -1249,7 +1249,7 @@ vendor/etc/wifi/aoa_cldb_swl14.bin
 
 # WiFi Display (system) - from dada 3.0.302.0.WOCMIXM
 system/framework/WfdCommon.jar;BOOT_JAR|5c834d8af38bb6aca3cf6d68337261426c1977a8
-system_ext/bin/wfdservice64:system_ext/bin/wfdservice|589621520da356f6724dbe17c5f1209ef1fc7490
+system_ext/bin/wfdservice64|589621520da356f6724dbe17c5f1209ef1fc7490
 system_ext/etc/init/wfdservice.rc|907def8565d8f91f531ca7dfad880af05d540b0c
 system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml|6669d5ee462c981663b8ac573d84d334e4eed96c
 system_ext/etc/seccomp_policy/wfdservice64.policy|1e331272649395423b11c575892e0bdc9433b820
@@ -1274,7 +1274,7 @@ system_ext/lib64/libwfduibcsinkinterface.so|70fa6a4228df4a849220c6f375078d689ded
 system_ext/lib64/libwfduibcsrc.so|d4c86e85be9622eca5cb5e095c6ec935e5c7d86a
 system_ext/lib64/libwfduibcsrcinterface.so|587457b2a5f33f996966f2d35ec4af421a6ea6df
 system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so|2b2563450ad6a8d46d5648b97f63f87c5d9983ca
-system_ext/lib64/vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk.so|58cd9358df40aa16ddf0e603b736c58588623b9e
+system_ext/lib64/vendor.qti.hardware.wifidisplaysession_aidl-V2-ndk.so|58cd9358df40aa16ddf0e603b736c58588623b9e
 system_ext/priv-app/WfdService/WfdService.apk|b8a1d9f83804d274fab6e09e0607082801207f60
 
 # WiFi Display (vendor)
