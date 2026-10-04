@@ -1274,7 +1274,7 @@ system_ext/lib64/libwfduibcsinkinterface.so|70fa6a4228df4a849220c6f375078d689ded
 system_ext/lib64/libwfduibcsrc.so|d4c86e85be9622eca5cb5e095c6ec935e5c7d86a
 system_ext/lib64/libwfduibcsrcinterface.so|587457b2a5f33f996966f2d35ec4af421a6ea6df
 system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so|2b2563450ad6a8d46d5648b97f63f87c5d9983ca
-system_ext/lib64/vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk.so|58cd9358df40aa16ddf0e603b736c58588623b9e
+system_ext/lib64/vendor.qti.hardware.wifidisplaysession_aidl-V2-ndk.so|7e918a1c04b56c12909213a1ca67ca5056edb99c
 system_ext/priv-app/WfdService/WfdService.apk|b8a1d9f83804d274fab6e09e0607082801207f60
 
 # WiFi Display (vendor)
