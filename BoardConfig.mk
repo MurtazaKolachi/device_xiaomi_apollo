@@ -132,6 +132,9 @@ $(foreach p, $(call to-upper, $(TREBLE_PARTITIONS)), \
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := kona
 
+# Thermal
+TARGET_USE_QTI_THERMAL_SERVICE := true
+
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/properties/product.prop
