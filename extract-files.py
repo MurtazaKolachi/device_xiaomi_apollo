@@ -61,6 +61,8 @@ blob_fixups: blob_fixups_user_type = {
     'system_ext/lib64/libimsmedia_jni.so': blob_fixup()
         .binary_regex_replace(b'\x28\x03\x80\x52', b'\xe8\x02\x80\x52')
         .binary_regex_replace(b'\x23\x03\x80\x52', b'\xe3\x02\x80\x52'),
+    'vendor/lib64/sensors.mius.proximity.so': blob_fixup()
+        .binary_regex_replace(b'\x93\x00\x80\x12', b'\x13\x00\x80\x52'),
     'vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so': blob_fixup()
         .binary_regex_replace(b'\x9A\x0A\x00\x94', b'\x1F\x20\x03\xD5'),
     'system_ext/lib64/libwfdnative.so': blob_fixup()
