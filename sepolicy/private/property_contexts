@@ -37,6 +37,7 @@ ro.ril.oem.meid                                                                 
 
 # Radio / Qualcomm Data
 persist.radio.VT_HYBRID_ENABLE                                                                      u:object_r:product_radio_prop:s0
+persist.data.netmgrd.qos.enable                                                                     u:object_r:product_radio_prop:s0
 persist.data.df.                                                                                    u:object_r:product_radio_prop:s0
 persist.data.wda.                                                                                   u:object_r:product_radio_prop:s0
 persist.rmnet.data.                                                                                 u:object_r:product_radio_prop:s0
