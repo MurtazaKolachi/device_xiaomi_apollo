@@ -49,7 +49,7 @@
         <library name="dvl" path="libdlbvol.so"/>
         <!--DOLBY END-->
         <!--DOLBY SPATIALIZER-->
-        <library name="spatializer" path="libswspatializer.so"/>
+        <library name="spatializer" path="libspatialaudio.so"/>
         <!--DOLBY GAME-->
         <library name="gamedap" path="libswgamedap.so"/>
         <!--DOLBY END-->
