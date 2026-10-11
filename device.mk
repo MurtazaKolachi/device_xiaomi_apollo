@@ -327,7 +327,6 @@ PRODUCT_PACKAGES += \
     SystemUIOverlayCommon \
     TelephonyOverlayCommon \
     WifiResourcesOverlayCommon \
-    ApertureOverlayDevice \
     FrameworkResOverlayDevice \
     LineageSDKOverlayDevice \
     SettingsOverlayDevice \
