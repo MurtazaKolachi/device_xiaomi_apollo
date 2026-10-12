@@ -16,56 +16,21 @@
 
 package org.lineageos.settings;
 
+import android.graphics.drawable.Icon;
 import android.service.quicksettings.Tile;
 import android.service.quicksettings.TileService;
-import java.io.File;
-import java.io.FileWriter;
-import java.util.Scanner;
+
+import org.lineageos.settings.torch.TorchUtils;
 
 public class TorchTileService extends TileService {
-
-    private static final String FLASHLIGHT = "/sys/class/leds/flashlight/brightness";
-
-    private boolean isTorchOn() {
-        try {
-            File f = new File(FLASHLIGHT);
-            if (f.exists()) {
-                Scanner scanner = new Scanner(f);
-                boolean on = scanner.hasNextInt() && scanner.nextInt() > 0;
-                scanner.close();
-                return on;
-            }
-        } catch (Exception e) {
-            // Ignore
-        }
-        return false;
-    }
-
-    private void setTorchBrightness(String value) {
-        try {
-            FileWriter writer = new FileWriter(FLASHLIGHT);
-            writer.write(value);
-            writer.close();
-        } catch (Exception e) {
-            // Ignore
-        }
-    }
-
-    private void toggleTorch() {
-        if (isTorchOn()) {
-            setTorchBrightness("0");
-        } else {
-            setTorchBrightness("750");
-        }
-    }
 
     private void updateTileView() {
         Tile tile = getQsTile();
         if (tile == null) return;
-        boolean on = isTorchOn();
-        tile.setIcon(android.graphics.drawable.Icon.createWithResource(this, R.drawable.ic_qs_torch));
+        boolean on = TorchUtils.isTorchOn();
+        tile.setIcon(Icon.createWithResource(this, R.drawable.ic_qs_torch));
         tile.setState(on ? Tile.STATE_ACTIVE : Tile.STATE_INACTIVE);
-        tile.setSubtitle(on ? "On" : "Off");
+        tile.setSubtitle(on ? getString(R.string.torch_state_on) : getString(R.string.torch_state_off));
         tile.updateTile();
     }
 
@@ -78,7 +43,7 @@ public class TorchTileService extends TileService {
     @Override
     public void onClick() {
         super.onClick();
-        toggleTorch();
+        TorchUtils.toggleTorch(this);
         updateTileView();
     }
 }

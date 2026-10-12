@@ -101,6 +101,17 @@
         </service>
 
         <activity
+            android:name=".torch.TorchSettingsActivity"
+            android:label="@string/torch_tile_title"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog.Alert"
+            android:excludeFromRecents="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".refreshrate.RefreshActivity"
             android:label="@string/refresh_title"
             android:exported="false"
