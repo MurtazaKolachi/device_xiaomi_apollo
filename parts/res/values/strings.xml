@@ -58,4 +58,9 @@
 
     <!-- Flashlight Tile -->
     <string name="torch_tile_title">Flashlight</string>
+    <string name="torch_state_on">On</string>
+    <string name="torch_state_off">Off</string>
+    <string name="torch_state_turn_on">Turn on</string>
+    <string name="torch_state_turn_off">Turn off</string>
+    <string name="torch_toggle">Toggle</string>
 </resources>
