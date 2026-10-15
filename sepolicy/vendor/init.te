@@ -1,5 +1,9 @@
 allow init same_process_hal_file:file execute;
 
+# init mounts spunvm during boot and must be able to unmount it cleanly during
+# shutdown.  Without this, shutdown times out, kills tasks, and forces a reset.
+allow init vendor_spunvm_file:filesystem unmount;
+
 set_prop(init, vendor_fingerprint_prop)
 
 allow init tmpfs:blk_file { getattr open read ioctl map relabelfrom };
