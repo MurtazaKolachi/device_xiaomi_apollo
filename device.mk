@@ -315,16 +315,16 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlayCommon \
     DeviceAsWebcamResCommon \
     FrameworkResOverlayCommon \
-    LineageDialerOverlayCommon \
-    LineageSDKOverlayCommon \
-    LineageSettingsOverlayCommon \
+    ApolloDialerOverlayCommon \
+    ApolloSDKOverlayCommon \
+    ApolloSettingsOverlayCommon \
     SettingsOverlayCommon \
     SettingsProviderOverlayCommon \
     SystemUIOverlayCommon \
     TelephonyOverlayCommon \
     WifiResourcesOverlayCommon \
     FrameworkResOverlayDevice \
-    LineageSDKOverlayDevice \
+    ApolloSDKOverlayDevice \
     SettingsOverlayDevice \
     SystemUIOverlayDevice \
     EvolutionUpdaterOverlay

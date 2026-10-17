@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "LineageSettingsOverlayCommon",
+    name: "ApolloSettingsOverlayCommon",
     vendor: true,
 }
