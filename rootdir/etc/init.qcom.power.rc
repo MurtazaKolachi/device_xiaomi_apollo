@@ -43,7 +43,10 @@ on property:sys.boot_completed=1
     chmod 0664 /sys/devices/system/cpu/cpu7/cpufreq/scaling_max_freq
 
     # Runtime fs tuning
-    write /sys/block/sda/queue/nr_requests 128
+    write /sys/block/sda/queue/scheduler deadline
+    write /sys/block/sda/queue/read_ahead_kb 512
+    write /sys/block/sda/queue/nr_requests 256
+    write /sys/block/sda/queue/rq_affinity 2
     write /sys/block/sda/queue/iostats 0
 
     # Block layer tuning: discard chunk size up to 128MB
@@ -66,7 +69,7 @@ on property:sys.boot_completed=1
     # value for group_idle is us
     write /dev/blkio/blkio.weight 1000
     write /dev/blkio/background/blkio.weight 200
-    write /dev/blkio/blkio.group_idle 2000
+    write /dev/blkio/blkio.group_idle 0
     write /dev/blkio/background/blkio.group_idle 0
 
     # Enable UFS powersaving
