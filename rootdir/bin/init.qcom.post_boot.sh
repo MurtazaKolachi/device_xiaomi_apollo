@@ -97,7 +97,7 @@ function configure_read_ahead_kb_values() {
         echo 512 > /sys/block/mmcblk0rpmb/bdi/read_ahead_kb
     fi
 
-    dmpts=$(ls /sys/block/*/queue/read_ahead_kb | grep -e dm -e mmc)
+    dmpts=$(ls /sys/block/*/queue/read_ahead_kb 2>/dev/null | grep -e dm -e mmc -e sd)
     for dm in $dmpts; do
         echo 512 > $dm
     done
@@ -330,10 +330,6 @@ done
 setprop vendor.dcvs.prop 1
 echo N > /sys/module/lpm_levels/parameters/sleep_disabled
 configure_memory_parameters
-
-chown -h system /sys/devices/system/cpu/cpufreq/ondemand/sampling_rate
-chown -h system /sys/devices/system/cpu/cpufreq/ondemand/sampling_down_factor
-chown -h system /sys/devices/system/cpu/cpufreq/ondemand/io_is_busy
 
 # Post-setup services
 setprop vendor.post_boot.parsed 1
