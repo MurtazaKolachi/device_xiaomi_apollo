@@ -258,7 +258,7 @@ do
     echo 0 > $cpubw/bw_hwmon/guard_band_mbps
     echo 250 > $cpubw/bw_hwmon/up_scale
     echo 1600 > $cpubw/bw_hwmon/idle_mbps
-    echo 14236 > $cpubw/max_freq
+    echo 15258 > $cpubw/max_freq
     echo 40 > $cpubw/polling_interval
     done
 
@@ -278,7 +278,11 @@ do
     echo 0 > $llccbw/bw_hwmon/guard_band_mbps
     echo 250 > $llccbw/bw_hwmon/up_scale
     echo 1600 > $llccbw/bw_hwmon/idle_mbps
-    echo 6881 > $llccbw/max_freq
+    if [ ${ddr_type:4:2} == $ddr_type4 ]; then
+        echo 7980 > $llccbw/max_freq
+    elif [ ${ddr_type:4:2} == $ddr_type5 ]; then
+        echo 10437 > $llccbw/max_freq
+    fi
     echo 40 > $llccbw/polling_interval
     done
 
