@@ -68,9 +68,6 @@ xiaomi_kona_rootdir_prebuilt_etc {
             a: {
                 src: "etc/fstab.qcom",
             },
-            vab: {
-                src: "etc/fstab_AB.qcom",
-            },
             conditions_default: {
                 src: "etc/fstab.qcom",
             },

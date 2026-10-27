@@ -93,8 +93,6 @@ on post-fs-data
     chown system system /dev/lirc0
     mkdir /data/vendor/wlan_logs 0777 root shell
     mkdir /data/vendor/nfc 0770 nfc nfc
-    chmod 0644 /dev/elliptic0
-    chmod 0644 /dev/elliptic1
     mkdir /data/vendor/misc/display 0771 system system
     mkdir /data/vendor/mqsas_common 0771 system system
     mkdir /data/vendor/thermal 0771 root system
