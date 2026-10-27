@@ -56,8 +56,8 @@ function configure_zram_parameters() {
         let zRamSizeMB=4096
     fi
 
-    # And enable lz4 zram compression
-    echo lz4 > /sys/block/zram0/comp_algorithm
+    # Enable zstd zram compression
+    echo zstd > /sys/block/zram0/comp_algorithm
 
     if [ -f /sys/block/zram0/disksize ]; then
         disksize=`cat /sys/block/zram0/disksize`
